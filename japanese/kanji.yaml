@@ -1,0 +1,9708 @@
+# UTF-8. See README.md for source versions, level semantics and limitations.
+# e/j/h mean school stage only; e1-e6 and j1-j3 mean a specified year.
+schema: 1
+
+meta:
+  generated: "2026-09-06"
+  curriculum: mext-2017
+  levels: {e: elementary, j: junior-high, h: high-school}
+  exact_years: [e1, e2, e3, e4, e5, e6, j1, j2, j3, h1, h2, h3]
+  reading_basis: official-school-stage
+  writing_basis: elementary-character-introduction-grade
+  sources: [mext, joyo]
+
+sources:
+  mext:
+    title: 音訓の小・中・高等学校段階別割り振り表（平成29年3月）
+    url: https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm
+  joyo:
+    title: 常用漢字表の音訓索引
+    url: https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/kanji/joyokanjisakuin/index.html
+
+kanji:
+  一:
+    readings:
+      イチ: e
+      イツ: e
+      ひと: e
+      ひと.つ: e
+    writing: e1
+  丁:
+    readings:
+      チョウ: e
+      テイ: j
+    writing: e3
+  七:
+    readings:
+      シチ: e
+      なな: e
+      なな.つ: e
+      なの: e
+    writing: e1
+  万:
+    readings:
+      マン: e
+      バン: j
+    writing: e2
+  丈:
+    readings:
+      ジョウ: j
+      たけ: j
+  三:
+    readings:
+      サン: e
+      み: e
+      みつ: e
+      みっ.つ: e
+    writing: e1
+  上:
+    readings:
+      ジョウ: e
+      ショウ: h
+      うえ: e
+      うわ: e
+      かみ: e
+      あ.げる: e
+      あ.がる: e
+      のぼ.る: e
+      のぼ.せる: j
+      のぼ.す: j
+    writing: e1
+  下:
+    readings:
+      カ: e
+      ゲ: e
+      した: e
+      しも: e
+      もと: j
+      さ.げる: e
+      さ.がる: e
+      くだ.る: e
+      くだ.す: e
+      くだ.さる: e
+      お.ろす: e
+      お.りる: e
+    writing: e1
+  不:
+    readings:
+      フ: e
+      ブ: e
+    writing: e4
+  与:
+    readings:
+      ヨ: j
+      あた.える: j
+  且:
+    readings:
+      か.つ: j
+  世:
+    readings:
+      セイ: e
+      セ: e
+      よ: e
+    writing: e3
+  丘:
+    readings:
+      キュウ: j
+      おか: j
+  丙:
+    readings:
+      ヘイ: j
+  両:
+    readings:
+      リョウ: e
+    writing: e3
+  並:
+    readings:
+      ヘイ: j
+      なみ: e
+      なら.べる: e
+      なら.ぶ: e
+      なら.びに: e
+    writing: e6
+  中:
+    readings:
+      チュウ: e
+      ジュウ: e
+      なか: e
+    writing: e1
+  串:
+    readings:
+      くし: j
+  丸:
+    readings:
+      ガン: e
+      まる: e
+      まる.い: e
+      まる.める: e
+    writing: e2
+  丹:
+    readings:
+      タン: j
+  主:
+    readings:
+      シュ: e
+      ス: h
+      ぬし: e
+      おも: e
+    writing: e3
+  丼:
+    readings:
+      どんぶり: j
+      どん: j
+  久:
+    readings:
+      キュウ: e
+      ク: h
+      ひさ.しい: e
+    writing: e5
+  乏:
+    readings:
+      ボウ: j
+      とぼ.しい: j
+  乗:
+    readings:
+      ジョウ: e
+      の.る: e
+      の.せる: e
+    writing: e3
+  乙:
+    readings:
+      オツ: j
+  九:
+    readings:
+      キュウ: e
+      ク: e
+      ここの: e
+      ここの.つ: e
+    writing: e1
+  乞:
+    readings:
+      こ.う: j
+  乱:
+    readings:
+      ラン: e
+      みだ.れる: e
+      みだ.す: e
+    writing: e6
+  乳:
+    readings:
+      ニュウ: e
+      ちち: e
+      ち: j
+    writing: e6
+  乾:
+    readings:
+      カン: j
+      かわ.く: j
+      かわ.かす: j
+  亀:
+    readings:
+      キ: j
+      かめ: j
+  了:
+    readings:
+      リョウ: j
+  予:
+    readings:
+      ヨ: e
+    writing: e3
+  争:
+    readings:
+      ソウ: e
+      あらそ.う: e
+    writing: e4
+  事:
+    readings:
+      ジ: e
+      ズ: h
+      こと: e
+    writing: e3
+  二:
+    readings:
+      ニ: e
+      ふた: e
+      ふた.つ: e
+    writing: e1
+  互:
+    readings:
+      ゴ: j
+      たが.い: j
+  五:
+    readings:
+      ゴ: e
+      いつ: e
+      いつ.つ: e
+    writing: e1
+  井:
+    readings:
+      セイ: h
+      ショウ: j
+      い: e
+    writing: e4
+  亜:
+    readings:
+      ア: j
+  亡:
+    readings:
+      ボウ: e
+      モウ: h
+      な.い: h
+    writing: e6
+  交:
+    readings:
+      コウ: e
+      まじ.わる: e
+      まじ.える: e
+      ま.じる: e
+      ま.ざる: e
+      ま.ぜる: e
+      かう: j
+      か.わす: j
+    writing: e2
+  享:
+    readings:
+      キョウ: j
+  京:
+    readings:
+      キョウ: e
+      ケイ: j
+    writing: e2
+  亭:
+    readings:
+      テイ: j
+  人:
+    readings:
+      ジン: e
+      ニン: e
+      ひと: e
+    writing: e1
+  仁:
+    readings:
+      ジン: e
+      ニ: j
+    writing: e6
+  今:
+    readings:
+      コン: e
+      キン: j
+      いま: e
+    writing: e2
+  介:
+    readings:
+      カイ: j
+  仏:
+    readings:
+      ブツ: e
+      ほとけ: e
+    writing: e5
+  仕:
+    readings:
+      シ: e
+      ジ: h
+      つか.える: e
+    writing: e3
+  他:
+    readings:
+      タ: e
+      ほか: e
+    writing: e3
+  付:
+    readings:
+      フ: e
+      つ.ける: e
+      つ.く: e
+    writing: e4
+  仙:
+    readings:
+      セン: j
+  代:
+    readings:
+      ダイ: e
+      タイ: e
+      か.わる: e
+      か.える: e
+      よ: e
+      しろ: j
+    writing: e3
+  令:
+    readings:
+      レイ: e
+    writing: e4
+  以:
+    readings:
+      イ: e
+    writing: e4
+  仮:
+    readings:
+      カ: e
+      ケ: j
+      かり: e
+    writing: e5
+  仰:
+    readings:
+      ギョウ: j
+      コウ: j
+      あお.ぐ: j
+      おお.せ: h
+  仲:
+    readings:
+      チュウ: j
+      なか: e
+    writing: e4
+  件:
+    readings:
+      ケン: e
+    writing: e5
+  任:
+    readings:
+      ニン: e
+      まか.せる: e
+      まか.す: e
+    writing: e5
+  企:
+    readings:
+      キ: j
+      くわだ.てる: j
+  伎:
+    readings:
+      キ: j
+  伏:
+    readings:
+      フク: j
+      ふ.せる: j
+      ふ.す: j
+  伐:
+    readings:
+      バツ: j
+  休:
+    readings:
+      キュウ: e
+      やす.む: e
+      やす.まる: e
+      やす.める: e
+    writing: e1
+  会:
+    readings:
+      カイ: e
+      エ: h
+      あ.う: e
+    writing: e2
+  伝:
+    readings:
+      デン: e
+      つた.わる: e
+      つた.える: e
+      つた.う: e
+    writing: e4
+  伯:
+    readings:
+      ハク: j
+  伴:
+    readings:
+      ハン: j
+      バン: j
+      ともな.う: j
+  伸:
+    readings:
+      シン: j
+      の.びる: j
+      の.ばす: j
+      の.べる: j
+  伺:
+    readings:
+      シ: h
+      うかが.う: j
+  似:
+    readings:
+      ジ: j
+      に.る: e
+    writing: e5
+  但:
+    readings:
+      ただ.し: j
+  位:
+    readings:
+      イ: e
+      くらい: e
+    writing: e4
+  低:
+    readings:
+      テイ: e
+      ひく.い: e
+      ひく.める: e
+      ひく.まる: e
+    writing: e4
+  住:
+    readings:
+      ジュウ: e
+      す.む: e
+      す.まう: e
+    writing: e3
+  佐:
+    readings:
+      サ: e
+    writing: e4
+  体:
+    readings:
+      タイ: e
+      テイ: j
+      からだ: e
+    writing: e2
+  何:
+    readings:
+      カ: j
+      なに: e
+      なん: e
+    writing: e2
+  余:
+    readings:
+      ヨ: e
+      あま.る: e
+      あま.す: e
+    writing: e5
+  作:
+    readings:
+      サク: e
+      サ: e
+      つく.る: e
+    writing: e2
+  佳:
+    readings:
+      カ: j
+  併:
+    readings:
+      ヘイ: j
+      あわ.せる: j
+  使:
+    readings:
+      シ: e
+      つか.う: e
+    writing: e3
+  例:
+    readings:
+      レイ: e
+      たと.える: e
+    writing: e4
+  侍:
+    readings:
+      ジ: j
+      さむらい: j
+  供:
+    readings:
+      キョウ: e
+      ク: h
+      そな.える: e
+      とも: e
+    writing: e6
+  依:
+    readings:
+      イ: j
+      エ: h
+  価:
+    readings:
+      カ: e
+      あたい: h
+    writing: e5
+  侮:
+    readings:
+      ブ: j
+      あなど.る: h
+  侯:
+    readings:
+      コウ: j
+  侵:
+    readings:
+      シン: j
+      おか.す: j
+  侶:
+    readings:
+      リョ: j
+  便:
+    readings:
+      ベン: e
+      ビン: e
+      たよ.り: e
+    writing: e4
+  係:
+    readings:
+      ケイ: e
+      かか.る: e
+      かかり: e
+    writing: e3
+  促:
+    readings:
+      ソク: j
+      うなが.す: j
+  俊:
+    readings:
+      シュン: j
+  俗:
+    readings:
+      ゾク: j
+  保:
+    readings:
+      ホ: e
+      たも.つ: e
+    writing: e5
+  信:
+    readings:
+      シン: e
+    writing: e4
+  修:
+    readings:
+      シュウ: e
+      シュ: j
+      おさ.める: e
+      おさ.まる: e
+    writing: e5
+  俳:
+    readings:
+      ハイ: e
+    writing: e6
+  俵:
+    readings:
+      ヒョウ: e
+      たわら: e
+    writing: e6
+  俸:
+    readings:
+      ホウ: j
+  俺:
+    readings:
+      おれ: j
+  倉:
+    readings:
+      ソウ: e
+      くら: e
+    writing: e4
+  個:
+    readings:
+      コ: e
+    writing: e5
+  倍:
+    readings:
+      バイ: e
+    writing: e3
+  倒:
+    readings:
+      トウ: j
+      たお.れる: j
+      たお.す: j
+  候:
+    readings:
+      コウ: e
+      そうろう: h
+    writing: e4
+  借:
+    readings:
+      シャク: e
+      か.りる: e
+    writing: e4
+  倣:
+    readings:
+      ホウ: j
+      なら.う: h
+  値:
+    readings:
+      チ: e
+      ね: e
+      あたい: j
+    writing: e6
+  倫:
+    readings:
+      リン: j
+  倹:
+    readings:
+      ケン: j
+  偉:
+    readings:
+      イ: j
+      えら.い: j
+  偏:
+    readings:
+      ヘン: j
+      かたよ.る: j
+  停:
+    readings:
+      テイ: e
+    writing: e5
+  健:
+    readings:
+      ケン: e
+      すこ.やか: j
+    writing: e4
+  側:
+    readings:
+      ソク: e
+      がわ: e
+    writing: e4
+  偵:
+    readings:
+      テイ: j
+  偶:
+    readings:
+      グウ: j
+  偽:
+    readings:
+      ギ: j
+      いつわ.る: j
+      にせ: h
+  傍:
+    readings:
+      ボウ: j
+      かたわ.ら: h
+  傑:
+    readings:
+      ケツ: j
+  傘:
+    readings:
+      サン: h
+      かさ: j
+  備:
+    readings:
+      ビ: e
+      そな.える: e
+      そな.わる: e
+    writing: e5
+  催:
+    readings:
+      サイ: j
+      もよお.す: j
+  傲:
+    readings:
+      ゴウ: j
+  債:
+    readings:
+      サイ: j
+  傷:
+    readings:
+      ショウ: e
+      きず: e
+      いた.む: j
+      いた.める: j
+    writing: e6
+  傾:
+    readings:
+      ケイ: j
+      かたむ.く: j
+      かたむ.ける: j
+  僅:
+    readings:
+      キン: j
+      わず.か: j
+  働:
+    readings:
+      ドウ: e
+      はたら.く: e
+    writing: e4
+  像:
+    readings:
+      ゾウ: e
+    writing: e5
+  僕:
+    readings:
+      ボク: j
+  僚:
+    readings:
+      リョウ: j
+  僧:
+    readings:
+      ソウ: j
+  儀:
+    readings:
+      ギ: j
+  億:
+    readings:
+      オク: e
+    writing: e4
+  儒:
+    readings:
+      ジュ: j
+  償:
+    readings:
+      ショウ: j
+      つぐな.う: j
+  優:
+    readings:
+      ユウ: e
+      やさ.しい: j
+      すぐ.れる: j
+    writing: e6
+  元:
+    readings:
+      ゲン: e
+      ガン: e
+      もと: e
+    writing: e2
+  兄:
+    readings:
+      ケイ: j
+      キョウ: e
+      あに: e
+    writing: e2
+  充:
+    readings:
+      ジュウ: j
+      あ.てる: h
+  兆:
+    readings:
+      チョウ: e
+      きざ.す: h
+      きざ.し: h
+    writing: e4
+  先:
+    readings:
+      セン: e
+      さき: e
+    writing: e1
+  光:
+    readings:
+      コウ: e
+      ひか.る: e
+      ひかり: e
+    writing: e2
+  克:
+    readings:
+      コク: j
+  免:
+    readings:
+      メン: j
+      まぬか.れる: h
+  児:
+    readings:
+      ジ: e
+      ニ: j
+    writing: e4
+  党:
+    readings:
+      トウ: e
+    writing: e6
+  入:
+    readings:
+      ニュウ: e
+      いる: e
+      い.れる: e
+      はい.る: e
+    writing: e1
+  全:
+    readings:
+      ゼン: e
+      まった.く: e
+      すべ.て: e
+    writing: e3
+  八:
+    readings:
+      ハチ: e
+      や: e
+      やつ: e
+      やっ.つ: e
+      よう: e
+    writing: e1
+  公:
+    readings:
+      コウ: e
+      おおやけ: j
+    writing: e2
+  六:
+    readings:
+      ロク: e
+      む: e
+      むつ: e
+      むっ.つ: e
+      むい: e
+    writing: e1
+  共:
+    readings:
+      キョウ: e
+      とも: e
+    writing: e4
+  兵:
+    readings:
+      ヘイ: e
+      ヒョウ: e
+    writing: e4
+  具:
+    readings:
+      グ: e
+    writing: e3
+  典:
+    readings:
+      テン: e
+    writing: e4
+  兼:
+    readings:
+      ケン: j
+      か.ねる: j
+  内:
+    readings:
+      ナイ: e
+      ダイ: j
+      うち: e
+    writing: e2
+  円:
+    readings:
+      エン: e
+      まる.い: e
+    writing: e1
+  冊:
+    readings:
+      サツ: e
+      サク: h
+    writing: e6
+  再:
+    readings:
+      サイ: e
+      サ: e
+      ふたた.び: e
+    writing: e5
+  冒:
+    readings:
+      ボウ: j
+      おか.す: j
+  冗:
+    readings:
+      ジョウ: j
+  写:
+    readings:
+      シャ: e
+      うつ.す: e
+      うつ.る: e
+    writing: e3
+  冠:
+    readings:
+      カン: j
+      かんむり: j
+  冥:
+    readings:
+      メイ: j
+      ミョウ: h
+  冬:
+    readings:
+      トウ: e
+      ふゆ: e
+    writing: e2
+  冶:
+    readings:
+      ヤ: j
+  冷:
+    readings:
+      レイ: e
+      つめ.たい: e
+      ひ.える: e
+      ひ.や: e
+      ひ.やす: e
+      ひ.やかす: e
+      さ.める: e
+      さ.ます: e
+    writing: e4
+  凄:
+    readings:
+      セイ: j
+  准:
+    readings:
+      ジュン: j
+  凍:
+    readings:
+      トウ: j
+      こお.る: j
+      こご.える: j
+  凝:
+    readings:
+      ギョウ: j
+      こ.る: j
+      こ.らす: j
+  凡:
+    readings:
+      ボン: j
+      ハン: h
+  処:
+    readings:
+      ショ: e
+    writing: e6
+  凶:
+    readings:
+      キョウ: j
+  凸:
+    readings:
+      トツ: j
+  凹:
+    readings:
+      オウ: j
+  出:
+    readings:
+      シュツ: e
+      スイ: j
+      で.る: e
+      だ.す: e
+    writing: e1
+  刀:
+    readings:
+      トウ: e
+      かたな: e
+    writing: e2
+  刃:
+    readings:
+      ジン: h
+      は: j
+  分:
+    readings:
+      ブン: e
+      フン: e
+      ブ: e
+      わ.ける: e
+      わ.かれる: e
+      わ.かる: e
+      わ.かつ: e
+    writing: e2
+  切:
+    readings:
+      セツ: e
+      サイ: j
+      き.る: e
+      き.れる: e
+    writing: e2
+  刈:
+    readings:
+      か.る: j
+  刊:
+    readings:
+      カン: e
+    writing: e5
+  刑:
+    readings:
+      ケイ: j
+  列:
+    readings:
+      レツ: e
+    writing: e3
+  初:
+    readings:
+      ショ: e
+      はじ.め: e
+      はじめて: e
+      はつ: e
+      うい: h
+      そ.める: j
+    writing: e4
+  判:
+    readings:
+      ハン: e
+      バン: e
+    writing: e5
+  別:
+    readings:
+      ベツ: e
+      わか.れる: e
+    writing: e4
+  利:
+    readings:
+      リ: e
+      き.く: h
+    writing: e4
+  到:
+    readings:
+      トウ: j
+  制:
+    readings:
+      セイ: e
+    writing: e5
+  刷:
+    readings:
+      サツ: e
+      す.る: e
+    writing: e4
+  券:
+    readings:
+      ケン: e
+    writing: e6
+  刹:
+    readings:
+      サツ: h
+      セツ: j
+  刺:
+    readings:
+      シ: j
+      さ.す: j
+      さ.さる: j
+  刻:
+    readings:
+      コク: e
+      きざ.む: e
+    writing: e6
+  則:
+    readings:
+      ソク: e
+    writing: e5
+  削:
+    readings:
+      サク: j
+      けず.る: j
+  前:
+    readings:
+      ゼン: e
+      まえ: e
+    writing: e2
+  剖:
+    readings:
+      ボウ: j
+  剛:
+    readings:
+      ゴウ: j
+  剝:
+    readings:
+      ハク: j
+      は.がす: j
+      は.ぐ: j
+      は.がれる: j
+      は.げる: j
+  剣:
+    readings:
+      ケン: j
+      つるぎ: j
+  剤:
+    readings:
+      ザイ: j
+  副:
+    readings:
+      フク: e
+    writing: e4
+  剰:
+    readings:
+      ジョウ: j
+  割:
+    readings:
+      カツ: j
+      わ.る: e
+      わり: e
+      わ.れる: e
+      さ.く: j
+    writing: e6
+  創:
+    readings:
+      ソウ: e
+      つく.る: e
+    writing: e6
+  劇:
+    readings:
+      ゲキ: e
+    writing: e6
+  力:
+    readings:
+      リョク: e
+      リキ: e
+      ちから: e
+    writing: e1
+  功:
+    readings:
+      コウ: e
+      ク: h
+    writing: e4
+  加:
+    readings:
+      カ: e
+      くわ.える: e
+      くわ.わる: e
+    writing: e4
+  劣:
+    readings:
+      レツ: j
+      おと.る: j
+  助:
+    readings:
+      ジョ: e
+      たす.ける: e
+      たす.かる: e
+      すけ: j
+    writing: e3
+  努:
+    readings:
+      ド: e
+      つと.める: e
+    writing: e4
+  励:
+    readings:
+      レイ: j
+      はげ.む: j
+      はげ.ます: j
+  労:
+    readings:
+      ロウ: e
+    writing: e4
+  効:
+    readings:
+      コウ: e
+      き.く: e
+    writing: e5
+  劾:
+    readings:
+      ガイ: j
+  勃:
+    readings:
+      ボツ: j
+  勅:
+    readings:
+      チョク: j
+  勇:
+    readings:
+      ユウ: e
+      いさ.む: e
+    writing: e4
+  勉:
+    readings:
+      ベン: e
+    writing: e3
+  動:
+    readings:
+      ドウ: e
+      うご.く: e
+      うご.かす: e
+    writing: e3
+  勘:
+    readings:
+      カン: j
+  務:
+    readings:
+      ム: e
+      つと.める: e
+      つと.まる: e
+    writing: e5
+  勝:
+    readings:
+      ショウ: e
+      か.つ: e
+      まさ.る: j
+    writing: e3
+  募:
+    readings:
+      ボ: j
+      つの.る: j
+  勢:
+    readings:
+      セイ: e
+      いきお.い: e
+    writing: e5
+  勤:
+    readings:
+      キン: e
+      ゴン: h
+      つと.める: e
+      つと.まる: e
+    writing: e6
+  勧:
+    readings:
+      カン: j
+      すす.める: j
+  勲:
+    readings:
+      クン: j
+  勾:
+    readings:
+      コウ: j
+  匂:
+    readings:
+      にお.う: j
+  包:
+    readings:
+      ホウ: e
+      つつ.む: e
+    writing: e4
+  化:
+    readings:
+      カ: e
+      ケ: j
+      ば.ける: e
+      ば.かす: e
+    writing: e3
+  北:
+    readings:
+      ホク: e
+      きた: e
+    writing: e2
+  匠:
+    readings:
+      ショウ: j
+  匹:
+    readings:
+      ヒツ: j
+      ひき: j
+  区:
+    readings:
+      ク: e
+    writing: e3
+  医:
+    readings:
+      イ: e
+    writing: e3
+  匿:
+    readings:
+      トク: j
+  十:
+    readings:
+      ジュウ: e
+      ジッ: e
+      とお: e
+      と: e
+    writing: e1
+  千:
+    readings:
+      セン: e
+      ち: e
+    writing: e1
+  升:
+    readings:
+      ショウ: j
+      ます: j
+  午:
+    readings:
+      ゴ: e
+    writing: e2
+  半:
+    readings:
+      ハン: e
+      なか.ば: e
+    writing: e2
+  卑:
+    readings:
+      ヒ: j
+      いや.しい: h
+      いや.しむ: h
+      いや.しめる: h
+  卒:
+    readings:
+      ソツ: e
+    writing: e4
+  卓:
+    readings:
+      タク: j
+  協:
+    readings:
+      キョウ: e
+    writing: e4
+  南:
+    readings:
+      ナン: e
+      ナ: h
+      みなみ: e
+    writing: e2
+  単:
+    readings:
+      タン: e
+    writing: e4
+  博:
+    readings:
+      ハク: e
+      バク: h
+    writing: e4
+  占:
+    readings:
+      セン: j
+      し.める: j
+      うらな.う: j
+  印:
+    readings:
+      イン: e
+      しるし: e
+    writing: e4
+  危:
+    readings:
+      キ: e
+      あぶ.ない: e
+      あや.うい: j
+      あや.ぶむ: j
+    writing: e6
+  即:
+    readings:
+      ソク: j
+  却:
+    readings:
+      キャク: j
+  卵:
+    readings:
+      ラン: j
+      たまご: e
+    writing: e6
+  卸:
+    readings:
+      おろ.す: j
+      おろし: j
+  厄:
+    readings:
+      ヤク: j
+  厘:
+    readings:
+      リン: j
+  厚:
+    readings:
+      コウ: j
+      あつ.い: e
+    writing: e5
+  原:
+    readings:
+      ゲン: e
+      はら: e
+    writing: e2
+  厳:
+    readings:
+      ゲン: e
+      ゴン: h
+      おごそ.か: j
+      きび.しい: e
+    writing: e6
+  去:
+    readings:
+      キョ: e
+      コ: e
+      さ.る: e
+    writing: e3
+  参:
+    readings:
+      サン: e
+      まい.る: e
+    writing: e4
+  又:
+    readings:
+      また: j
+  及:
+    readings:
+      キュウ: j
+      およ.ぶ: j
+      および: j
+      およ.ぼす: j
+  友:
+    readings:
+      ユウ: e
+      とも: e
+    writing: e2
+  双:
+    readings:
+      ソウ: j
+      ふた: j
+  反:
+    readings:
+      ハン: e
+      ホン: h
+      タン: j
+      そ.る: e
+      そ.らす: e
+    writing: e3
+  収:
+    readings:
+      シュウ: e
+      おさ.める: e
+      おさ.まる: e
+    writing: e6
+  叔:
+    readings:
+      シュク: j
+  取:
+    readings:
+      シュ: e
+      と.る: e
+    writing: e3
+  受:
+    readings:
+      ジュ: e
+      う.ける: e
+      う.かる: e
+    writing: e3
+  叙:
+    readings:
+      ジョ: j
+  口:
+    readings:
+      コウ: e
+      ク: e
+      くち: e
+    writing: e1
+  古:
+    readings:
+      コ: e
+      ふる.い: e
+      ふる.す: e
+    writing: e2
+  句:
+    readings:
+      ク: e
+    writing: e5
+  叫:
+    readings:
+      キョウ: j
+      さけ.ぶ: j
+  召:
+    readings:
+      ショウ: j
+      め.す: j
+  可:
+    readings:
+      カ: e
+    writing: e5
+  台:
+    readings:
+      ダイ: e
+      タイ: e
+    writing: e2
+  史:
+    readings:
+      シ: e
+    writing: e5
+  右:
+    readings:
+      ウ: e
+      ユウ: e
+      みぎ: e
+    writing: e1
+  号:
+    readings:
+      ゴウ: e
+    writing: e3
+  司:
+    readings:
+      シ: e
+    writing: e4
+  各:
+    readings:
+      カク: e
+      おのおの: h
+    writing: e4
+  合:
+    readings:
+      ゴウ: e
+      ガッ: e
+      カッ: e
+      あ.う: e
+      あ.わす: e
+      あ.わせる: e
+    writing: e2
+  吉:
+    readings:
+      キチ: j
+      キツ: j
+  同:
+    readings:
+      ドウ: e
+      おな.じ: e
+    writing: e2
+  名:
+    readings:
+      メイ: e
+      ミョウ: e
+      な: e
+    writing: e1
+  后:
+    readings:
+      コウ: e
+    writing: e6
+  吏:
+    readings:
+      リ: j
+  吐:
+    readings:
+      ト: j
+      は.く: j
+  向:
+    readings:
+      コウ: e
+      む.く: e
+      む.ける: e
+      む.かう: e
+      む.こう: e
+    writing: e3
+  君:
+    readings:
+      クン: e
+      きみ: e
+    writing: e3
+  吟:
+    readings:
+      ギン: j
+  否:
+    readings:
+      ヒ: e
+      いな: h
+    writing: e6
+  含:
+    readings:
+      ガン: j
+      ふく.む: j
+      ふく.める: j
+  吸:
+    readings:
+      キュウ: e
+      す.う: e
+    writing: e6
+  吹:
+    readings:
+      スイ: j
+      ふ.く: j
+  呂:
+    readings:
+      ロ: j
+  呈:
+    readings:
+      テイ: j
+  呉:
+    readings:
+      ゴ: j
+  告:
+    readings:
+      コク: e
+      つ.げる: e
+    writing: e5
+  周:
+    readings:
+      シュウ: e
+      まわ.り: e
+    writing: e4
+  呪:
+    readings:
+      ジュ: j
+      のろ.う: j
+  味:
+    readings:
+      ミ: e
+      あじ: e
+      あじ.わう: e
+    writing: e3
+  呼:
+    readings:
+      コ: e
+      よ.ぶ: e
+    writing: e6
+  命:
+    readings:
+      メイ: e
+      ミョウ: j
+      いのち: e
+    writing: e3
+  和:
+    readings:
+      ワ: e
+      オ: h
+      やわ.らぐ: j
+      やわ.らげる: j
+      なご.む: j
+      なご.やか: j
+    writing: e3
+  咲:
+    readings:
+      さ.く: j
+  咽:
+    readings:
+      イン: j
+  哀:
+    readings:
+      アイ: j
+      あわ.れ: j
+      あわ.れむ: j
+  品:
+    readings:
+      ヒン: e
+      しな: e
+    writing: e3
+  員:
+    readings:
+      イン: e
+    writing: e3
+  哲:
+    readings:
+      テツ: j
+  哺:
+    readings:
+      ホ: j
+  唄:
+    readings:
+      うた: j
+  唆:
+    readings:
+      サ: j
+      そそのか.す: h
+  唇:
+    readings:
+      シン: h
+      くちびる: j
+  唐:
+    readings:
+      トウ: j
+      から: j
+  唯:
+    readings:
+      ユイ: j
+      イ: h
+  唱:
+    readings:
+      ショウ: e
+      とな.える: e
+    writing: e4
+  唾:
+    readings:
+      ダ: j
+      つば: j
+  商:
+    readings:
+      ショウ: e
+      あきな.う: j
+    writing: e3
+  問:
+    readings:
+      モン: e
+      と.う: e
+      と.い: e
+      とん: e
+    writing: e3
+  啓:
+    readings:
+      ケイ: j
+  善:
+    readings:
+      ゼン: e
+      よ.い: e
+    writing: e6
+  喉:
+    readings:
+      コウ: j
+      のど: j
+  喚:
+    readings:
+      カン: j
+  喜:
+    readings:
+      キ: e
+      よろこ.ぶ: e
+    writing: e5
+  喝:
+    readings:
+      カツ: j
+  喩:
+    readings:
+      ユ: j
+  喪:
+    readings:
+      ソウ: j
+      も: j
+  喫:
+    readings:
+      キツ: j
+  営:
+    readings:
+      エイ: e
+      いとな.む: e
+    writing: e5
+  嗅:
+    readings:
+      キュウ: j
+      か.ぐ: j
+  嗣:
+    readings:
+      シ: j
+  嘆:
+    readings:
+      タン: j
+      なげ.く: j
+      なげ.かわしい: j
+  嘱:
+    readings:
+      ショク: j
+  嘲:
+    readings:
+      チョウ: j
+      あざけ.る: j
+  器:
+    readings:
+      キ: e
+      うつわ: j
+    writing: e4
+  噴:
+    readings:
+      フン: j
+      ふ.く: j
+  嚇:
+    readings:
+      カク: j
+  囚:
+    readings:
+      シュウ: j
+  四:
+    readings:
+      シ: e
+      よ: e
+      よつ: e
+      よっ.つ: e
+      よん: e
+    writing: e1
+  回:
+    readings:
+      カイ: e
+      エ: h
+      まわ.る: e
+      まわ.す: e
+    writing: e2
+  因:
+    readings:
+      イン: e
+      よ.る: h
+    writing: e5
+  団:
+    readings:
+      ダン: e
+      トン: h
+    writing: e5
+  困:
+    readings:
+      コン: e
+      こま.る: e
+    writing: e6
+  囲:
+    readings:
+      イ: e
+      かこ.む: e
+      かこ.う: e
+    writing: e5
+  図:
+    readings:
+      ズ: e
+      ト: e
+      はか.る: j
+    writing: e2
+  固:
+    readings:
+      コ: e
+      かた.める: e
+      かた.まる: e
+      かた.い: e
+    writing: e4
+  国:
+    readings:
+      コク: e
+      くに: e
+    writing: e2
+  圏:
+    readings:
+      ケン: j
+  園:
+    readings:
+      エン: e
+      その: j
+    writing: e2
+  土:
+    readings:
+      ド: e
+      ト: e
+      つち: e
+    writing: e1
+  圧:
+    readings:
+      アツ: e
+    writing: e5
+  在:
+    readings:
+      ザイ: e
+      あ.る: e
+    writing: e5
+  地:
+    readings:
+      チ: e
+      ジ: e
+    writing: e2
+  坂:
+    readings:
+      ハン: h
+      さか: e
+    writing: e3
+  均:
+    readings:
+      キン: e
+    writing: e5
+  坊:
+    readings:
+      ボウ: j
+      ボッ: j
+  坑:
+    readings:
+      コウ: j
+  坪:
+    readings:
+      つぼ: j
+  垂:
+    readings:
+      スイ: e
+      た.れる: e
+      た.らす: e
+    writing: e6
+  型:
+    readings:
+      ケイ: e
+      かた: e
+    writing: e5
+  垣:
+    readings:
+      かき: j
+  埋:
+    readings:
+      マイ: j
+      う.める: j
+      う.まる: j
+      う.もれる: j
+  城:
+    readings:
+      ジョウ: e
+      しろ: e
+    writing: e4
+  域:
+    readings:
+      イキ: e
+    writing: e6
+  執:
+    readings:
+      シツ: j
+      シュウ: j
+      と.る: j
+  培:
+    readings:
+      バイ: j
+      つちか.う: h
+  基:
+    readings:
+      キ: e
+      もと: j
+      もとい: h
+    writing: e5
+  埼:
+    readings:
+      さい: e
+    writing: e4
+  堀:
+    readings:
+      ほり: j
+  堂:
+    readings:
+      ドウ: e
+    writing: e5
+  堅:
+    readings:
+      ケン: j
+      かた.い: j
+  堆:
+    readings:
+      タイ: j
+  堕:
+    readings:
+      ダ: j
+  堤:
+    readings:
+      テイ: j
+      つつみ: j
+  堪:
+    readings:
+      カン: h
+      た.える: j
+  報:
+    readings:
+      ホウ: e
+      むく.いる: j
+    writing: e5
+  場:
+    readings:
+      ジョウ: e
+      ば: e
+    writing: e2
+  塀:
+    readings:
+      ヘイ: j
+  塁:
+    readings:
+      ルイ: j
+  塊:
+    readings:
+      カイ: j
+      かたまり: j
+  塑:
+    readings:
+      ソ: j
+  塔:
+    readings:
+      トウ: j
+  塗:
+    readings:
+      ト: j
+      ぬ.る: j
+  塚:
+    readings:
+      つか: j
+  塞:
+    readings:
+      サイ: j
+      ソク: j
+      ふさ.ぐ: j
+      ふさ.がる: j
+  塡:
+    readings:
+      テン: j
+  塩:
+    readings:
+      エン: e
+      しお: e
+    writing: e4
+  塾:
+    readings:
+      ジュク: j
+  境:
+    readings:
+      キョウ: e
+      ケイ: j
+      さかい: e
+    writing: e5
+  墓:
+    readings:
+      ボ: e
+      はか: e
+    writing: e5
+  増:
+    readings:
+      ゾウ: e
+      ま.す: e
+      ふ.える: e
+      ふ.やす: e
+    writing: e5
+  墜:
+    readings:
+      ツイ: j
+  墨:
+    readings:
+      ボク: j
+      すみ: j
+  墳:
+    readings:
+      フン: j
+  墾:
+    readings:
+      コン: j
+  壁:
+    readings:
+      ヘキ: j
+      かべ: j
+  壇:
+    readings:
+      ダン: j
+      タン: h
+  壊:
+    readings:
+      カイ: j
+      こわ.す: j
+      こわ.れる: j
+  壌:
+    readings:
+      ジョウ: j
+  士:
+    readings:
+      シ: e
+    writing: e5
+  壮:
+    readings:
+      ソウ: j
+  声:
+    readings:
+      セイ: e
+      ショウ: h
+      こえ: e
+      こわ: j
+    writing: e2
+  壱:
+    readings:
+      イチ: j
+  売:
+    readings:
+      バイ: e
+      う.る: e
+      う.れる: e
+    writing: e2
+  変:
+    readings:
+      ヘン: e
+      か.わる: e
+      か.える: e
+    writing: e4
+  夏:
+    readings:
+      カ: e
+      ゲ: j
+      なつ: e
+    writing: e2
+  夕:
+    readings:
+      セキ: j
+      ゆう: e
+    writing: e1
+  外:
+    readings:
+      ガイ: e
+      ゲ: j
+      そと: e
+      ほか: e
+      はず.す: e
+      はず.れる: e
+    writing: e2
+  多:
+    readings:
+      タ: e
+      おお.い: e
+    writing: e2
+  夜:
+    readings:
+      ヤ: e
+      よ: e
+      よる: e
+    writing: e2
+  夢:
+    readings:
+      ム: e
+      ゆめ: e
+    writing: e5
+  大:
+    readings:
+      ダイ: e
+      タイ: e
+      おお: e
+      おお.きい: e
+      おお.いに: e
+    writing: e1
+  天:
+    readings:
+      テン: e
+      あめ: h
+      あま: e
+    writing: e1
+  太:
+    readings:
+      タイ: e
+      タ: e
+      ふと.い: e
+      ふと.る: e
+    writing: e2
+  夫:
+    readings:
+      フ: e
+      フウ: j
+      おっと: e
+    writing: e4
+  央:
+    readings:
+      オウ: e
+    writing: e3
+  失:
+    readings:
+      シツ: e
+      うしな.う: e
+    writing: e4
+  奇:
+    readings:
+      キ: j
+  奈:
+    readings:
+      ナ: e
+    writing: e4
+  奉:
+    readings:
+      ホウ: j
+      ブ: j
+      たてまつ.る: h
+  奏:
+    readings:
+      ソウ: e
+      かな.でる: h
+    writing: e6
+  契:
+    readings:
+      ケイ: j
+      ちぎ.る: h
+  奔:
+    readings:
+      ホン: j
+  奥:
+    readings:
+      オウ: h
+      おく: j
+  奨:
+    readings:
+      ショウ: j
+  奪:
+    readings:
+      ダツ: j
+      うば.う: j
+  奮:
+    readings:
+      フン: e
+      ふる.う: e
+    writing: e6
+  女:
+    readings:
+      ジョ: e
+      ニョ: j
+      ニョウ: h
+      おんな: e
+      め: j
+    writing: e1
+  奴:
+    readings:
+      ド: j
+  好:
+    readings:
+      コウ: e
+      この.む: e
+      す.く: e
+    writing: e4
+  如:
+    readings:
+      ジョ: j
+      ニョ: h
+  妃:
+    readings:
+      ヒ: j
+  妄:
+    readings:
+      モウ: j
+      ボウ: h
+  妊:
+    readings:
+      ニン: j
+  妖:
+    readings:
+      ヨウ: j
+      あや.しい: j
+  妙:
+    readings:
+      ミョウ: j
+  妥:
+    readings:
+      ダ: j
+  妨:
+    readings:
+      ボウ: j
+      さまた.げる: j
+  妬:
+    readings:
+      ト: j
+      ねた.む: j
+  妹:
+    readings:
+      マイ: j
+      いもうと: e
+    writing: e2
+  妻:
+    readings:
+      サイ: e
+      つま: e
+    writing: e5
+  姉:
+    readings:
+      シ: j
+      あね: e
+    writing: e2
+  始:
+    readings:
+      シ: e
+      はじ.める: e
+      はじ.まる: e
+    writing: e3
+  姓:
+    readings:
+      セイ: j
+      ショウ: j
+  委:
+    readings:
+      イ: e
+      ゆだ.ねる: e
+    writing: e3
+  姫:
+    readings:
+      ひめ: j
+  姻:
+    readings:
+      イン: j
+  姿:
+    readings:
+      シ: e
+      すがた: e
+    writing: e6
+  威:
+    readings:
+      イ: j
+  娘:
+    readings:
+      むすめ: j
+  娠:
+    readings:
+      シン: j
+  娯:
+    readings:
+      ゴ: j
+  婆:
+    readings:
+      バ: j
+  婚:
+    readings:
+      コン: j
+  婦:
+    readings:
+      フ: e
+    writing: e5
+  婿:
+    readings:
+      セイ: h
+      むこ: j
+  媒:
+    readings:
+      バイ: j
+  媛:
+    readings:
+      エン: j
+    writing: e4
+  嫁:
+    readings:
+      カ: h
+      よめ: j
+      とつ.ぐ: j
+  嫉:
+    readings:
+      シツ: j
+  嫌:
+    readings:
+      ケン: j
+      ゲン: j
+      きら.う: j
+      いや: j
+  嫡:
+    readings:
+      チャク: j
+  嬢:
+    readings:
+      ジョウ: j
+  子:
+    readings:
+      シ: e
+      ス: e
+      こ: e
+    writing: e1
+  孔:
+    readings:
+      コウ: j
+  字:
+    readings:
+      ジ: e
+      あざ: j
+    writing: e1
+  存:
+    readings:
+      ソン: e
+      ゾン: e
+    writing: e6
+  孝:
+    readings:
+      コウ: e
+    writing: e6
+  季:
+    readings:
+      キ: e
+    writing: e4
+  孤:
+    readings:
+      コ: j
+  学:
+    readings:
+      ガク: e
+      まな.ぶ: e
+    writing: e1
+  孫:
+    readings:
+      ソン: e
+      まご: e
+    writing: e4
+  宅:
+    readings:
+      タク: e
+    writing: e6
+  宇:
+    readings:
+      ウ: e
+    writing: e6
+  守:
+    readings:
+      シュ: e
+      ス: e
+      まも.る: e
+      もり: j
+    writing: e3
+  安:
+    readings:
+      アン: e
+      やす.い: e
+    writing: e3
+  完:
+    readings:
+      カン: e
+    writing: e4
+  宗:
+    readings:
+      シュウ: e
+      ソウ: j
+    writing: e6
+  官:
+    readings:
+      カン: e
+    writing: e4
+  宙:
+    readings:
+      チュウ: e
+    writing: e6
+  定:
+    readings:
+      テイ: e
+      ジョウ: e
+      さだ.める: e
+      さだ.まる: e
+      さだ.か: h
+    writing: e3
+  宛:
+    readings:
+      あ.てる: j
+  宜:
+    readings:
+      ギ: j
+  宝:
+    readings:
+      ホウ: e
+      たから: e
+    writing: e6
+  実:
+    readings:
+      ジツ: e
+      み: e
+      みの.る: e
+    writing: e3
+  客:
+    readings:
+      キャク: e
+      カク: j
+    writing: e3
+  宣:
+    readings:
+      セン: e
+    writing: e6
+  室:
+    readings:
+      シツ: e
+      むろ: j
+    writing: e2
+  宮:
+    readings:
+      キュウ: e
+      グウ: j
+      ク: h
+      みや: e
+    writing: e3
+  宰:
+    readings:
+      サイ: j
+  害:
+    readings:
+      ガイ: e
+    writing: e4
+  宴:
+    readings:
+      エン: j
+  宵:
+    readings:
+      ショウ: h
+      よい: j
+  家:
+    readings:
+      カ: e
+      ケ: e
+      いえ: e
+      や: e
+    writing: e2
+  容:
+    readings:
+      ヨウ: e
+    writing: e5
+  宿:
+    readings:
+      シュク: e
+      やど: e
+      やど.る: e
+      やど.す: e
+    writing: e3
+  寂:
+    readings:
+      ジャク: j
+      セキ: h
+      さび: j
+      さび.しい: j
+      さび.れる: j
+  寄:
+    readings:
+      キ: e
+      よ.る: e
+      よ.せる: e
+    writing: e5
+  密:
+    readings:
+      ミツ: e
+    writing: e6
+  富:
+    readings:
+      フ: e
+      フウ: h
+      と.む: e
+      とみ: e
+    writing: e4
+  寒:
+    readings:
+      カン: e
+      さむ.い: e
+    writing: e3
+  寛:
+    readings:
+      カン: j
+  寝:
+    readings:
+      シン: j
+      ね.る: j
+      ね.かす: j
+  察:
+    readings:
+      サツ: e
+    writing: e4
+  寡:
+    readings:
+      カ: j
+  寧:
+    readings:
+      ネイ: j
+  審:
+    readings:
+      シン: j
+  寮:
+    readings:
+      リョウ: j
+  寸:
+    readings:
+      スン: e
+    writing: e6
+  寺:
+    readings:
+      ジ: e
+      てら: e
+    writing: e2
+  対:
+    readings:
+      タイ: e
+      ツイ: j
+    writing: e3
+  寿:
+    readings:
+      ジュ: j
+      ことぶき: j
+  封:
+    readings:
+      フウ: j
+      ホウ: j
+  専:
+    readings:
+      セン: e
+      もっぱ.ら: j
+    writing: e6
+  射:
+    readings:
+      シャ: e
+      い.る: e
+    writing: e6
+  将:
+    readings:
+      ショウ: e
+    writing: e6
+  尉:
+    readings:
+      イ: j
+  尊:
+    readings:
+      ソン: e
+      たっと.い: e
+      とうと.い: e
+      たっと.ぶ: e
+      とうと.ぶ: e
+    writing: e6
+  尋:
+    readings:
+      ジン: j
+      たず.ねる: j
+  導:
+    readings:
+      ドウ: e
+      みちび.く: e
+    writing: e5
+  小:
+    readings:
+      ショウ: e
+      ちい.さい: e
+      こ: e
+      お: e
+    writing: e1
+  少:
+    readings:
+      ショウ: e
+      すく.ない: e
+      すこ.し: e
+    writing: e2
+  尚:
+    readings:
+      ショウ: j
+  就:
+    readings:
+      シュウ: e
+      ジュ: h
+      つ.く: j
+      つ.ける: j
+    writing: e6
+  尺:
+    readings:
+      シャク: e
+    writing: e6
+  尻:
+    readings:
+      しり: j
+  尼:
+    readings:
+      ニ: h
+      あま: j
+  尽:
+    readings:
+      ジン: j
+      つ.くす: j
+      つ.きる: j
+      つ.かす: j
+  尾:
+    readings:
+      ビ: j
+      お: j
+  尿:
+    readings:
+      ニョウ: j
+  局:
+    readings:
+      キョク: e
+    writing: e3
+  居:
+    readings:
+      キョ: e
+      い.る: e
+    writing: e5
+  屈:
+    readings:
+      クツ: j
+  届:
+    readings:
+      とど.ける: e
+      とど.く: e
+    writing: e6
+  屋:
+    readings:
+      オク: e
+      や: e
+    writing: e3
+  展:
+    readings:
+      テン: e
+    writing: e6
+  属:
+    readings:
+      ゾク: e
+    writing: e5
+  層:
+    readings:
+      ソウ: e
+    writing: e6
+  履:
+    readings:
+      リ: j
+      は.く: j
+  屯:
+    readings:
+      トン: j
+  山:
+    readings:
+      サン: e
+      やま: e
+    writing: e1
+  岐:
+    readings:
+      キ: j
+    writing: e4
+  岡:
+    readings:
+      おか: e
+    writing: e4
+  岩:
+    readings:
+      ガン: e
+      いわ: e
+    writing: e2
+  岬:
+    readings:
+      みさき: j
+  岳:
+    readings:
+      ガク: j
+      たけ: j
+  岸:
+    readings:
+      ガン: e
+      きし: e
+    writing: e3
+  峠:
+    readings:
+      とうげ: j
+  峡:
+    readings:
+      キョウ: j
+  峰:
+    readings:
+      ホウ: j
+      みね: j
+  島:
+    readings:
+      トウ: e
+      しま: e
+    writing: e3
+  崇:
+    readings:
+      スウ: j
+  崎:
+    readings:
+      さき: e
+    writing: e4
+  崖:
+    readings:
+      ガイ: j
+      がけ: j
+  崩:
+    readings:
+      ホウ: j
+      くず.れる: j
+      くず.す: j
+  嵐:
+    readings:
+      あらし: j
+  川:
+    readings:
+      セン: j
+      かわ: e
+    writing: e1
+  州:
+    readings:
+      シュウ: e
+      す: j
+    writing: e3
+  巡:
+    readings:
+      ジュン: j
+      めぐ.る: j
+  巣:
+    readings:
+      ソウ: h
+      す: e
+    writing: e4
+  工:
+    readings:
+      コウ: e
+      ク: e
+    writing: e2
+  左:
+    readings:
+      サ: e
+      ひだり: e
+    writing: e1
+  巧:
+    readings:
+      コウ: j
+      たくみ: j
+  巨:
+    readings:
+      キョ: j
+  差:
+    readings:
+      サ: e
+      さ.す: e
+    writing: e4
+  己:
+    readings:
+      コ: e
+      キ: j
+      おのれ: j
+    writing: e6
+  巻:
+    readings:
+      カン: e
+      ま.く: e
+      まき: e
+    writing: e6
+  巾:
+    readings:
+      キン: j
+  市:
+    readings:
+      シ: e
+      いち: e
+    writing: e2
+  布:
+    readings:
+      フ: e
+      ぬの: e
+    writing: e5
+  帆:
+    readings:
+      ハン: j
+      ほ: j
+  希:
+    readings:
+      キ: e
+    writing: e4
+  帝:
+    readings:
+      テイ: j
+  帥:
+    readings:
+      スイ: j
+  師:
+    readings:
+      シ: e
+    writing: e5
+  席:
+    readings:
+      セキ: e
+    writing: e4
+  帯:
+    readings:
+      タイ: e
+      お.びる: e
+      おび: e
+    writing: e4
+  帰:
+    readings:
+      キ: e
+      かえ.る: e
+      かえ.す: e
+    writing: e2
+  帳:
+    readings:
+      チョウ: e
+    writing: e3
+  常:
+    readings:
+      ジョウ: e
+      つね: e
+      とこ: h
+    writing: e5
+  帽:
+    readings:
+      ボウ: j
+  幅:
+    readings:
+      フク: j
+      はば: j
+  幕:
+    readings:
+      マク: e
+      バク: e
+    writing: e6
+  幣:
+    readings:
+      ヘイ: j
+  干:
+    readings:
+      カン: e
+      ほ.す: e
+      ひる: j
+    writing: e6
+  平:
+    readings:
+      ヘイ: e
+      ビョウ: e
+      たい.ら: e
+      ひら: e
+    writing: e3
+  年:
+    readings:
+      ネン: e
+      とし: e
+    writing: e1
+  幸:
+    readings:
+      コウ: e
+      さいわ.い: e
+      さち: j
+      しあわ.せ: e
+    writing: e3
+  幹:
+    readings:
+      カン: e
+      みき: e
+    writing: e5
+  幻:
+    readings:
+      ゲン: j
+      まぼろし: j
+  幼:
+    readings:
+      ヨウ: e
+      おさな.い: e
+    writing: e6
+  幽:
+    readings:
+      ユウ: j
+  幾:
+    readings:
+      キ: j
+      いく: j
+  庁:
+    readings:
+      チョウ: e
+    writing: e6
+  広:
+    readings:
+      コウ: e
+      ひろ.い: e
+      ひろ.まる: e
+      ひろ.める: e
+      ひろ.がる: e
+      ひろ.げる: e
+    writing: e2
+  床:
+    readings:
+      ショウ: j
+      とこ: j
+      ゆか: j
+  序:
+    readings:
+      ジョ: e
+    writing: e5
+  底:
+    readings:
+      テイ: e
+      そこ: e
+    writing: e4
+  店:
+    readings:
+      テン: e
+      みせ: e
+    writing: e2
+  府:
+    readings:
+      フ: e
+    writing: e4
+  度:
+    readings:
+      ド: e
+      ト: h
+      タク: j
+      たび: j
+    writing: e3
+  座:
+    readings:
+      ザ: e
+      すわ.る: j
+    writing: e6
+  庫:
+    readings:
+      コ: e
+      ク: h
+    writing: e3
+  庭:
+    readings:
+      テイ: e
+      にわ: e
+    writing: e3
+  庶:
+    readings:
+      ショ: j
+  康:
+    readings:
+      コウ: e
+    writing: e4
+  庸:
+    readings:
+      ヨウ: j
+  廃:
+    readings:
+      ハイ: j
+      すた.れる: j
+      すた.る: j
+  廉:
+    readings:
+      レン: j
+  廊:
+    readings:
+      ロウ: j
+  延:
+    readings:
+      エン: e
+      の.びる: e
+      の.べる: e
+      の.ばす: e
+    writing: e6
+  廷:
+    readings:
+      テイ: j
+  建:
+    readings:
+      ケン: e
+      コン: h
+      た.てる: e
+      た.つ: e
+    writing: e4
+  弁:
+    readings:
+      ベン: e
+    writing: e5
+  弄:
+    readings:
+      ロウ: j
+      もてあそ.ぶ: j
+  弊:
+    readings:
+      ヘイ: j
+  式:
+    readings:
+      シキ: e
+    writing: e3
+  弐:
+    readings:
+      ニ: j
+  弓:
+    readings:
+      キュウ: j
+      ゆみ: e
+    writing: e2
+  弔:
+    readings:
+      チョウ: j
+      とむら.う: j
+  引:
+    readings:
+      イン: e
+      ひ.く: e
+      ひ.ける: e
+    writing: e2
+  弟:
+    readings:
+      テイ: j
+      ダイ: e
+      デ: j
+      おとうと: e
+    writing: e2
+  弥:
+    readings:
+      や: j
+  弦:
+    readings:
+      ゲン: j
+      つる: h
+  弧:
+    readings:
+      コ: j
+  弱:
+    readings:
+      ジャク: e
+      よわ.い: e
+      よわ.る: e
+      よわ.まる: e
+      よわ.める: e
+    writing: e2
+  張:
+    readings:
+      チョウ: e
+      は.る: e
+    writing: e5
+  強:
+    readings:
+      キョウ: e
+      ゴウ: j
+      つよ.い: e
+      つよ.まる: e
+      つよ.める: e
+      し.いる: j
+    writing: e2
+  弾:
+    readings:
+      ダン: j
+      ひ.く: j
+      はず.む: j
+      たま: j
+  当:
+    readings:
+      トウ: e
+      あ.たる: e
+      あ.てる: e
+    writing: e2
+  彙:
+    readings:
+      イ: j
+  形:
+    readings:
+      ケイ: e
+      ギョウ: e
+      かた: e
+      かたち: e
+    writing: e2
+  彩:
+    readings:
+      サイ: j
+      いろど.る: h
+  彫:
+    readings:
+      チョウ: j
+      ほ.る: j
+  彰:
+    readings:
+      ショウ: j
+  影:
+    readings:
+      エイ: j
+      かげ: j
+  役:
+    readings:
+      ヤク: e
+      エキ: j
+    writing: e3
+  彼:
+    readings:
+      ヒ: j
+      かれ: j
+      かの: j
+  往:
+    readings:
+      オウ: e
+    writing: e5
+  征:
+    readings:
+      セイ: j
+  径:
+    readings:
+      ケイ: e
+    writing: e4
+  待:
+    readings:
+      タイ: e
+      ま.つ: e
+    writing: e3
+  律:
+    readings:
+      リツ: e
+      リチ: h
+    writing: e6
+  後:
+    readings:
+      ゴ: e
+      コウ: e
+      のち: e
+      うし.ろ: e
+      あと: e
+      おく.れる: j
+    writing: e2
+  徐:
+    readings:
+      ジョ: j
+  徒:
+    readings:
+      ト: e
+    writing: e4
+  従:
+    readings:
+      ジュウ: e
+      ショウ: h
+      ジュ: h
+      したが.う: e
+      したが.える: e
+    writing: e6
+  得:
+    readings:
+      トク: e
+      え.る: e
+      うる: j
+    writing: e5
+  御:
+    readings:
+      ギョ: j
+      ゴ: j
+      おん: j
+  復:
+    readings:
+      フク: e
+    writing: e5
+  循:
+    readings:
+      ジュン: j
+  微:
+    readings:
+      ビ: j
+  徳:
+    readings:
+      トク: e
+    writing: e4
+  徴:
+    readings:
+      チョウ: j
+  徹:
+    readings:
+      テツ: j
+  心:
+    readings:
+      シン: e
+      こころ: e
+    writing: e2
+  必:
+    readings:
+      ヒツ: e
+      かなら.ず: e
+    writing: e4
+  忌:
+    readings:
+      キ: j
+      い.む: h
+      い.まわしい: h
+  忍:
+    readings:
+      ニン: j
+      しの.ぶ: j
+      しの.ばせる: j
+  志:
+    readings:
+      シ: e
+      こころざ.す: e
+      こころざし: e
+    writing: e5
+  忘:
+    readings:
+      ボウ: j
+      わす.れる: e
+    writing: e6
+  忙:
+    readings:
+      ボウ: j
+      いそが.しい: j
+  応:
+    readings:
+      オウ: e
+      こた.える: e
+    writing: e5
+  忠:
+    readings:
+      チュウ: e
+    writing: e6
+  快:
+    readings:
+      カイ: e
+      こころよ.い: e
+    writing: e5
+  念:
+    readings:
+      ネン: e
+    writing: e4
+  怒:
+    readings:
+      ド: j
+      いか.る: j
+      おこ.る: j
+  怖:
+    readings:
+      フ: j
+      こわ.い: j
+  思:
+    readings:
+      シ: e
+      おも.う: e
+    writing: e2
+  怠:
+    readings:
+      タイ: j
+      おこた.る: j
+      なま.ける: j
+  急:
+    readings:
+      キュウ: e
+      いそ.ぐ: e
+    writing: e3
+  性:
+    readings:
+      セイ: e
+      ショウ: j
+    writing: e5
+  怨:
+    readings:
+      エン: h
+      オン: j
+  怪:
+    readings:
+      カイ: j
+      あや.しい: j
+      あや.しむ: j
+  恋:
+    readings:
+      レン: j
+      こ.う: j
+      こい: j
+      こい.しい: j
+  恐:
+    readings:
+      キョウ: j
+      おそ.れる: j
+      おそ.ろしい: j
+  恒:
+    readings:
+      コウ: j
+  恣:
+    readings:
+      シ: j
+  恥:
+    readings:
+      チ: j
+      は.じる: j
+      はじ: j
+      は.じらう: j
+      は.ずかしい: j
+  恨:
+    readings:
+      コン: j
+      うら.む: j
+      うら.めしい: j
+  恩:
+    readings:
+      オン: e
+    writing: e6
+  恭:
+    readings:
+      キョウ: j
+      うやうや.しい: h
+  息:
+    readings:
+      ソク: e
+      いき: e
+    writing: e3
+  恵:
+    readings:
+      ケイ: j
+      エ: j
+      めぐ.む: j
+  悔:
+    readings:
+      カイ: j
+      く.いる: j
+      く.やむ: j
+      くや.しい: j
+  悟:
+    readings:
+      ゴ: j
+      さと.る: j
+  悠:
+    readings:
+      ユウ: j
+  患:
+    readings:
+      カン: j
+      わずら.う: h
+  悦:
+    readings:
+      エツ: j
+  悩:
+    readings:
+      ノウ: j
+      なや.む: j
+      なや.ます: j
+  悪:
+    readings:
+      アク: e
+      オ: h
+      わる.い: e
+    writing: e3
+  悲:
+    readings:
+      ヒ: e
+      かな.しい: e
+      かな.しむ: e
+    writing: e3
+  悼:
+    readings:
+      トウ: j
+      いた.む: h
+  情:
+    readings:
+      ジョウ: e
+      セイ: h
+      なさ.け: e
+    writing: e5
+  惑:
+    readings:
+      ワク: j
+      まど.う: j
+  惜:
+    readings:
+      セキ: j
+      お.しい: j
+      お.しむ: j
+  惧:
+    readings:
+      グ: j
+  惨:
+    readings:
+      サン: j
+      ザン: h
+      みじ.め: h
+  惰:
+    readings:
+      ダ: j
+  想:
+    readings:
+      ソウ: e
+      ソ: h
+    writing: e3
+  愁:
+    readings:
+      シュウ: j
+      うれ.える: h
+      うれ.い: h
+  愉:
+    readings:
+      ユ: j
+  意:
+    readings:
+      イ: e
+    writing: e3
+  愚:
+    readings:
+      グ: j
+      おろ.か: j
+  愛:
+    readings:
+      アイ: e
+    writing: e4
+  感:
+    readings:
+      カン: e
+    writing: e3
+  慄:
+    readings:
+      リツ: j
+  慈:
+    readings:
+      ジ: j
+      いつく.しむ: h
+  態:
+    readings:
+      タイ: e
+    writing: e5
+  慌:
+    readings:
+      コウ: h
+      あわ.てる: j
+      あわ.ただしい: j
+  慎:
+    readings:
+      シン: j
+      つつし.む: j
+  慕:
+    readings:
+      ボ: j
+      した.う: j
+  慢:
+    readings:
+      マン: j
+  慣:
+    readings:
+      カン: e
+      な.れる: e
+      な.らす: e
+    writing: e5
+  慨:
+    readings:
+      ガイ: j
+  慮:
+    readings:
+      リョ: j
+  慰:
+    readings:
+      イ: j
+      なぐさ.める: j
+      なぐさ.む: j
+  慶:
+    readings:
+      ケイ: j
+  憂:
+    readings:
+      ユウ: j
+      うれ.える: j
+      うれ.い: j
+      う.い: h
+  憎:
+    readings:
+      ゾウ: j
+      にく.む: j
+      にく.い: j
+      にく.らしい: j
+      にく.しみ: j
+  憤:
+    readings:
+      フン: j
+      いきどお.る: h
+  憧:
+    readings:
+      ショウ: j
+      あこが.れる: j
+  憩:
+    readings:
+      ケイ: j
+      いこ.い: j
+      いこ.う: h
+  憬:
+    readings:
+      ケイ: j
+  憲:
+    readings:
+      ケン: e
+    writing: e6
+  憶:
+    readings:
+      オク: j
+  憾:
+    readings:
+      カン: j
+  懇:
+    readings:
+      コン: j
+      ねんご.ろ: h
+  懐:
+    readings:
+      カイ: j
+      ふところ: h
+      なつ.かしい: h
+      なつ.かしむ: h
+      なつ.く: h
+      なつ.ける: h
+  懲:
+    readings:
+      チョウ: j
+      こ.りる: j
+      こ.らす: j
+      こ.らしめる: j
+  懸:
+    readings:
+      ケン: j
+      ケ: h
+      か.ける: j
+      か.かる: j
+  成:
+    readings:
+      セイ: e
+      ジョウ: h
+      な.る: e
+      な.す: e
+    writing: e4
+  我:
+    readings:
+      ガ: j
+      われ: e
+      わ: j
+    writing: e6
+  戒:
+    readings:
+      カイ: j
+      いまし.める: j
+  戚:
+    readings:
+      セキ: j
+  戦:
+    readings:
+      セン: e
+      いくさ: j
+      たたか.う: e
+    writing: e4
+  戯:
+    readings:
+      ギ: j
+      たわむ.れる: h
+  戴:
+    readings:
+      タイ: j
+  戸:
+    readings:
+      コ: e
+      と: e
+    writing: e2
+  戻:
+    readings:
+      レイ: h
+      もど.す: j
+      もど.る: j
+  房:
+    readings:
+      ボウ: j
+      ふさ: j
+  所:
+    readings:
+      ショ: e
+      ところ: e
+    writing: e3
+  扇:
+    readings:
+      セン: j
+      おうぎ: j
+  扉:
+    readings:
+      ヒ: h
+      とびら: j
+  手:
+    readings:
+      シュ: e
+      て: e
+      た: j
+    writing: e1
+  才:
+    readings:
+      サイ: e
+    writing: e2
+  打:
+    readings:
+      ダ: e
+      う.つ: e
+    writing: e3
+  払:
+    readings:
+      フツ: h
+      はら.う: j
+  扱:
+    readings:
+      あつか.う: j
+  扶:
+    readings:
+      フ: j
+  批:
+    readings:
+      ヒ: e
+    writing: e6
+  承:
+    readings:
+      ショウ: e
+      うけたまわ.る: j
+    writing: e6
+  技:
+    readings:
+      ギ: e
+      わざ: j
+    writing: e5
+  抄:
+    readings:
+      ショウ: j
+  把:
+    readings:
+      ハ: j
+  抑:
+    readings:
+      ヨク: j
+      おさ.える: j
+  投:
+    readings:
+      トウ: e
+      な.げる: e
+    writing: e3
+  抗:
+    readings:
+      コウ: j
+  折:
+    readings:
+      セツ: e
+      お.る: e
+      おり: e
+      お.れる: e
+    writing: e4
+  抜:
+    readings:
+      バツ: j
+      ぬ.く: j
+      ぬ.ける: j
+      ぬ.かす: j
+      ぬ.かる: j
+  択:
+    readings:
+      タク: j
+  披:
+    readings:
+      ヒ: j
+  抱:
+    readings:
+      ホウ: j
+      だ.く: j
+      いだ.く: j
+      かか.える: j
+  抵:
+    readings:
+      テイ: j
+  抹:
+    readings:
+      マツ: j
+  押:
+    readings:
+      オウ: h
+      お.す: j
+      お.さえる: j
+  抽:
+    readings:
+      チュウ: j
+  担:
+    readings:
+      タン: e
+      かつ.ぐ: h
+      にな.う: h
+    writing: e6
+  拉:
+    readings:
+      ラ: j
+  拍:
+    readings:
+      ハク: j
+      ヒョウ: j
+  拐:
+    readings:
+      カイ: j
+  拒:
+    readings:
+      キョ: j
+      こば.む: j
+  拓:
+    readings:
+      タク: j
+  拘:
+    readings:
+      コウ: j
+  拙:
+    readings:
+      セツ: j
+      つたな.い: j
+  招:
+    readings:
+      ショウ: e
+      まね.く: e
+    writing: e5
+  拝:
+    readings:
+      ハイ: e
+      おが.む: e
+    writing: e6
+  拠:
+    readings:
+      キョ: j
+      コ: j
+  拡:
+    readings:
+      カク: e
+    writing: e6
+  括:
+    readings:
+      カツ: j
+  拭:
+    readings:
+      ショク: h
+      ふ.く: j
+      ぬぐ.う: j
+  拳:
+    readings:
+      ケン: j
+      こぶし: j
+  拶:
+    readings:
+      サツ: j
+  拷:
+    readings:
+      ゴウ: j
+  拾:
+    readings:
+      シュウ: j
+      ジュウ: j
+      ひろ.う: e
+    writing: e3
+  持:
+    readings:
+      ジ: e
+      も.つ: e
+    writing: e3
+  指:
+    readings:
+      シ: e
+      ゆび: e
+      さ.す: e
+    writing: e3
+  挑:
+    readings:
+      チョウ: j
+      いど.む: j
+  挙:
+    readings:
+      キョ: e
+      あ.げる: e
+      あ.がる: e
+    writing: e4
+  挟:
+    readings:
+      キョウ: h
+      はさ.む: j
+      はさ.まる: j
+  挨:
+    readings:
+      アイ: j
+  挫:
+    readings:
+      ザ: j
+  振:
+    readings:
+      シン: j
+      ふ.る: j
+      ふ.るう: j
+      ふ.れる: j
+  挿:
+    readings:
+      ソウ: j
+      さ.す: j
+  捉:
+    readings:
+      ソク: j
+      とら.える: j
+  捕:
+    readings:
+      ホ: j
+      と.らえる: j
+      と.らわれる: j
+      と.る: j
+      つか.まえる: j
+      つか.まる: j
+  捗:
+    readings:
+      チョク: j
+  捜:
+    readings:
+      ソウ: j
+      さが.す: j
+  捨:
+    readings:
+      シャ: e
+      す.てる: e
+    writing: e6
+  据:
+    readings:
+      す.える: j
+      す.わる: j
+  捻:
+    readings:
+      ネン: j
+  掃:
+    readings:
+      ソウ: j
+      は.く: j
+  授:
+    readings:
+      ジュ: e
+      さず.ける: j
+      さず.かる: j
+    writing: e5
+  掌:
+    readings:
+      ショウ: j
+  排:
+    readings:
+      ハイ: j
+  掘:
+    readings:
+      クツ: j
+      ほ.る: j
+  掛:
+    readings:
+      か.ける: j
+      か.かる: j
+      かかり: j
+  採:
+    readings:
+      サイ: e
+      と.る: e
+    writing: e5
+  探:
+    readings:
+      タン: e
+      さぐ.る: j
+      さが.す: e
+    writing: e6
+  接:
+    readings:
+      セツ: e
+      つ.ぐ: h
+    writing: e5
+  控:
+    readings:
+      コウ: h
+      ひか.える: j
+  推:
+    readings:
+      スイ: e
+      お.す: j
+    writing: e6
+  措:
+    readings:
+      ソ: j
+  掲:
+    readings:
+      ケイ: j
+      かか.げる: j
+  描:
+    readings:
+      ビョウ: j
+      えが.く: j
+      か.く: j
+  提:
+    readings:
+      テイ: e
+      さ.げる: j
+    writing: e5
+  揚:
+    readings:
+      ヨウ: j
+      あ.げる: j
+      あ.がる: j
+  換:
+    readings:
+      カン: j
+      か.える: j
+      か.わる: j
+  握:
+    readings:
+      アク: j
+      にぎ.る: j
+  揮:
+    readings:
+      キ: e
+    writing: e6
+  援:
+    readings:
+      エン: j
+  揺:
+    readings:
+      ヨウ: j
+      ゆ.れる: j
+      ゆ.る: j
+      ゆ.らぐ: j
+      ゆ.るぐ: j
+      ゆ.する: j
+      ゆ.さぶる: j
+      ゆ.すぶる: j
+  損:
+    readings:
+      ソン: e
+      そこ.なう: j
+      そこ.ねる: j
+    writing: e5
+  搬:
+    readings:
+      ハン: j
+  搭:
+    readings:
+      トウ: j
+  携:
+    readings:
+      ケイ: j
+      たずさ.える: j
+      たずさ.わる: j
+  搾:
+    readings:
+      サク: h
+      しぼ.る: j
+  摂:
+    readings:
+      セツ: j
+  摘:
+    readings:
+      テキ: j
+      つ.む: j
+  摩:
+    readings:
+      マ: j
+  摯:
+    readings:
+      シ: j
+  撃:
+    readings:
+      ゲキ: j
+      う.つ: j
+  撤:
+    readings:
+      テツ: j
+  撮:
+    readings:
+      サツ: j
+      と.る: j
+  撲:
+    readings:
+      ボク: j
+  擁:
+    readings:
+      ヨウ: j
+  操:
+    readings:
+      ソウ: e
+      みさお: h
+      あやつ.る: j
+    writing: e6
+  擦:
+    readings:
+      サツ: j
+      す.る: j
+      す.れる: j
+  擬:
+    readings:
+      ギ: j
+  支:
+    readings:
+      シ: e
+      ささ.える: e
+    writing: e5
+  改:
+    readings:
+      カイ: e
+      あらた.める: e
+      あらた.まる: e
+    writing: e4
+  攻:
+    readings:
+      コウ: j
+      せ.める: j
+  放:
+    readings:
+      ホウ: e
+      はな.す: e
+      はな.つ: e
+      はな.れる: e
+      ほう.る: e
+    writing: e3
+  政:
+    readings:
+      セイ: e
+      ショウ: h
+      まつりごと: h
+    writing: e5
+  故:
+    readings:
+      コ: e
+      ゆえ: j
+    writing: e5
+  敏:
+    readings:
+      ビン: j
+  救:
+    readings:
+      キュウ: e
+      すく.う: e
+    writing: e5
+  敗:
+    readings:
+      ハイ: e
+      やぶ.れる: e
+    writing: e4
+  教:
+    readings:
+      キョウ: e
+      おし.える: e
+      おそ.わる: e
+    writing: e2
+  敢:
+    readings:
+      カン: j
+  散:
+    readings:
+      サン: e
+      ち.る: e
+      ち.らす: e
+      ち.らかす: e
+      ち.らかる: e
+    writing: e4
+  敬:
+    readings:
+      ケイ: e
+      うやま.う: e
+    writing: e6
+  数:
+    readings:
+      スウ: e
+      ス: h
+      かず: e
+      かぞ.える: e
+    writing: e2
+  整:
+    readings:
+      セイ: e
+      ととの.える: e
+      ととの.う: e
+    writing: e3
+  敵:
+    readings:
+      テキ: e
+      かたき: j
+    writing: e6
+  敷:
+    readings:
+      フ: h
+      し.く: j
+  文:
+    readings:
+      ブン: e
+      モン: e
+      ふみ: j
+    writing: e1
+  斉:
+    readings:
+      セイ: j
+  斎:
+    readings:
+      サイ: j
+  斑:
+    readings:
+      ハン: j
+  斗:
+    readings:
+      ト: j
+  料:
+    readings:
+      リョウ: e
+    writing: e4
+  斜:
+    readings:
+      シャ: j
+      なな.め: j
+  斤:
+    readings:
+      キン: j
+  斥:
+    readings:
+      セキ: j
+  斬:
+    readings:
+      ザン: j
+      き.る: j
+  断:
+    readings:
+      ダン: e
+      た.つ: j
+      ことわ.る: e
+    writing: e5
+  新:
+    readings:
+      シン: e
+      あたら.しい: e
+      あら.た: e
+      にい: e
+    writing: e2
+  方:
+    readings:
+      ホウ: e
+      かた: e
+    writing: e2
+  施:
+    readings:
+      シ: j
+      セ: h
+      ほどこ.す: j
+  旅:
+    readings:
+      リョ: e
+      たび: e
+    writing: e3
+  旋:
+    readings:
+      セン: j
+  族:
+    readings:
+      ゾク: e
+    writing: e3
+  旗:
+    readings:
+      キ: e
+      はた: e
+    writing: e4
+  既:
+    readings:
+      キ: j
+      すで.に: j
+  日:
+    readings:
+      ニチ: e
+      ジツ: e
+      ひ: e
+      か: e
+    writing: e1
+  旦:
+    readings:
+      タン: j
+      ダン: j
+  旧:
+    readings:
+      キュウ: e
+    writing: e5
+  旨:
+    readings:
+      シ: j
+      むね: h
+  早:
+    readings:
+      ソウ: e
+      サッ: j
+      はや.い: e
+      はや.まる: e
+      はや.める: e
+    writing: e1
+  旬:
+    readings:
+      ジュン: j
+      シュン: j
+  旺:
+    readings:
+      オウ: j
+  昆:
+    readings:
+      コン: j
+  昇:
+    readings:
+      ショウ: j
+      のぼ.る: j
+  明:
+    readings:
+      メイ: e
+      ミョウ: e
+      あ.かり: e
+      あか.るい: e
+      あか.るむ: e
+      あか.らむ: e
+      あき.らか: e
+      あ.ける: e
+      あ.く: e
+      あ.くる: e
+      あ.かす: e
+    writing: e2
+  易:
+    readings:
+      エキ: e
+      イ: e
+      やさ.しい: e
+    writing: e5
+  昔:
+    readings:
+      セキ: h
+      シャク: j
+      むかし: e
+    writing: e3
+  星:
+    readings:
+      セイ: e
+      ショウ: j
+      ほし: e
+    writing: e2
+  映:
+    readings:
+      エイ: e
+      うつ.る: e
+      うつ.す: e
+      は.える: j
+    writing: e6
+  春:
+    readings:
+      シュン: e
+      はる: e
+    writing: e2
+  昧:
+    readings:
+      マイ: j
+  昨:
+    readings:
+      サク: e
+    writing: e4
+  昭:
+    readings:
+      ショウ: e
+    writing: e3
+  是:
+    readings:
+      ゼ: j
+  昼:
+    readings:
+      チュウ: e
+      ひる: e
+    writing: e2
+  時:
+    readings:
+      ジ: e
+      とき: e
+    writing: e2
+  晩:
+    readings:
+      バン: e
+    writing: e6
+  普:
+    readings:
+      フ: j
+  景:
+    readings:
+      ケイ: e
+    writing: e4
+  晴:
+    readings:
+      セイ: e
+      は.れる: e
+      は.らす: e
+    writing: e2
+  晶:
+    readings:
+      ショウ: j
+  暁:
+    readings:
+      ギョウ: h
+      あかつき: j
+  暇:
+    readings:
+      カ: j
+      ひま: j
+  暑:
+    readings:
+      ショ: e
+      あつ.い: e
+    writing: e3
+  暖:
+    readings:
+      ダン: e
+      あたた.か: e
+      あたた.かい: e
+      あたた.まる: e
+      あたた.める: e
+    writing: e6
+  暗:
+    readings:
+      アン: e
+      くら.い: e
+    writing: e3
+  暦:
+    readings:
+      レキ: j
+      こよみ: j
+  暫:
+    readings:
+      ザン: j
+  暮:
+    readings:
+      ボ: j
+      く.れる: e
+      く.らす: e
+    writing: e6
+  暴:
+    readings:
+      ボウ: e
+      バク: j
+      あば.く: h
+      あば.れる: e
+    writing: e5
+  曇:
+    readings:
+      ドン: j
+      くも.る: j
+  曖:
+    readings:
+      アイ: j
+  曜:
+    readings:
+      ヨウ: e
+    writing: e2
+  曲:
+    readings:
+      キョク: e
+      ま.がる: e
+      ま.げる: e
+    writing: e3
+  更:
+    readings:
+      コウ: j
+      さら: j
+      ふ.ける: h
+      ふ.かす: h
+  書:
+    readings:
+      ショ: e
+      か.く: e
+    writing: e2
+  曹:
+    readings:
+      ソウ: j
+  曽:
+    readings:
+      ソウ: j
+      ゾ: j
+  替:
+    readings:
+      タイ: j
+      か.える: j
+      か.わる: j
+  最:
+    readings:
+      サイ: e
+      もっと.も: e
+    writing: e4
+  月:
+    readings:
+      ゲツ: e
+      ガツ: e
+      つき: e
+    writing: e1
+  有:
+    readings:
+      ユウ: e
+      ウ: j
+      あ.る: e
+    writing: e3
+  服:
+    readings:
+      フク: e
+    writing: e3
+  朕:
+    readings:
+      チン: j
+  朗:
+    readings:
+      ロウ: e
+      ほが.らか: j
+    writing: e6
+  望:
+    readings:
+      ボウ: e
+      モウ: j
+      のぞ.む: e
+    writing: e4
+  朝:
+    readings:
+      チョウ: e
+      あさ: e
+    writing: e2
+  期:
+    readings:
+      キ: e
+      ゴ: h
+    writing: e3
+  木:
+    readings:
+      ボク: e
+      モク: e
+      き: e
+      こ: e
+    writing: e1
+  未:
+    readings:
+      ミ: e
+    writing: e4
+  末:
+    readings:
+      マツ: e
+      バツ: h
+      すえ: e
+    writing: e4
+  本:
+    readings:
+      ホン: e
+      もと: e
+    writing: e1
+  札:
+    readings:
+      サツ: e
+      ふだ: e
+    writing: e4
+  朱:
+    readings:
+      シュ: j
+  朴:
+    readings:
+      ボク: j
+  机:
+    readings:
+      キ: j
+      つくえ: e
+    writing: e6
+  朽:
+    readings:
+      キュウ: j
+      く.ちる: j
+  杉:
+    readings:
+      すぎ: j
+  材:
+    readings:
+      ザイ: e
+    writing: e4
+  村:
+    readings:
+      ソン: e
+      むら: e
+    writing: e1
+  束:
+    readings:
+      ソク: e
+      たば: e
+    writing: e4
+  条:
+    readings:
+      ジョウ: e
+    writing: e5
+  来:
+    readings:
+      ライ: e
+      く.る: e
+      きた.る: j
+      きた.す: j
+    writing: e2
+  杯:
+    readings:
+      ハイ: j
+      さかずき: j
+  東:
+    readings:
+      トウ: e
+      ひがし: e
+    writing: e2
+  松:
+    readings:
+      ショウ: e
+      まつ: e
+    writing: e4
+  板:
+    readings:
+      ハン: e
+      バン: e
+      いた: e
+    writing: e3
+  析:
+    readings:
+      セキ: j
+  枕:
+    readings:
+      まくら: j
+  林:
+    readings:
+      リン: e
+      はやし: e
+    writing: e1
+  枚:
+    readings:
+      マイ: e
+    writing: e6
+  果:
+    readings:
+      カ: e
+      は.たす: e
+      は.てる: e
+      は.て: e
+    writing: e4
+  枝:
+    readings:
+      シ: h
+      えだ: e
+    writing: e5
+  枠:
+    readings:
+      わく: j
+  枢:
+    readings:
+      スウ: j
+  枯:
+    readings:
+      コ: j
+      か.れる: j
+      か.らす: j
+  架:
+    readings:
+      カ: j
+      か.ける: j
+      か.かる: j
+  柄:
+    readings:
+      ヘイ: h
+      がら: j
+      え: j
+  某:
+    readings:
+      ボウ: j
+  染:
+    readings:
+      セン: j
+      そ.める: e
+      そ.まる: e
+      し.みる: h
+      し.み: h
+    writing: e6
+  柔:
+    readings:
+      ジュウ: j
+      ニュウ: j
+      やわ.らか: j
+      やわ.らかい: j
+  柱:
+    readings:
+      チュウ: e
+      はしら: e
+    writing: e3
+  柳:
+    readings:
+      リュウ: j
+      やなぎ: j
+  柵:
+    readings:
+      サク: j
+  査:
+    readings:
+      サ: e
+    writing: e5
+  柿:
+    readings:
+      かき: j
+  栃:
+    readings:
+      とち: e
+    writing: e4
+  栄:
+    readings:
+      エイ: e
+      さか.える: e
+      は.え: h
+      は.える: h
+    writing: e4
+  栓:
+    readings:
+      セン: j
+  校:
+    readings:
+      コウ: e
+    writing: e1
+  株:
+    readings:
+      かぶ: e
+    writing: e6
+  核:
+    readings:
+      カク: j
+  根:
+    readings:
+      コン: e
+      ね: e
+    writing: e3
+  格:
+    readings:
+      カク: e
+      コウ: h
+    writing: e5
+  栽:
+    readings:
+      サイ: j
+  桁:
+    readings:
+      けた: j
+  桃:
+    readings:
+      トウ: j
+      もも: j
+  案:
+    readings:
+      アン: e
+    writing: e4
+  桑:
+    readings:
+      ソウ: h
+      くわ: j
+  桜:
+    readings:
+      オウ: h
+      さくら: e
+    writing: e5
+  桟:
+    readings:
+      サン: j
+  梅:
+    readings:
+      バイ: e
+      うめ: e
+    writing: e4
+  梗:
+    readings:
+      コウ: j
+  梨:
+    readings:
+      なし: e
+    writing: e4
+  械:
+    readings:
+      カイ: e
+    writing: e4
+  棄:
+    readings:
+      キ: j
+  棋:
+    readings:
+      キ: j
+  棒:
+    readings:
+      ボウ: e
+    writing: e6
+  棚:
+    readings:
+      たな: j
+  棟:
+    readings:
+      トウ: j
+      むね: j
+      むな: h
+  森:
+    readings:
+      シン: e
+      もり: e
+    writing: e1
+  棺:
+    readings:
+      カン: j
+  椅:
+    readings:
+      イ: j
+  植:
+    readings:
+      ショク: e
+      う.える: e
+      う.わる: e
+    writing: e3
+  椎:
+    readings:
+      ツイ: j
+  検:
+    readings:
+      ケン: e
+    writing: e5
+  業:
+    readings:
+      ギョウ: e
+      ゴウ: h
+      わざ: j
+    writing: e3
+  極:
+    readings:
+      キョク: e
+      ゴク: j
+      きわ.める: j
+      きわ.まる: j
+      きわ.み: j
+    writing: e4
+  楷:
+    readings:
+      カイ: j
+  楼:
+    readings:
+      ロウ: j
+  楽:
+    readings:
+      ガク: e
+      ラク: e
+      たの.しい: e
+      たの.しむ: e
+    writing: e2
+  概:
+    readings:
+      ガイ: j
+  構:
+    readings:
+      コウ: e
+      かま.える: e
+      かま.う: e
+    writing: e5
+  様:
+    readings:
+      ヨウ: e
+      さま: e
+    writing: e3
+  槽:
+    readings:
+      ソウ: j
+  標:
+    readings:
+      ヒョウ: e
+    writing: e4
+  模:
+    readings:
+      モ: e
+      ボ: e
+    writing: e6
+  権:
+    readings:
+      ケン: e
+      ゴン: h
+    writing: e6
+  横:
+    readings:
+      オウ: e
+      よこ: e
+    writing: e3
+  樹:
+    readings:
+      ジュ: e
+    writing: e6
+  橋:
+    readings:
+      キョウ: e
+      はし: e
+    writing: e3
+  機:
+    readings:
+      キ: e
+      はた: j
+    writing: e4
+  欄:
+    readings:
+      ラン: j
+  欠:
+    readings:
+      ケツ: e
+      か.ける: e
+      か.く: e
+    writing: e4
+  次:
+    readings:
+      ジ: e
+      シ: j
+      つ.ぐ: e
+      つぎ: e
+    writing: e3
+  欧:
+    readings:
+      オウ: j
+  欲:
+    readings:
+      ヨク: e
+      ほっ.する: h
+      ほ.しい: j
+    writing: e6
+  欺:
+    readings:
+      ギ: j
+      あざむ.く: j
+  款:
+    readings:
+      カン: j
+  歌:
+    readings:
+      カ: e
+      うた: e
+      うた.う: e
+    writing: e2
+  歓:
+    readings:
+      カン: j
+  止:
+    readings:
+      シ: e
+      と.まる: e
+      と.める: e
+    writing: e2
+  正:
+    readings:
+      セイ: e
+      ショウ: e
+      ただ.しい: e
+      ただ.す: e
+      まさ: e
+    writing: e1
+  武:
+    readings:
+      ブ: e
+      ム: e
+    writing: e5
+  歩:
+    readings:
+      ホ: e
+      ブ: j
+      フ: h
+      ある.く: e
+      あゆ.む: e
+    writing: e2
+  歯:
+    readings:
+      シ: e
+      は: e
+    writing: e3
+  歳:
+    readings:
+      サイ: j
+      セイ: j
+  歴:
+    readings:
+      レキ: e
+    writing: e5
+  死:
+    readings:
+      シ: e
+      し.ぬ: e
+    writing: e3
+  殉:
+    readings:
+      ジュン: j
+  殊:
+    readings:
+      シュ: j
+      こと: j
+  残:
+    readings:
+      ザン: e
+      のこ.る: e
+      のこ.す: e
+    writing: e4
+  殖:
+    readings:
+      ショク: j
+      ふ.える: j
+      ふ.やす: j
+  殴:
+    readings:
+      オウ: h
+      なぐ.る: j
+  段:
+    readings:
+      ダン: e
+    writing: e6
+  殺:
+    readings:
+      サツ: e
+      サイ: h
+      セツ: h
+      ころ.す: e
+    writing: e5
+  殻:
+    readings:
+      カク: j
+      から: j
+  殿:
+    readings:
+      デン: j
+      テン: j
+      との: j
+      どの: j
+  毀:
+    readings:
+      キ: j
+  母:
+    readings:
+      ボ: e
+      はは: e
+    writing: e2
+  毎:
+    readings:
+      マイ: e
+    writing: e2
+  毒:
+    readings:
+      ドク: e
+    writing: e5
+  比:
+    readings:
+      ヒ: e
+      くら.べる: e
+    writing: e5
+  毛:
+    readings:
+      モウ: e
+      け: e
+    writing: e2
+  氏:
+    readings:
+      シ: e
+      うじ: j
+    writing: e4
+  民:
+    readings:
+      ミン: e
+      たみ: j
+    writing: e4
+  気:
+    readings:
+      キ: e
+      ケ: e
+    writing: e1
+  水:
+    readings:
+      スイ: e
+      みず: e
+    writing: e1
+  氷:
+    readings:
+      ヒョウ: e
+      こおり: e
+      ひ: h
+    writing: e3
+  永:
+    readings:
+      エイ: e
+      なが.い: e
+    writing: e5
+  氾:
+    readings:
+      ハン: j
+  汁:
+    readings:
+      ジュウ: j
+      しる: j
+  求:
+    readings:
+      キュウ: e
+      もと.める: e
+    writing: e4
+  汎:
+    readings:
+      ハン: j
+  汗:
+    readings:
+      カン: j
+      あせ: j
+  汚:
+    readings:
+      オ: j
+      けが.す: h
+      けが.れる: h
+      けが.らわしい: h
+      よご.す: j
+      よご.れる: j
+      きたな.い: j
+  江:
+    readings:
+      コウ: j
+      え: j
+  池:
+    readings:
+      チ: e
+      いけ: e
+    writing: e2
+  汰:
+    readings:
+      タ: j
+  決:
+    readings:
+      ケツ: e
+      き.める: e
+      き.まる: e
+    writing: e3
+  汽:
+    readings:
+      キ: e
+    writing: e2
+  沃:
+    readings:
+      ヨク: j
+  沈:
+    readings:
+      チン: j
+      しず.む: j
+      しず.める: j
+  沖:
+    readings:
+      チュウ: h
+      おき: e
+    writing: e4
+  沙:
+    readings:
+      サ: j
+  没:
+    readings:
+      ボツ: j
+  沢:
+    readings:
+      タク: j
+      さわ: j
+  河:
+    readings:
+      カ: e
+      かわ: e
+    writing: e5
+  沸:
+    readings:
+      フツ: j
+      わ.く: j
+      わ.かす: j
+  油:
+    readings:
+      ユ: e
+      あぶら: e
+    writing: e3
+  治:
+    readings:
+      ジ: e
+      チ: e
+      おさ.める: e
+      おさ.まる: e
+      なお.る: e
+      なお.す: e
+    writing: e4
+  沼:
+    readings:
+      ショウ: h
+      ぬま: j
+  沿:
+    readings:
+      エン: e
+      そ.う: e
+    writing: e6
+  況:
+    readings:
+      キョウ: j
+  泉:
+    readings:
+      セン: e
+      いずみ: e
+    writing: e6
+  泊:
+    readings:
+      ハク: j
+      と.まる: j
+      と.める: j
+  泌:
+    readings:
+      ヒツ: j
+      ヒ: h
+  法:
+    readings:
+      ホウ: e
+      ハッ: h
+      ホッ: h
+    writing: e4
+  泡:
+    readings:
+      ホウ: j
+      あわ: j
+  波:
+    readings:
+      ハ: e
+      なみ: e
+    writing: e3
+  泣:
+    readings:
+      キュウ: j
+      な.く: e
+    writing: e4
+  泥:
+    readings:
+      デイ: h
+      どろ: j
+  注:
+    readings:
+      チュウ: e
+      そそ.ぐ: e
+    writing: e3
+  泰:
+    readings:
+      タイ: j
+  泳:
+    readings:
+      エイ: e
+      およ.ぐ: e
+    writing: e3
+  洋:
+    readings:
+      ヨウ: e
+    writing: e3
+  洗:
+    readings:
+      セン: e
+      あら.う: e
+    writing: e6
+  洞:
+    readings:
+      ドウ: j
+      ほら: j
+  津:
+    readings:
+      シン: h
+      つ: j
+  洪:
+    readings:
+      コウ: j
+  活:
+    readings:
+      カツ: e
+    writing: e2
+  派:
+    readings:
+      ハ: e
+    writing: e6
+  流:
+    readings:
+      リュウ: e
+      ル: h
+      なが.れる: e
+      なが.す: e
+    writing: e3
+  浄:
+    readings:
+      ジョウ: j
+  浅:
+    readings:
+      セン: j
+      あさ.い: e
+    writing: e4
+  浜:
+    readings:
+      ヒン: j
+      はま: j
+  浦:
+    readings:
+      うら: j
+  浪:
+    readings:
+      ロウ: j
+  浮:
+    readings:
+      フ: j
+      う.く: j
+      う.かれる: j
+      う.かぶ: j
+      う.かべる: j
+  浴:
+    readings:
+      ヨク: e
+      あ.びる: e
+      あ.びせる: e
+    writing: e4
+  海:
+    readings:
+      カイ: e
+      うみ: e
+    writing: e2
+  浸:
+    readings:
+      シン: j
+      ひた.す: j
+      ひた.る: j
+  消:
+    readings:
+      ショウ: e
+      き.える: e
+      け.す: e
+    writing: e3
+  涙:
+    readings:
+      ルイ: j
+      なみだ: j
+  涯:
+    readings:
+      ガイ: j
+  液:
+    readings:
+      エキ: e
+    writing: e5
+  涼:
+    readings:
+      リョウ: j
+      すず.しい: j
+      すず.む: j
+  淑:
+    readings:
+      シュク: j
+  淡:
+    readings:
+      タン: j
+      あわ.い: j
+  淫:
+    readings:
+      イン: j
+      みだ.ら: h
+  深:
+    readings:
+      シン: e
+      ふか.い: e
+      ふか.まる: e
+      ふか.める: e
+    writing: e3
+  混:
+    readings:
+      コン: e
+      ま.じる: e
+      ま.ざる: e
+      ま.ぜる: e
+      こ.む: e
+    writing: e5
+  添:
+    readings:
+      テン: j
+      そ.える: j
+      そ.う: j
+  清:
+    readings:
+      セイ: e
+      ショウ: h
+      きよ.い: e
+      きよ.まる: e
+      きよ.める: e
+    writing: e4
+  渇:
+    readings:
+      カツ: h
+      かわ.く: j
+  済:
+    readings:
+      サイ: e
+      す.む: e
+      す.ます: e
+    writing: e6
+  渉:
+    readings:
+      ショウ: j
+  渋:
+    readings:
+      ジュウ: j
+      しぶ: j
+      しぶ.い: j
+      しぶ.る: j
+  渓:
+    readings:
+      ケイ: j
+  減:
+    readings:
+      ゲン: e
+      へ.る: e
+      へ.らす: e
+    writing: e5
+  渡:
+    readings:
+      ト: j
+      わた.る: j
+      わた.す: j
+  渦:
+    readings:
+      カ: h
+      うず: j
+  温:
+    readings:
+      オン: e
+      あたた.か: e
+      あたた.かい: e
+      あたた.まる: e
+      あたた.める: e
+    writing: e3
+  測:
+    readings:
+      ソク: e
+      はか.る: e
+    writing: e5
+  港:
+    readings:
+      コウ: e
+      みなと: e
+    writing: e3
+  湖:
+    readings:
+      コ: e
+      みずうみ: e
+    writing: e3
+  湧:
+    readings:
+      ユウ: j
+      わ.く: j
+  湯:
+    readings:
+      トウ: e
+      ゆ: e
+    writing: e3
+  湾:
+    readings:
+      ワン: j
+  湿:
+    readings:
+      シツ: j
+      しめ.る: j
+      しめ.す: j
+  満:
+    readings:
+      マン: e
+      み.ちる: e
+      み.たす: e
+    writing: e4
+  源:
+    readings:
+      ゲン: e
+      みなもと: e
+    writing: e6
+  準:
+    readings:
+      ジュン: e
+    writing: e5
+  溝:
+    readings:
+      コウ: j
+      みぞ: j
+  溶:
+    readings:
+      ヨウ: j
+      と.ける: j
+      と.かす: j
+      と.く: j
+  溺:
+    readings:
+      デキ: j
+      おぼ.れる: j
+  滅:
+    readings:
+      メツ: j
+      ほろ.びる: j
+      ほろ.ぼす: j
+  滋:
+    readings:
+      ジ: j
+    writing: e4
+  滑:
+    readings:
+      カツ: j
+      コツ: j
+      すべ.る: j
+      なめ.らか: j
+  滝:
+    readings:
+      たき: j
+  滞:
+    readings:
+      タイ: j
+      とどこお.る: j
+  滴:
+    readings:
+      テキ: j
+      しずく: j
+      したた.る: h
+  漁:
+    readings:
+      ギョ: e
+      リョウ: e
+    writing: e4
+  漂:
+    readings:
+      ヒョウ: j
+      ただよ.う: j
+  漆:
+    readings:
+      シツ: j
+      うるし: j
+  漏:
+    readings:
+      ロウ: j
+      も.る: j
+      も.れる: j
+      も.らす: j
+  演:
+    readings:
+      エン: e
+    writing: e5
+  漠:
+    readings:
+      バク: j
+  漢:
+    readings:
+      カン: e
+    writing: e3
+  漫:
+    readings:
+      マン: j
+  漬:
+    readings:
+      つ.ける: j
+      つ.かる: j
+  漸:
+    readings:
+      ゼン: j
+  潔:
+    readings:
+      ケツ: e
+      いさぎよ.い: h
+    writing: e5
+  潜:
+    readings:
+      セン: j
+      ひそ.む: j
+      もぐ.る: j
+  潟:
+    readings:
+      かた: e
+    writing: e4
+  潤:
+    readings:
+      ジュン: j
+      うるお.う: j
+      うるお.す: j
+      うる.む: j
+  潮:
+    readings:
+      チョウ: e
+      しお: e
+    writing: e6
+  潰:
+    readings:
+      カイ: j
+      つぶ.す: j
+      つぶ.れる: j
+  澄:
+    readings:
+      チョウ: h
+      す.む: j
+      す.ます: j
+  激:
+    readings:
+      ゲキ: e
+      はげ.しい: e
+    writing: e6
+  濁:
+    readings:
+      ダク: j
+      にご.る: j
+      にご.す: j
+  濃:
+    readings:
+      ノウ: j
+      こ.い: j
+  濫:
+    readings:
+      ラン: j
+  濯:
+    readings:
+      タク: j
+  瀬:
+    readings:
+      せ: j
+  火:
+    readings:
+      カ: e
+      ひ: e
+      ほ: h
+    writing: e1
+  灯:
+    readings:
+      トウ: e
+      ひ: h
+    writing: e4
+  灰:
+    readings:
+      カイ: j
+      はい: e
+    writing: e6
+  災:
+    readings:
+      サイ: e
+      わざわ.い: j
+    writing: e5
+  炉:
+    readings:
+      ロ: j
+  炊:
+    readings:
+      スイ: j
+      た.く: j
+  炎:
+    readings:
+      エン: j
+      ほのお: j
+  炭:
+    readings:
+      タン: e
+      すみ: e
+    writing: e3
+  点:
+    readings:
+      テン: e
+    writing: e2
+  為:
+    readings:
+      イ: j
+  烈:
+    readings:
+      レツ: j
+  無:
+    readings:
+      ム: e
+      ブ: e
+      な.い: e
+    writing: e4
+  焦:
+    readings:
+      ショウ: j
+      こ.げる: j
+      こ.がす: j
+      こ.がれる: j
+      あせ.る: h
+  然:
+    readings:
+      ゼン: e
+      ネン: e
+    writing: e4
+  焼:
+    readings:
+      ショウ: j
+      や.く: e
+      や.ける: e
+    writing: e4
+  煎:
+    readings:
+      セン: j
+      い.る: j
+  煙:
+    readings:
+      エン: j
+      けむ.る: j
+      けむり: j
+      けむ.い: j
+  照:
+    readings:
+      ショウ: e
+      て.る: e
+      て.らす: e
+      て.れる: e
+    writing: e4
+  煩:
+    readings:
+      ハン: j
+      ボン: h
+      わずら.う: j
+      わずら.わす: j
+  煮:
+    readings:
+      シャ: h
+      に.る: j
+      に.える: j
+      に.やす: j
+  熊:
+    readings:
+      くま: e
+    writing: e4
+  熟:
+    readings:
+      ジュク: e
+      う.れる: j
+    writing: e6
+  熱:
+    readings:
+      ネツ: e
+      あつ.い: e
+    writing: e4
+  燃:
+    readings:
+      ネン: e
+      も.える: e
+      も.やす: e
+      も.す: e
+    writing: e5
+  燥:
+    readings:
+      ソウ: j
+  爆:
+    readings:
+      バク: j
+  爪:
+    readings:
+      つめ: j
+      つま: j
+  爵:
+    readings:
+      シャク: j
+  父:
+    readings:
+      フ: e
+      ちち: e
+    writing: e2
+  爽:
+    readings:
+      ソウ: j
+      さわ.やか: j
+  片:
+    readings:
+      ヘン: j
+      かた: e
+    writing: e6
+  版:
+    readings:
+      ハン: e
+    writing: e5
+  牙:
+    readings:
+      ガ: h
+      ゲ: j
+      きば: j
+  牛:
+    readings:
+      ギュウ: e
+      うし: e
+    writing: e2
+  牧:
+    readings:
+      ボク: e
+      まき: j
+    writing: e4
+  物:
+    readings:
+      ブツ: e
+      モツ: e
+      もの: e
+    writing: e3
+  牲:
+    readings:
+      セイ: j
+  特:
+    readings:
+      トク: e
+    writing: e4
+  犠:
+    readings:
+      ギ: j
+  犬:
+    readings:
+      ケン: e
+      いぬ: e
+    writing: e1
+  犯:
+    readings:
+      ハン: e
+      おか.す: j
+    writing: e5
+  状:
+    readings:
+      ジョウ: e
+    writing: e5
+  狂:
+    readings:
+      キョウ: j
+      くる.う: j
+      くる.おしい: j
+  狙:
+    readings:
+      ソ: j
+      ねら.う: j
+  狩:
+    readings:
+      シュ: j
+      か.る: j
+      か.り: j
+  独:
+    readings:
+      ドク: e
+      ひと.り: e
+    writing: e5
+  狭:
+    readings:
+      キョウ: h
+      せま.い: j
+      せば.める: j
+      せば.まる: j
+  猛:
+    readings:
+      モウ: j
+  猟:
+    readings:
+      リョウ: j
+  猫:
+    readings:
+      ビョウ: h
+      ねこ: j
+  献:
+    readings:
+      ケン: j
+      コン: j
+  猶:
+    readings:
+      ユウ: j
+  猿:
+    readings:
+      エン: j
+      さる: j
+  獄:
+    readings:
+      ゴク: j
+  獣:
+    readings:
+      ジュウ: j
+      けもの: j
+  獲:
+    readings:
+      カク: j
+      え.る: j
+  玄:
+    readings:
+      ゲン: j
+  率:
+    readings:
+      ソツ: j
+      リツ: e
+      ひき.いる: e
+    writing: e5
+  玉:
+    readings:
+      ギョク: e
+      たま: e
+    writing: e1
+  王:
+    readings:
+      オウ: e
+    writing: e1
+  玩:
+    readings:
+      ガン: j
+  珍:
+    readings:
+      チン: j
+      めずら.しい: j
+  珠:
+    readings:
+      シュ: j
+  班:
+    readings:
+      ハン: e
+    writing: e6
+  現:
+    readings:
+      ゲン: e
+      あらわ.れる: e
+      あらわ.す: e
+    writing: e5
+  球:
+    readings:
+      キュウ: e
+      たま: e
+    writing: e3
+  理:
+    readings:
+      リ: e
+    writing: e2
+  琴:
+    readings:
+      キン: j
+      こと: j
+  瑠:
+    readings:
+      ル: j
+  璃:
+    readings:
+      リ: j
+  璧:
+    readings:
+      ヘキ: j
+  環:
+    readings:
+      カン: j
+  璽:
+    readings:
+      ジ: j
+  瓦:
+    readings:
+      ガ: h
+      かわら: j
+  瓶:
+    readings:
+      ビン: j
+  甘:
+    readings:
+      カン: j
+      あま.い: j
+      あま.える: j
+      あま.やかす: j
+  甚:
+    readings:
+      ジン: h
+      はなはだ: j
+      はなは.だしい: j
+  生:
+    readings:
+      セイ: e
+      ショウ: e
+      い.きる: e
+      い.かす: e
+      い.ける: e
+      う.まれる: e
+      う.む: e
+      おう: j
+      は.える: e
+      は.やす: e
+      き: j
+      なま: e
+    writing: e1
+  産:
+    readings:
+      サン: e
+      う.む: e
+      う.まれる: e
+      うぶ: h
+    writing: e4
+  用:
+    readings:
+      ヨウ: e
+      もち.いる: e
+    writing: e2
+  田:
+    readings:
+      デン: e
+      た: e
+    writing: e1
+  由:
+    readings:
+      ユ: e
+      ユウ: e
+      ユイ: h
+      よし: h
+    writing: e3
+  甲:
+    readings:
+      コウ: j
+      カン: j
+  申:
+    readings:
+      シン: j
+      もう.す: e
+    writing: e3
+  男:
+    readings:
+      ダン: e
+      ナン: e
+      おとこ: e
+    writing: e1
+  町:
+    readings:
+      チョウ: e
+      まち: e
+    writing: e1
+  画:
+    readings:
+      ガ: e
+      カク: e
+    writing: e2
+  界:
+    readings:
+      カイ: e
+    writing: e3
+  畏:
+    readings:
+      イ: j
+      おそ.れる: j
+  畑:
+    readings:
+      はた: e
+      はたけ: e
+    writing: e3
+  畔:
+    readings:
+      ハン: j
+  留:
+    readings:
+      リュウ: e
+      ル: e
+      と.める: e
+      と.まる: e
+    writing: e5
+  畜:
+    readings:
+      チク: j
+  畝:
+    readings:
+      うね: j
+  略:
+    readings:
+      リャク: e
+    writing: e5
+  番:
+    readings:
+      バン: e
+    writing: e2
+  異:
+    readings:
+      イ: e
+      こと: e
+    writing: e6
+  畳:
+    readings:
+      ジョウ: j
+      たた.む: j
+      たたみ: j
+  畿:
+    readings:
+      キ: j
+  疎:
+    readings:
+      ソ: j
+      うと.い: h
+      うと.む: h
+  疑:
+    readings:
+      ギ: e
+      うたが.う: e
+    writing: e6
+  疫:
+    readings:
+      エキ: j
+      ヤク: h
+  疲:
+    readings:
+      ヒ: j
+      つか.れる: j
+  疾:
+    readings:
+      シツ: j
+  病:
+    readings:
+      ビョウ: e
+      ヘイ: h
+      や.む: j
+      やまい: e
+    writing: e3
+  症:
+    readings:
+      ショウ: j
+  痕:
+    readings:
+      コン: j
+      あと: j
+  痘:
+    readings:
+      トウ: j
+  痛:
+    readings:
+      ツウ: e
+      いた.い: e
+      いた.む: e
+      いた.める: e
+    writing: e6
+  痢:
+    readings:
+      リ: j
+  痩:
+    readings:
+      ソウ: h
+      や.せる: j
+  痴:
+    readings:
+      チ: j
+  瘍:
+    readings:
+      ヨウ: j
+  療:
+    readings:
+      リョウ: j
+  癒:
+    readings:
+      ユ: j
+      い.える: j
+      い.やす: j
+  癖:
+    readings:
+      ヘキ: j
+      くせ: j
+  発:
+    readings:
+      ハツ: e
+      ホツ: j
+    writing: e3
+  登:
+    readings:
+      トウ: e
+      ト: e
+      のぼ.る: e
+    writing: e3
+  白:
+    readings:
+      ハク: e
+      ビャク: h
+      しろ: e
+      しら: e
+      しろ.い: e
+    writing: e1
+  百:
+    readings:
+      ヒャク: e
+    writing: e1
+  的:
+    readings:
+      テキ: e
+      まと: e
+    writing: e4
+  皆:
+    readings:
+      カイ: j
+      みな: j
+  皇:
+    readings:
+      コウ: e
+      オウ: e
+    writing: e6
+  皮:
+    readings:
+      ヒ: e
+      かわ: e
+    writing: e3
+  皿:
+    readings:
+      さら: e
+    writing: e3
+  盆:
+    readings:
+      ボン: j
+  益:
+    readings:
+      エキ: e
+      ヤク: h
+    writing: e5
+  盗:
+    readings:
+      トウ: j
+      ぬす.む: j
+  盛:
+    readings:
+      セイ: j
+      ジョウ: h
+      も.る: e
+      さか.る: j
+      さか.ん: j
+    writing: e6
+  盟:
+    readings:
+      メイ: e
+    writing: e6
+  監:
+    readings:
+      カン: j
+  盤:
+    readings:
+      バン: j
+  目:
+    readings:
+      モク: e
+      ボク: j
+      め: e
+      ま: h
+    writing: e1
+  盲:
+    readings:
+      モウ: j
+  直:
+    readings:
+      チョク: e
+      ジキ: e
+      ただ.ちに: e
+      なお.す: e
+      なお.る: e
+    writing: e2
+  相:
+    readings:
+      ソウ: e
+      ショウ: j
+      あい: e
+    writing: e3
+  盾:
+    readings:
+      ジュン: j
+      たて: j
+  省:
+    readings:
+      セイ: e
+      ショウ: e
+      かえり.みる: j
+      はぶ.く: e
+    writing: e4
+  眉:
+    readings:
+      ビ: h
+      ミ: j
+      まゆ: j
+  看:
+    readings:
+      カン: e
+    writing: e6
+  県:
+    readings:
+      ケン: e
+    writing: e3
+  真:
+    readings:
+      シン: e
+      ま: e
+    writing: e3
+  眠:
+    readings:
+      ミン: j
+      ねむ.る: j
+      ねむ.い: j
+  眺:
+    readings:
+      チョウ: j
+      なが.める: j
+  眼:
+    readings:
+      ガン: e
+      ゲン: h
+      まなこ: j
+    writing: e5
+  着:
+    readings:
+      チャク: e
+      ジャク: h
+      き.る: e
+      き.せる: e
+      つ.く: e
+      つ.ける: e
+    writing: e3
+  睡:
+    readings:
+      スイ: j
+  督:
+    readings:
+      トク: j
+  睦:
+    readings:
+      ボク: j
+  瞬:
+    readings:
+      シュン: j
+      またた.く: h
+  瞭:
+    readings:
+      リョウ: j
+  瞳:
+    readings:
+      ドウ: j
+      ひとみ: j
+  矛:
+    readings:
+      ム: j
+      ほこ: j
+  矢:
+    readings:
+      シ: h
+      や: e
+    writing: e2
+  知:
+    readings:
+      チ: e
+      し.る: e
+    writing: e2
+  短:
+    readings:
+      タン: e
+      みじか.い: e
+    writing: e3
+  矯:
+    readings:
+      キョウ: j
+      た.める: h
+  石:
+    readings:
+      セキ: e
+      シャク: e
+      コク: j
+      いし: e
+    writing: e1
+  砂:
+    readings:
+      サ: e
+      シャ: j
+      すな: e
+    writing: e6
+  研:
+    readings:
+      ケン: e
+      と.ぐ: j
+    writing: e3
+  砕:
+    readings:
+      サイ: j
+      くだ.く: j
+      くだ.ける: j
+  砲:
+    readings:
+      ホウ: j
+  破:
+    readings:
+      ハ: e
+      やぶ.る: e
+      やぶ.れる: e
+    writing: e5
+  硝:
+    readings:
+      ショウ: j
+  硫:
+    readings:
+      リュウ: j
+  硬:
+    readings:
+      コウ: j
+      かた.い: j
+  碁:
+    readings:
+      ゴ: j
+  碑:
+    readings:
+      ヒ: j
+  確:
+    readings:
+      カク: e
+      たし.か: e
+      たし.かめる: e
+    writing: e5
+  磁:
+    readings:
+      ジ: e
+    writing: e6
+  磨:
+    readings:
+      マ: j
+      みが.く: j
+  礁:
+    readings:
+      ショウ: j
+  礎:
+    readings:
+      ソ: j
+      いしずえ: h
+  示:
+    readings:
+      ジ: e
+      シ: j
+      しめ.す: e
+    writing: e5
+  礼:
+    readings:
+      レイ: e
+      ライ: h
+    writing: e3
+  社:
+    readings:
+      シャ: e
+      やしろ: e
+    writing: e2
+  祈:
+    readings:
+      キ: j
+      いの.る: j
+  祉:
+    readings:
+      シ: j
+  祖:
+    readings:
+      ソ: e
+    writing: e5
+  祝:
+    readings:
+      シュク: e
+      シュウ: h
+      いわ.う: e
+    writing: e4
+  神:
+    readings:
+      シン: e
+      ジン: e
+      かみ: e
+      かん: j
+      こう: h
+    writing: e3
+  祥:
+    readings:
+      ショウ: j
+  票:
+    readings:
+      ヒョウ: e
+    writing: e4
+  祭:
+    readings:
+      サイ: e
+      まつ.る: e
+      まつ.り: e
+    writing: e3
+  禁:
+    readings:
+      キン: e
+    writing: e5
+  禅:
+    readings:
+      ゼン: j
+  禍:
+    readings:
+      カ: j
+  福:
+    readings:
+      フク: e
+    writing: e3
+  秀:
+    readings:
+      シュウ: j
+      ひい.でる: h
+  私:
+    readings:
+      シ: e
+      わたくし: e
+      わたし: e
+    writing: e6
+  秋:
+    readings:
+      シュウ: e
+      あき: e
+    writing: e2
+  科:
+    readings:
+      カ: e
+    writing: e2
+  秒:
+    readings:
+      ビョウ: e
+    writing: e3
+  秘:
+    readings:
+      ヒ: e
+      ひ.める: j
+    writing: e6
+  租:
+    readings:
+      ソ: j
+  秩:
+    readings:
+      チツ: j
+  称:
+    readings:
+      ショウ: j
+  移:
+    readings:
+      イ: e
+      うつ.る: e
+      うつ.す: e
+    writing: e5
+  程:
+    readings:
+      テイ: e
+      ほど: j
+    writing: e5
+  税:
+    readings:
+      ゼイ: e
+    writing: e5
+  稚:
+    readings:
+      チ: j
+  種:
+    readings:
+      シュ: e
+      たね: e
+    writing: e4
+  稲:
+    readings:
+      トウ: j
+      いね: j
+      いな: j
+  稼:
+    readings:
+      カ: h
+      かせ.ぐ: j
+  稽:
+    readings:
+      ケイ: j
+  稿:
+    readings:
+      コウ: j
+  穀:
+    readings:
+      コク: e
+    writing: e6
+  穂:
+    readings:
+      スイ: h
+      ほ: j
+  積:
+    readings:
+      セキ: e
+      つ.む: e
+      つ.もる: e
+    writing: e4
+  穏:
+    readings:
+      オン: j
+      おだ.やか: j
+  穫:
+    readings:
+      カク: j
+  穴:
+    readings:
+      ケツ: j
+      あな: e
+    writing: e6
+  究:
+    readings:
+      キュウ: e
+      きわ.める: j
+    writing: e3
+  空:
+    readings:
+      クウ: e
+      そら: e
+      あ.く: e
+      あ.ける: e
+      から: e
+    writing: e1
+  突:
+    readings:
+      トツ: j
+      つ.く: j
+  窃:
+    readings:
+      セツ: j
+  窒:
+    readings:
+      チツ: j
+  窓:
+    readings:
+      ソウ: e
+      まど: e
+    writing: e6
+  窟:
+    readings:
+      クツ: j
+  窮:
+    readings:
+      キュウ: j
+      きわ.める: h
+      きわ.まる: h
+  窯:
+    readings:
+      ヨウ: h
+      かま: j
+  立:
+    readings:
+      リツ: e
+      リュウ: h
+      た.つ: e
+      た.てる: e
+    writing: e1
+  竜:
+    readings:
+      リュウ: j
+      たつ: j
+  章:
+    readings:
+      ショウ: e
+    writing: e3
+  童:
+    readings:
+      ドウ: e
+      わらべ: j
+    writing: e3
+  端:
+    readings:
+      タン: j
+      はし: j
+      は: h
+      はた: j
+  競:
+    readings:
+      キョウ: e
+      ケイ: e
+      きそ.う: j
+      せ.る: h
+    writing: e4
+  竹:
+    readings:
+      チク: e
+      たけ: e
+    writing: e1
+  笑:
+    readings:
+      ショウ: j
+      わら.う: e
+      えむ: j
+    writing: e4
+  笛:
+    readings:
+      テキ: e
+      ふえ: e
+    writing: e3
+  符:
+    readings:
+      フ: j
+  第:
+    readings:
+      ダイ: e
+    writing: e3
+  筆:
+    readings:
+      ヒツ: e
+      ふで: e
+    writing: e3
+  等:
+    readings:
+      トウ: e
+      ひと.しい: e
+    writing: e3
+  筋:
+    readings:
+      キン: e
+      すじ: e
+    writing: e6
+  筒:
+    readings:
+      トウ: j
+      つつ: j
+  答:
+    readings:
+      トウ: e
+      こた.える: e
+      こた.え: e
+    writing: e2
+  策:
+    readings:
+      サク: e
+    writing: e6
+  箇:
+    readings:
+      カ: j
+  箋:
+    readings:
+      セン: j
+  算:
+    readings:
+      サン: e
+    writing: e2
+  管:
+    readings:
+      カン: e
+      くだ: e
+    writing: e4
+  箱:
+    readings:
+      はこ: e
+    writing: e3
+  箸:
+    readings:
+      はし: j
+  節:
+    readings:
+      セツ: e
+      セチ: h
+      ふし: e
+    writing: e4
+  範:
+    readings:
+      ハン: j
+  築:
+    readings:
+      チク: e
+      きず.く: e
+    writing: e5
+  篤:
+    readings:
+      トク: j
+  簡:
+    readings:
+      カン: e
+    writing: e6
+  簿:
+    readings:
+      ボ: j
+  籍:
+    readings:
+      セキ: j
+  籠:
+    readings:
+      ロウ: h
+      かご: j
+      こ.もる: j
+  米:
+    readings:
+      ベイ: e
+      マイ: e
+      こめ: e
+    writing: e2
+  粉:
+    readings:
+      フン: e
+      こ: e
+      こな: e
+    writing: e5
+  粋:
+    readings:
+      スイ: j
+      いき: j
+  粒:
+    readings:
+      リュウ: j
+      つぶ: j
+  粗:
+    readings:
+      ソ: j
+      あら.い: j
+  粘:
+    readings:
+      ネン: j
+      ねば.る: j
+  粛:
+    readings:
+      シュク: j
+  粧:
+    readings:
+      ショウ: j
+  精:
+    readings:
+      セイ: e
+      ショウ: j
+    writing: e5
+  糖:
+    readings:
+      トウ: e
+    writing: e6
+  糧:
+    readings:
+      リョウ: j
+      ロウ: h
+      かて: h
+  糸:
+    readings:
+      シ: e
+      いと: e
+    writing: e1
+  系:
+    readings:
+      ケイ: e
+    writing: e6
+  糾:
+    readings:
+      キュウ: j
+  紀:
+    readings:
+      キ: e
+    writing: e5
+  約:
+    readings:
+      ヤク: e
+    writing: e4
+  紅:
+    readings:
+      コウ: e
+      ク: j
+      べに: e
+      くれない: j
+    writing: e6
+  紋:
+    readings:
+      モン: j
+  納:
+    readings:
+      ノウ: e
+      ナッ: j
+      ナ: h
+      ナン: h
+      トウ: j
+      おさ.める: e
+      おさ.まる: e
+    writing: e6
+  純:
+    readings:
+      ジュン: e
+    writing: e6
+  紙:
+    readings:
+      シ: e
+      かみ: e
+    writing: e2
+  級:
+    readings:
+      キュウ: e
+    writing: e3
+  紛:
+    readings:
+      フン: j
+      まぎ.れる: j
+      まぎ.らす: j
+      まぎ.らわす: j
+      まぎ.らわしい: j
+  素:
+    readings:
+      ソ: e
+      ス: j
+    writing: e5
+  紡:
+    readings:
+      ボウ: j
+      つむ.ぐ: h
+  索:
+    readings:
+      サク: j
+  紫:
+    readings:
+      シ: j
+      むらさき: j
+  累:
+    readings:
+      ルイ: j
+  細:
+    readings:
+      サイ: e
+      ほそ.い: e
+      ほそ.る: e
+      こま.か: e
+      こま.かい: e
+    writing: e2
+  紳:
+    readings:
+      シン: j
+  紹:
+    readings:
+      ショウ: j
+  紺:
+    readings:
+      コン: j
+  終:
+    readings:
+      シュウ: e
+      お.わる: e
+      お.える: e
+    writing: e3
+  組:
+    readings:
+      ソ: e
+      く.む: e
+      くみ: e
+    writing: e2
+  経:
+    readings:
+      ケイ: e
+      キョウ: j
+      へ.る: e
+    writing: e5
+  結:
+    readings:
+      ケツ: e
+      むす.ぶ: e
+      ゆ.う: j
+      ゆ.わえる: j
+    writing: e4
+  絞:
+    readings:
+      コウ: h
+      しぼ.る: j
+      し.める: j
+      し.まる: j
+  絡:
+    readings:
+      ラク: j
+      から.む: h
+      から.まる: h
+      から.める: h
+  給:
+    readings:
+      キュウ: e
+    writing: e4
+  統:
+    readings:
+      トウ: e
+      す.べる: h
+    writing: e5
+  絵:
+    readings:
+      カイ: e
+      エ: e
+    writing: e2
+  絶:
+    readings:
+      ゼツ: e
+      た.える: e
+      た.やす: e
+      た.つ: e
+    writing: e5
+  絹:
+    readings:
+      ケン: h
+      きぬ: e
+    writing: e6
+  継:
+    readings:
+      ケイ: j
+      つ.ぐ: j
+  続:
+    readings:
+      ゾク: e
+      つづ.く: e
+      つづ.ける: e
+    writing: e4
+  維:
+    readings:
+      イ: j
+  綱:
+    readings:
+      コウ: j
+      つな: j
+  網:
+    readings:
+      モウ: j
+      あみ: j
+  綻:
+    readings:
+      タン: j
+      ほころ.びる: j
+  綿:
+    readings:
+      メン: e
+      わた: e
+    writing: e5
+  緊:
+    readings:
+      キン: j
+  総:
+    readings:
+      ソウ: e
+    writing: e5
+  緑:
+    readings:
+      リョク: e
+      ロク: h
+      みどり: e
+    writing: e3
+  緒:
+    readings:
+      ショ: j
+      チョ: j
+      お: j
+  線:
+    readings:
+      セン: e
+    writing: e2
+  締:
+    readings:
+      テイ: j
+      し.まる: j
+      し.める: j
+  編:
+    readings:
+      ヘン: e
+      あ.む: e
+    writing: e5
+  緩:
+    readings:
+      カン: j
+      ゆる.い: j
+      ゆる.やか: j
+      ゆる.む: j
+      ゆる.める: j
+  緯:
+    readings:
+      イ: j
+  練:
+    readings:
+      レン: e
+      ね.る: e
+    writing: e3
+  緻:
+    readings:
+      チ: j
+  縁:
+    readings:
+      エン: j
+      ふち: j
+  縄:
+    readings:
+      ジョウ: j
+      なわ: e
+    writing: e4
+  縛:
+    readings:
+      バク: j
+      しば.る: j
+  縦:
+    readings:
+      ジュウ: e
+      たて: e
+    writing: e6
+  縫:
+    readings:
+      ホウ: j
+      ぬ.う: j
+  縮:
+    readings:
+      シュク: e
+      ちぢ.む: e
+      ちぢ.まる: e
+      ちぢ.める: e
+      ちぢ.れる: e
+      ちぢ.らす: e
+    writing: e6
+  績:
+    readings:
+      セキ: e
+    writing: e5
+  繁:
+    readings:
+      ハン: j
+  繊:
+    readings:
+      セン: j
+  織:
+    readings:
+      ショク: h
+      シキ: e
+      お.る: e
+    writing: e5
+  繕:
+    readings:
+      ゼン: j
+      つくろ.う: j
+  繭:
+    readings:
+      ケン: h
+      まゆ: j
+  繰:
+    readings:
+      く.る: j
+  缶:
+    readings:
+      カン: j
+  罪:
+    readings:
+      ザイ: e
+      つみ: e
+    writing: e5
+  置:
+    readings:
+      チ: e
+      お.く: e
+    writing: e4
+  罰:
+    readings:
+      バツ: j
+      バチ: j
+  署:
+    readings:
+      ショ: e
+    writing: e6
+  罵:
+    readings:
+      バ: j
+      ののし.る: j
+  罷:
+    readings:
+      ヒ: j
+  羅:
+    readings:
+      ラ: j
+  羊:
+    readings:
+      ヨウ: e
+      ひつじ: e
+    writing: e3
+  美:
+    readings:
+      ビ: e
+      うつく.しい: e
+    writing: e3
+  羞:
+    readings:
+      シュウ: j
+  群:
+    readings:
+      グン: e
+      む.れる: e
+      む.れ: e
+      むら: e
+    writing: e4
+  羨:
+    readings:
+      セン: h
+      うらや.む: j
+      うらや.ましい: j
+  義:
+    readings:
+      ギ: e
+    writing: e5
+  羽:
+    readings:
+      ウ: j
+      は: e
+      はね: e
+    writing: e2
+  翁:
+    readings:
+      オウ: j
+  翌:
+    readings:
+      ヨク: e
+    writing: e6
+  習:
+    readings:
+      シュウ: e
+      なら.う: e
+    writing: e3
+  翻:
+    readings:
+      ホン: j
+      ひるがえ.る: h
+      ひるがえ.す: h
+  翼:
+    readings:
+      ヨク: j
+      つばさ: j
+  老:
+    readings:
+      ロウ: e
+      お.いる: e
+      ふ.ける: h
+    writing: e4
+  考:
+    readings:
+      コウ: e
+      かんが.える: e
+    writing: e2
+  者:
+    readings:
+      シャ: e
+      もの: e
+    writing: e3
+  耐:
+    readings:
+      タイ: j
+      た.える: j
+  耕:
+    readings:
+      コウ: e
+      たがや.す: e
+    writing: e5
+  耗:
+    readings:
+      モウ: j
+      コウ: h
+  耳:
+    readings:
+      ジ: j
+      みみ: e
+    writing: e1
+  聖:
+    readings:
+      セイ: e
+    writing: e6
+  聞:
+    readings:
+      ブン: e
+      モン: h
+      き.く: e
+      き.こえる: e
+    writing: e2
+  聴:
+    readings:
+      チョウ: j
+      き.く: j
+  職:
+    readings:
+      ショク: e
+    writing: e5
+  肉:
+    readings:
+      ニク: e
+    writing: e2
+  肌:
+    readings:
+      はだ: j
+  肖:
+    readings:
+      ショウ: j
+  肘:
+    readings:
+      ひじ: j
+  肝:
+    readings:
+      カン: j
+      きも: j
+  股:
+    readings:
+      コ: j
+      また: j
+  肢:
+    readings:
+      シ: j
+  肥:
+    readings:
+      ヒ: e
+      こ.える: e
+      こえ: e
+      こ.やす: e
+      こ.やし: e
+    writing: e5
+  肩:
+    readings:
+      ケン: h
+      かた: j
+  肪:
+    readings:
+      ボウ: j
+  肯:
+    readings:
+      コウ: j
+  育:
+    readings:
+      イク: e
+      そだ.つ: e
+      そだ.てる: e
+      はぐく.む: e
+    writing: e3
+  肺:
+    readings:
+      ハイ: e
+    writing: e6
+  胃:
+    readings:
+      イ: e
+    writing: e6
+  胆:
+    readings:
+      タン: j
+  背:
+    readings:
+      ハイ: e
+      せ: e
+      せい: e
+      そむ.く: j
+      そむ.ける: j
+    writing: e6
+  胎:
+    readings:
+      タイ: j
+  胞:
+    readings:
+      ホウ: j
+  胴:
+    readings:
+      ドウ: j
+  胸:
+    readings:
+      キョウ: e
+      むね: e
+      むな: j
+    writing: e6
+  能:
+    readings:
+      ノウ: e
+    writing: e5
+  脂:
+    readings:
+      シ: j
+      あぶら: j
+  脅:
+    readings:
+      キョウ: j
+      おびや.かす: h
+      おど.す: j
+      おど.かす: j
+  脇:
+    readings:
+      わき: j
+  脈:
+    readings:
+      ミャク: e
+    writing: e5
+  脊:
+    readings:
+      セキ: j
+  脚:
+    readings:
+      キャク: j
+      キャ: h
+      あし: j
+  脱:
+    readings:
+      ダツ: j
+      ぬ.ぐ: j
+      ぬ.げる: j
+  脳:
+    readings:
+      ノウ: e
+    writing: e6
+  腎:
+    readings:
+      ジン: j
+  腐:
+    readings:
+      フ: j
+      くさ.る: j
+      くさ.れる: j
+      くさ.らす: j
+  腕:
+    readings:
+      ワン: j
+      うで: j
+  腫:
+    readings:
+      シュ: j
+      は.れる: j
+      は.らす: j
+  腰:
+    readings:
+      ヨウ: h
+      こし: j
+  腸:
+    readings:
+      チョウ: e
+    writing: e6
+  腹:
+    readings:
+      フク: e
+      はら: e
+    writing: e6
+  腺:
+    readings:
+      セン: j
+  膚:
+    readings:
+      フ: j
+  膜:
+    readings:
+      マク: j
+  膝:
+    readings:
+      ひざ: j
+  膨:
+    readings:
+      ボウ: j
+      ふく.らむ: j
+      ふく.れる: j
+  膳:
+    readings:
+      ゼン: j
+  臆:
+    readings:
+      オク: j
+  臓:
+    readings:
+      ゾウ: e
+    writing: e6
+  臣:
+    readings:
+      シン: e
+      ジン: e
+    writing: e4
+  臨:
+    readings:
+      リン: e
+      のぞ.む: j
+    writing: e6
+  自:
+    readings:
+      ジ: e
+      シ: e
+      みずか.ら: e
+    writing: e2
+  臭:
+    readings:
+      シュウ: j
+      くさ.い: j
+      にお.う: j
+  至:
+    readings:
+      シ: e
+      いた.る: e
+    writing: e6
+  致:
+    readings:
+      チ: j
+      いた.す: j
+  臼:
+    readings:
+      キュウ: j
+      うす: j
+  興:
+    readings:
+      コウ: e
+      キョウ: e
+      おこ.る: h
+      おこ.す: h
+    writing: e5
+  舌:
+    readings:
+      ゼツ: j
+      した: e
+    writing: e6
+  舎:
+    readings:
+      シャ: e
+    writing: e5
+  舗:
+    readings:
+      ホ: j
+  舞:
+    readings:
+      ブ: j
+      ま.う: j
+      まい: j
+  舟:
+    readings:
+      シュウ: j
+      ふね: j
+      ふな: j
+  航:
+    readings:
+      コウ: e
+    writing: e5
+  般:
+    readings:
+      ハン: j
+  舶:
+    readings:
+      ハク: j
+  舷:
+    readings:
+      ゲン: j
+  船:
+    readings:
+      セン: e
+      ふね: e
+      ふな: e
+    writing: e2
+  艇:
+    readings:
+      テイ: j
+  艦:
+    readings:
+      カン: j
+  良:
+    readings:
+      リョウ: e
+      よ.い: e
+    writing: e4
+  色:
+    readings:
+      ショク: e
+      シキ: e
+      いろ: e
+    writing: e2
+  艶:
+    readings:
+      エン: h
+      つや: j
+  芋:
+    readings:
+      いも: j
+  芝:
+    readings:
+      しば: j
+  芯:
+    readings:
+      シン: j
+  花:
+    readings:
+      カ: e
+      はな: e
+    writing: e1
+  芳:
+    readings:
+      ホウ: j
+      かんば.しい: h
+  芸:
+    readings:
+      ゲイ: e
+    writing: e4
+  芽:
+    readings:
+      ガ: e
+      め: e
+    writing: e4
+  苗:
+    readings:
+      ビョウ: h
+      なえ: j
+      なわ: j
+  苛:
+    readings:
+      カ: j
+  若:
+    readings:
+      ジャク: j
+      ニャク: h
+      わか.い: e
+      も.しくは: h
+    writing: e6
+  苦:
+    readings:
+      ク: e
+      くる.しい: e
+      くる.しむ: e
+      くる.しめる: e
+      にが.い: e
+      にが.る: e
+    writing: e3
+  英:
+    readings:
+      エイ: e
+    writing: e4
+  茂:
+    readings:
+      モ: j
+      しげ.る: j
+  茎:
+    readings:
+      ケイ: j
+      くき: j
+  茨:
+    readings:
+      いばら: e
+    writing: e4
+  茶:
+    readings:
+      チャ: e
+      サ: j
+    writing: e2
+  草:
+    readings:
+      ソウ: e
+      くさ: e
+    writing: e1
+  荒:
+    readings:
+      コウ: j
+      あら.い: j
+      あ.れる: j
+      あ.らす: j
+  荘:
+    readings:
+      ソウ: j
+  荷:
+    readings:
+      カ: j
+      に: e
+    writing: e3
+  菊:
+    readings:
+      キク: j
+  菌:
+    readings:
+      キン: j
+  菓:
+    readings:
+      カ: j
+  菜:
+    readings:
+      サイ: e
+      な: e
+    writing: e4
+  華:
+    readings:
+      カ: j
+      ケ: h
+      はな: j
+  萎:
+    readings:
+      イ: j
+      な.える: j
+  落:
+    readings:
+      ラク: e
+      お.ちる: e
+      お.とす: e
+    writing: e3
+  葉:
+    readings:
+      ヨウ: e
+      は: e
+    writing: e3
+  著:
+    readings:
+      チョ: e
+      あらわ.す: j
+      いちじる.しい: j
+    writing: e6
+  葛:
+    readings:
+      カツ: j
+      くず: h
+  葬:
+    readings:
+      ソウ: j
+      ほうむ.る: h
+  蒸:
+    readings:
+      ジョウ: e
+      む.す: j
+      む.れる: j
+      む.らす: j
+    writing: e6
+  蓄:
+    readings:
+      チク: j
+      たくわ.える: j
+  蓋:
+    readings:
+      ガイ: j
+      ふた: j
+  蔑:
+    readings:
+      ベツ: j
+      さげす.む: j
+  蔵:
+    readings:
+      ゾウ: e
+      くら: j
+    writing: e6
+  蔽:
+    readings:
+      ヘイ: j
+  薄:
+    readings:
+      ハク: j
+      うす.い: j
+      うす.める: j
+      うす.まる: j
+      うす.らぐ: j
+      うす.れる: j
+  薦:
+    readings:
+      セン: j
+      すす.める: j
+  薪:
+    readings:
+      シン: j
+      たきぎ: j
+  薫:
+    readings:
+      クン: h
+      かお.る: j
+  薬:
+    readings:
+      ヤク: e
+      くすり: e
+    writing: e3
+  藍:
+    readings:
+      ラン: h
+      あい: j
+  藤:
+    readings:
+      トウ: j
+      ふじ: j
+  藩:
+    readings:
+      ハン: j
+  藻:
+    readings:
+      ソウ: j
+      も: j
+  虎:
+    readings:
+      コ: j
+      とら: j
+  虐:
+    readings:
+      ギャク: j
+      しいた.げる: h
+  虚:
+    readings:
+      キョ: j
+      コ: h
+  虜:
+    readings:
+      リョ: j
+  虞:
+    readings:
+      おそれ: j
+  虫:
+    readings:
+      チュウ: e
+      むし: e
+    writing: e1
+  虹:
+    readings:
+      にじ: j
+  蚊:
+    readings:
+      か: j
+  蚕:
+    readings:
+      サン: e
+      かいこ: e
+    writing: e6
+  蛇:
+    readings:
+      ジャ: j
+      ダ: j
+      へび: j
+  蛍:
+    readings:
+      ケイ: j
+      ほたる: j
+  蛮:
+    readings:
+      バン: j
+  蜂:
+    readings:
+      ホウ: j
+      はち: j
+  蜜:
+    readings:
+      ミツ: j
+  融:
+    readings:
+      ユウ: j
+  血:
+    readings:
+      ケツ: e
+      ち: e
+    writing: e3
+  衆:
+    readings:
+      シュウ: e
+      シュ: h
+    writing: e6
+  行:
+    readings:
+      コウ: e
+      ギョウ: e
+      アン: h
+      い.く: e
+      ゆ.く: e
+      おこな.う: e
+    writing: e2
+  術:
+    readings:
+      ジュツ: e
+    writing: e5
+  街:
+    readings:
+      ガイ: e
+      カイ: j
+      まち: e
+    writing: e4
+  衛:
+    readings:
+      エイ: e
+    writing: e5
+  衝:
+    readings:
+      ショウ: j
+  衡:
+    readings:
+      コウ: j
+  衣:
+    readings:
+      イ: e
+      ころも: j
+    writing: e4
+  表:
+    readings:
+      ヒョウ: e
+      おもて: e
+      あらわ.す: e
+      あらわ.れる: e
+    writing: e3
+  衰:
+    readings:
+      スイ: j
+      おとろ.える: j
+  衷:
+    readings:
+      チュウ: j
+  袋:
+    readings:
+      タイ: h
+      ふくろ: j
+  袖:
+    readings:
+      シュウ: h
+      そで: j
+  被:
+    readings:
+      ヒ: j
+      こうむ.る: j
+  裁:
+    readings:
+      サイ: e
+      た.つ: j
+      さば.く: e
+    writing: e6
+  裂:
+    readings:
+      レツ: j
+      さ.く: j
+      さ.ける: j
+  装:
+    readings:
+      ソウ: e
+      ショウ: j
+      よそお.う: h
+    writing: e6
+  裏:
+    readings:
+      リ: j
+      うら: e
+    writing: e6
+  裕:
+    readings:
+      ユウ: j
+  補:
+    readings:
+      ホ: e
+      おぎな.う: e
+    writing: e6
+  裸:
+    readings:
+      ラ: j
+      はだか: j
+  製:
+    readings:
+      セイ: e
+    writing: e5
+  裾:
+    readings:
+      すそ: j
+  複:
+    readings:
+      フク: e
+    writing: e5
+  褐:
+    readings:
+      カツ: j
+  褒:
+    readings:
+      ホウ: h
+      ほ.める: j
+  襟:
+    readings:
+      キン: h
+      えり: j
+  襲:
+    readings:
+      シュウ: j
+      おそ.う: j
+  西:
+    readings:
+      セイ: e
+      サイ: e
+      にし: e
+    writing: e2
+  要:
+    readings:
+      ヨウ: e
+      かなめ: e
+      い.る: j
+    writing: e4
+  覆:
+    readings:
+      フク: j
+      おお.う: j
+      くつがえ.す: h
+      くつがえ.る: h
+  覇:
+    readings:
+      ハ: j
+  見:
+    readings:
+      ケン: e
+      み.る: e
+      み.える: e
+      み.せる: e
+    writing: e1
+  規:
+    readings:
+      キ: e
+    writing: e5
+  視:
+    readings:
+      シ: e
+    writing: e6
+  覚:
+    readings:
+      カク: e
+      おぼ.える: e
+      さ.ます: e
+      さ.める: e
+    writing: e4
+  覧:
+    readings:
+      ラン: e
+    writing: e6
+  親:
+    readings:
+      シン: e
+      おや: e
+      した.しい: e
+      した.しむ: e
+    writing: e2
+  観:
+    readings:
+      カン: e
+    writing: e4
+  角:
+    readings:
+      カク: e
+      かど: e
+      つの: e
+    writing: e2
+  解:
+    readings:
+      カイ: e
+      ゲ: h
+      と.く: e
+      と.かす: e
+      と.ける: e
+    writing: e5
+  触:
+    readings:
+      ショク: j
+      ふ.れる: j
+      さわ.る: j
+  言:
+    readings:
+      ゲン: e
+      ゴン: e
+      い.う: e
+      こと: e
+    writing: e2
+  訂:
+    readings:
+      テイ: j
+  訃:
+    readings:
+      フ: j
+  計:
+    readings:
+      ケイ: e
+      はか.る: e
+      はか.らう: e
+    writing: e2
+  討:
+    readings:
+      トウ: e
+      う.つ: j
+    writing: e6
+  訓:
+    readings:
+      クン: e
+    writing: e4
+  託:
+    readings:
+      タク: j
+  記:
+    readings:
+      キ: e
+      しる.す: e
+    writing: e2
+  訟:
+    readings:
+      ショウ: j
+  訪:
+    readings:
+      ホウ: e
+      おとず.れる: j
+      たず.ねる: e
+    writing: e6
+  設:
+    readings:
+      セツ: e
+      もう.ける: e
+    writing: e5
+  許:
+    readings:
+      キョ: e
+      ゆる.す: e
+    writing: e5
+  訳:
+    readings:
+      ヤク: e
+      わけ: e
+    writing: e6
+  訴:
+    readings:
+      ソ: j
+      うった.える: j
+  診:
+    readings:
+      シン: j
+      み.る: j
+  証:
+    readings:
+      ショウ: e
+    writing: e5
+  詐:
+    readings:
+      サ: j
+  詔:
+    readings:
+      ショウ: j
+      みことのり: h
+  評:
+    readings:
+      ヒョウ: e
+    writing: e5
+  詞:
+    readings:
+      シ: e
+    writing: e6
+  詠:
+    readings:
+      エイ: j
+      よ.む: h
+  詣:
+    readings:
+      ケイ: h
+      もう.でる: j
+  試:
+    readings:
+      シ: e
+      こころ.みる: e
+      ため.す: j
+    writing: e4
+  詩:
+    readings:
+      シ: e
+    writing: e3
+  詮:
+    readings:
+      セン: j
+  詰:
+    readings:
+      キツ: h
+      つ.める: j
+      つ.まる: j
+      つ.む: j
+  話:
+    readings:
+      ワ: e
+      はな.す: e
+      はなし: e
+    writing: e2
+  該:
+    readings:
+      ガイ: j
+  詳:
+    readings:
+      ショウ: j
+      くわ.しい: j
+  誇:
+    readings:
+      コ: j
+      ほこ.る: j
+  誉:
+    readings:
+      ヨ: j
+      ほま.れ: j
+  誌:
+    readings:
+      シ: e
+    writing: e6
+  認:
+    readings:
+      ニン: j
+      みと.める: e
+    writing: e6
+  誓:
+    readings:
+      セイ: j
+      ちか.う: j
+  誕:
+    readings:
+      タン: e
+    writing: e6
+  誘:
+    readings:
+      ユウ: j
+      さそ.う: j
+  語:
+    readings:
+      ゴ: e
+      かた.る: e
+      かた.らう: e
+    writing: e2
+  誠:
+    readings:
+      セイ: e
+      まこと: j
+    writing: e6
+  誤:
+    readings:
+      ゴ: e
+      あやま.る: e
+    writing: e6
+  説:
+    readings:
+      セツ: e
+      ゼイ: h
+      と.く: e
+    writing: e4
+  読:
+    readings:
+      ドク: e
+      トク: e
+      トウ: e
+      よ.む: e
+    writing: e2
+  誰:
+    readings:
+      だれ: j
+  課:
+    readings:
+      カ: e
+    writing: e4
+  調:
+    readings:
+      チョウ: e
+      しら.べる: e
+      ととの.う: j
+      ととの.える: j
+    writing: e3
+  談:
+    readings:
+      ダン: e
+    writing: e3
+  請:
+    readings:
+      セイ: j
+      シン: h
+      こ.う: h
+      う.ける: j
+  論:
+    readings:
+      ロン: e
+    writing: e6
+  諦:
+    readings:
+      テイ: j
+      あきら.める: j
+  諧:
+    readings:
+      カイ: j
+  諭:
+    readings:
+      ユ: j
+      さと.す: j
+  諮:
+    readings:
+      シ: j
+      はか.る: j
+  諸:
+    readings:
+      ショ: e
+    writing: e6
+  諾:
+    readings:
+      ダク: j
+  謀:
+    readings:
+      ボウ: j
+      ム: h
+      はか.る: h
+  謁:
+    readings:
+      エツ: j
+  謄:
+    readings:
+      トウ: j
+  謎:
+    readings:
+      なぞ: j
+  謙:
+    readings:
+      ケン: j
+  講:
+    readings:
+      コウ: e
+    writing: e5
+  謝:
+    readings:
+      シャ: e
+      あやま.る: j
+    writing: e5
+  謡:
+    readings:
+      ヨウ: j
+      うたい: h
+      うた.う: h
+  謹:
+    readings:
+      キン: j
+      つつし.む: j
+  識:
+    readings:
+      シキ: e
+    writing: e5
+  譜:
+    readings:
+      フ: j
+  警:
+    readings:
+      ケイ: e
+    writing: e6
+  議:
+    readings:
+      ギ: e
+    writing: e4
+  譲:
+    readings:
+      ジョウ: j
+      ゆず.る: j
+  護:
+    readings:
+      ゴ: e
+    writing: e5
+  谷:
+    readings:
+      コク: j
+      たに: e
+    writing: e2
+  豆:
+    readings:
+      トウ: e
+      ズ: e
+      まめ: e
+    writing: e3
+  豊:
+    readings:
+      ホウ: e
+      ゆた.か: e
+    writing: e5
+  豚:
+    readings:
+      トン: j
+      ぶた: j
+  象:
+    readings:
+      ショウ: e
+      ゾウ: e
+    writing: e5
+  豪:
+    readings:
+      ゴウ: j
+  貌:
+    readings:
+      ボウ: j
+  貝:
+    readings:
+      かい: e
+    writing: e1
+  貞:
+    readings:
+      テイ: j
+  負:
+    readings:
+      フ: e
+      ま.ける: e
+      ま.かす: e
+      お.う: e
+    writing: e3
+  財:
+    readings:
+      ザイ: e
+      サイ: j
+    writing: e5
+  貢:
+    readings:
+      コウ: j
+      ク: h
+      みつ.ぐ: h
+  貧:
+    readings:
+      ヒン: j
+      ビン: e
+      まず.しい: e
+    writing: e5
+  貨:
+    readings:
+      カ: e
+    writing: e4
+  販:
+    readings:
+      ハン: j
+  貪:
+    readings:
+      ドン: j
+      むさぼ.る: j
+  貫:
+    readings:
+      カン: j
+      つらぬ.く: j
+  責:
+    readings:
+      セキ: e
+      せ.める: e
+    writing: e5
+  貯:
+    readings:
+      チョ: e
+    writing: e5
+  貴:
+    readings:
+      キ: e
+      たっと.い: j
+      とうと.い: j
+      たっと.ぶ: j
+      とうと.ぶ: j
+    writing: e6
+  買:
+    readings:
+      バイ: e
+      か.う: e
+    writing: e2
+  貸:
+    readings:
+      タイ: j
+      か.す: e
+    writing: e5
+  費:
+    readings:
+      ヒ: e
+      つい.やす: j
+      つい.える: j
+    writing: e5
+  貼:
+    readings:
+      チョウ: j
+      は.る: j
+  貿:
+    readings:
+      ボウ: e
+    writing: e5
+  賀:
+    readings:
+      ガ: e
+    writing: e4
+  賂:
+    readings:
+      ロ: j
+  賃:
+    readings:
+      チン: e
+    writing: e6
+  賄:
+    readings:
+      ワイ: j
+      まかな.う: j
+  資:
+    readings:
+      シ: e
+    writing: e5
+  賊:
+    readings:
+      ゾク: j
+  賓:
+    readings:
+      ヒン: j
+  賛:
+    readings:
+      サン: e
+    writing: e5
+  賜:
+    readings:
+      シ: h
+      たまわ.る: j
+  賞:
+    readings:
+      ショウ: e
+    writing: e5
+  賠:
+    readings:
+      バイ: j
+  賢:
+    readings:
+      ケン: j
+      かしこ.い: j
+  賦:
+    readings:
+      フ: j
+  質:
+    readings:
+      シツ: e
+      シチ: j
+      チ: h
+    writing: e5
+  賭:
+    readings:
+      ト: h
+      か.ける: j
+  購:
+    readings:
+      コウ: j
+  贈:
+    readings:
+      ゾウ: j
+      ソウ: j
+      おく.る: j
+  赤:
+    readings:
+      セキ: e
+      シャク: h
+      あか: e
+      あか.い: e
+      あか.らむ: e
+      あか.らめる: e
+    writing: e1
+  赦:
+    readings:
+      シャ: j
+  走:
+    readings:
+      ソウ: e
+      はし.る: e
+    writing: e2
+  赴:
+    readings:
+      フ: j
+      おもむ.く: j
+  起:
+    readings:
+      キ: e
+      お.きる: e
+      お.こる: e
+      お.こす: e
+    writing: e3
+  超:
+    readings:
+      チョウ: j
+      こ.える: j
+      こ.す: j
+  越:
+    readings:
+      エツ: j
+      こ.す: j
+      こ.える: j
+  趣:
+    readings:
+      シュ: j
+      おもむき: j
+  足:
+    readings:
+      ソク: e
+      あし: e
+      た.りる: e
+      たる: e
+      た.す: e
+    writing: e1
+  距:
+    readings:
+      キョ: j
+  跡:
+    readings:
+      セキ: j
+      あと: j
+  路:
+    readings:
+      ロ: e
+      じ: e
+    writing: e3
+  跳:
+    readings:
+      チョウ: j
+      は.ねる: j
+      と.ぶ: j
+  践:
+    readings:
+      セン: j
+  踊:
+    readings:
+      ヨウ: j
+      おど.る: j
+      おど.り: j
+  踏:
+    readings:
+      トウ: j
+      ふ.む: j
+      ふ.まえる: j
+  踪:
+    readings:
+      ソウ: j
+  蹴:
+    readings:
+      シュウ: j
+      け.る: j
+  躍:
+    readings:
+      ヤク: j
+      おど.る: j
+  身:
+    readings:
+      シン: e
+      み: e
+    writing: e3
+  車:
+    readings:
+      シャ: e
+      くるま: e
+    writing: e1
+  軌:
+    readings:
+      キ: j
+  軍:
+    readings:
+      グン: e
+    writing: e4
+  軒:
+    readings:
+      ケン: j
+      のき: j
+  軟:
+    readings:
+      ナン: j
+      やわ.らか: j
+      やわ.らかい: j
+  転:
+    readings:
+      テン: e
+      ころ.がる: e
+      ころ.げる: e
+      ころ.がす: e
+      ころ.ぶ: e
+    writing: e3
+  軸:
+    readings:
+      ジク: j
+  軽:
+    readings:
+      ケイ: e
+      かる.い: e
+      かろ.やか: j
+    writing: e3
+  較:
+    readings:
+      カク: j
+  載:
+    readings:
+      サイ: j
+      の.せる: j
+      の.る: j
+  輝:
+    readings:
+      キ: j
+      かがや.く: j
+  輩:
+    readings:
+      ハイ: j
+  輪:
+    readings:
+      リン: e
+      わ: e
+    writing: e4
+  輸:
+    readings:
+      ユ: e
+    writing: e5
+  轄:
+    readings:
+      カツ: j
+  辛:
+    readings:
+      シン: j
+      から.い: j
+  辞:
+    readings:
+      ジ: e
+      や.める: j
+    writing: e4
+  辣:
+    readings:
+      ラツ: j
+  辱:
+    readings:
+      ジョク: j
+      はずかし.める: h
+  農:
+    readings:
+      ノウ: e
+    writing: e3
+  辺:
+    readings:
+      ヘン: e
+      あた.り: e
+      べ: e
+    writing: e4
+  込:
+    readings:
+      こ.む: j
+      こ.める: j
+  迅:
+    readings:
+      ジン: j
+  迎:
+    readings:
+      ゲイ: j
+      むか.える: j
+  近:
+    readings:
+      キン: e
+      ちか.い: e
+    writing: e2
+  返:
+    readings:
+      ヘン: e
+      かえ.す: e
+      かえ.る: e
+    writing: e3
+  迫:
+    readings:
+      ハク: j
+      せま.る: j
+  迭:
+    readings:
+      テツ: j
+  述:
+    readings:
+      ジュツ: e
+      の.べる: e
+    writing: e5
+  迷:
+    readings:
+      メイ: j
+      まよ.う: e
+    writing: e5
+  追:
+    readings:
+      ツイ: e
+      お.う: e
+    writing: e3
+  退:
+    readings:
+      タイ: e
+      しりぞ.く: e
+      しりぞ.ける: e
+    writing: e6
+  送:
+    readings:
+      ソウ: e
+      おく.る: e
+    writing: e3
+  逃:
+    readings:
+      トウ: j
+      に.げる: j
+      に.がす: j
+      のが.す: j
+      のが.れる: j
+  逆:
+    readings:
+      ギャク: e
+      さか: e
+      さか.らう: e
+    writing: e5
+  透:
+    readings:
+      トウ: j
+      す.く: j
+      す.かす: j
+      す.ける: j
+  逐:
+    readings:
+      チク: j
+  逓:
+    readings:
+      テイ: j
+  途:
+    readings:
+      ト: j
+  通:
+    readings:
+      ツウ: e
+      ツ: h
+      とお.る: e
+      とお.す: e
+      かよ.う: e
+    writing: e2
+  逝:
+    readings:
+      セイ: j
+      ゆ.く: h
+      い.く: h
+  速:
+    readings:
+      ソク: e
+      はや.い: e
+      はや.める: e
+      はや.まる: e
+      すみ.やか: j
+    writing: e3
+  造:
+    readings:
+      ゾウ: e
+      つく.る: e
+    writing: e5
+  連:
+    readings:
+      レン: e
+      つら.なる: e
+      つら.ねる: e
+      つ.れる: e
+    writing: e4
+  逮:
+    readings:
+      タイ: j
+  週:
+    readings:
+      シュウ: e
+    writing: e2
+  進:
+    readings:
+      シン: e
+      すす.む: e
+      すす.める: e
+    writing: e3
+  逸:
+    readings:
+      イツ: j
+  遂:
+    readings:
+      スイ: j
+      と.げる: j
+  遅:
+    readings:
+      チ: j
+      おく.れる: j
+      おく.らす: j
+      おそ.い: j
+  遇:
+    readings:
+      グウ: j
+  遊:
+    readings:
+      ユウ: e
+      ユ: h
+      あそ.ぶ: e
+    writing: e3
+  運:
+    readings:
+      ウン: e
+      はこ.ぶ: e
+    writing: e3
+  遍:
+    readings:
+      ヘン: j
+  過:
+    readings:
+      カ: e
+      す.ぎる: e
+      す.ごす: e
+      あやま.つ: h
+      あやま.ち: h
+    writing: e5
+  道:
+    readings:
+      ドウ: e
+      トウ: h
+      みち: e
+    writing: e2
+  達:
+    readings:
+      タツ: e
+    writing: e4
+  違:
+    readings:
+      イ: j
+      ちが.う: j
+      ちが.える: j
+  遜:
+    readings:
+      ソン: j
+  遠:
+    readings:
+      エン: e
+      オン: h
+      とお.い: e
+    writing: e2
+  遡:
+    readings:
+      ソ: h
+      さかのぼ.る: j
+  遣:
+    readings:
+      ケン: j
+      つか.う: j
+      つか.わす: j
+  適:
+    readings:
+      テキ: e
+    writing: e5
+  遭:
+    readings:
+      ソウ: j
+      あ.う: j
+  遮:
+    readings:
+      シャ: j
+      さえぎ.る: j
+  遵:
+    readings:
+      ジュン: j
+  遷:
+    readings:
+      セン: j
+  選:
+    readings:
+      セン: e
+      えら.ぶ: e
+    writing: e4
+  遺:
+    readings:
+      イ: e
+      ユイ: j
+    writing: e6
+  避:
+    readings:
+      ヒ: j
+      さ.ける: j
+  還:
+    readings:
+      カン: j
+  那:
+    readings:
+      ナ: j
+  邦:
+    readings:
+      ホウ: j
+  邪:
+    readings:
+      ジャ: j
+  邸:
+    readings:
+      テイ: j
+  郊:
+    readings:
+      コウ: j
+  郎:
+    readings:
+      ロウ: j
+  郡:
+    readings:
+      グン: e
+    writing: e4
+  部:
+    readings:
+      ブ: e
+    writing: e3
+  郭:
+    readings:
+      カク: j
+  郵:
+    readings:
+      ユウ: e
+    writing: e6
+  郷:
+    readings:
+      キョウ: e
+      ゴウ: j
+    writing: e6
+  都:
+    readings:
+      ト: e
+      ツ: e
+      みやこ: e
+    writing: e3
+  酌:
+    readings:
+      シャク: j
+      く.む: h
+  配:
+    readings:
+      ハイ: e
+      くば.る: e
+    writing: e3
+  酎:
+    readings:
+      チュウ: j
+  酒:
+    readings:
+      シュ: e
+      さけ: e
+      さか: e
+    writing: e3
+  酔:
+    readings:
+      スイ: j
+      よ.う: j
+  酢:
+    readings:
+      サク: j
+      す: j
+  酪:
+    readings:
+      ラク: j
+  酬:
+    readings:
+      シュウ: j
+  酵:
+    readings:
+      コウ: j
+  酷:
+    readings:
+      コク: j
+  酸:
+    readings:
+      サン: e
+      す.い: h
+    writing: e5
+  醒:
+    readings:
+      セイ: j
+  醜:
+    readings:
+      シュウ: j
+      みにく.い: j
+  醸:
+    readings:
+      ジョウ: j
+      かも.す: h
+  采:
+    readings:
+      サイ: j
+  釈:
+    readings:
+      シャク: j
+  里:
+    readings:
+      リ: e
+      さと: e
+    writing: e2
+  重:
+    readings:
+      ジュウ: e
+      チョウ: e
+      え: e
+      おも.い: e
+      かさ.ねる: e
+      かさ.なる: e
+    writing: e3
+  野:
+    readings:
+      ヤ: e
+      の: e
+    writing: e2
+  量:
+    readings:
+      リョウ: e
+      はか.る: e
+    writing: e4
+  金:
+    readings:
+      キン: e
+      コン: e
+      かね: e
+      かな: e
+    writing: e1
+  釜:
+    readings:
+      かま: j
+  針:
+    readings:
+      シン: e
+      はり: e
+    writing: e6
+  釣:
+    readings:
+      チョウ: h
+      つ.る: j
+  鈍:
+    readings:
+      ドン: j
+      にぶ.い: j
+      にぶ.る: j
+  鈴:
+    readings:
+      レイ: j
+      リン: j
+      すず: j
+  鉄:
+    readings:
+      テツ: e
+    writing: e3
+  鉛:
+    readings:
+      エン: j
+      なまり: j
+  鉢:
+    readings:
+      ハチ: j
+      ハツ: h
+  鉱:
+    readings:
+      コウ: e
+    writing: e5
+  銀:
+    readings:
+      ギン: e
+    writing: e3
+  銃:
+    readings:
+      ジュウ: j
+  銅:
+    readings:
+      ドウ: e
+    writing: e5
+  銘:
+    readings:
+      メイ: j
+  銭:
+    readings:
+      セン: e
+      ぜに: j
+    writing: e6
+  鋭:
+    readings:
+      エイ: j
+      するど.い: j
+  鋳:
+    readings:
+      チュウ: j
+      い.る: j
+  鋼:
+    readings:
+      コウ: e
+      はがね: j
+    writing: e6
+  錠:
+    readings:
+      ジョウ: j
+  錦:
+    readings:
+      キン: j
+      にしき: j
+  錬:
+    readings:
+      レン: j
+  錮:
+    readings:
+      コ: j
+  錯:
+    readings:
+      サク: j
+  録:
+    readings:
+      ロク: e
+    writing: e4
+  鍋:
+    readings:
+      なべ: j
+  鍛:
+    readings:
+      タン: j
+      きた.える: j
+  鍵:
+    readings:
+      ケン: j
+      かぎ: j
+  鎌:
+    readings:
+      かま: j
+  鎖:
+    readings:
+      サ: j
+      くさり: j
+  鎮:
+    readings:
+      チン: j
+      しず.める: h
+      しず.まる: h
+  鏡:
+    readings:
+      キョウ: e
+      かがみ: e
+    writing: e4
+  鐘:
+    readings:
+      ショウ: j
+      かね: j
+  鑑:
+    readings:
+      カン: j
+      かんが.みる: h
+  長:
+    readings:
+      チョウ: e
+      なが.い: e
+    writing: e2
+  門:
+    readings:
+      モン: e
+      かど: j
+    writing: e2
+  閉:
+    readings:
+      ヘイ: e
+      と.じる: e
+      と.ざす: j
+      し.める: e
+      し.まる: e
+    writing: e6
+  開:
+    readings:
+      カイ: e
+      ひら.く: e
+      ひら.ける: e
+      あ.く: e
+      あ.ける: e
+    writing: e3
+  閑:
+    readings:
+      カン: j
+  間:
+    readings:
+      カン: e
+      ケン: e
+      あいだ: e
+      ま: e
+    writing: e2
+  関:
+    readings:
+      カン: e
+      せき: e
+      かか.わる: e
+    writing: e4
+  閣:
+    readings:
+      カク: e
+    writing: e6
+  閥:
+    readings:
+      バツ: j
+  閲:
+    readings:
+      エツ: j
+  闇:
+    readings:
+      やみ: j
+  闘:
+    readings:
+      トウ: j
+      たたか.う: j
+  阜:
+    readings:
+      フ: e
+    writing: e4
+  阪:
+    readings:
+      ハン: j
+    writing: e4
+  防:
+    readings:
+      ボウ: e
+      ふせ.ぐ: e
+    writing: e5
+  阻:
+    readings:
+      ソ: j
+      はば.む: h
+  附:
+    readings:
+      フ: j
+  降:
+    readings:
+      コウ: e
+      お.りる: e
+      お.ろす: e
+      ふ.る: e
+    writing: e6
+  限:
+    readings:
+      ゲン: e
+      かぎ.る: e
+    writing: e5
+  陛:
+    readings:
+      ヘイ: e
+    writing: e6
+  院:
+    readings:
+      イン: e
+    writing: e3
+  陣:
+    readings:
+      ジン: j
+  除:
+    readings:
+      ジョ: e
+      ジ: j
+      のぞ.く: e
+    writing: e6
+  陥:
+    readings:
+      カン: j
+      おちい.る: j
+      おとしい.れる: h
+  陪:
+    readings:
+      バイ: j
+  陰:
+    readings:
+      イン: j
+      かげ: j
+      かげ.る: j
+  陳:
+    readings:
+      チン: j
+  陵:
+    readings:
+      リョウ: j
+      みささぎ: h
+  陶:
+    readings:
+      トウ: j
+  陸:
+    readings:
+      リク: e
+    writing: e4
+  険:
+    readings:
+      ケン: e
+      けわ.しい: e
+    writing: e5
+  陽:
+    readings:
+      ヨウ: e
+    writing: e3
+  隅:
+    readings:
+      グウ: j
+      すみ: j
+  隆:
+    readings:
+      リュウ: j
+  隊:
+    readings:
+      タイ: e
+    writing: e4
+  階:
+    readings:
+      カイ: e
+    writing: e3
+  随:
+    readings:
+      ズイ: j
+  隔:
+    readings:
+      カク: j
+      へだ.てる: j
+      へだ.たる: j
+  隙:
+    readings:
+      ゲキ: h
+      すき: j
+  際:
+    readings:
+      サイ: e
+      きわ: h
+    writing: e5
+  障:
+    readings:
+      ショウ: e
+      さわ.る: h
+    writing: e6
+  隠:
+    readings:
+      イン: j
+      かく.す: j
+      かく.れる: j
+  隣:
+    readings:
+      リン: j
+      とな.る: j
+      となり: j
+  隷:
+    readings:
+      レイ: j
+  隻:
+    readings:
+      セキ: j
+  雄:
+    readings:
+      ユウ: j
+      お: j
+      おす: j
+  雅:
+    readings:
+      ガ: j
+  集:
+    readings:
+      シュウ: e
+      あつ.まる: e
+      あつ.める: e
+      つど.う: j
+    writing: e3
+  雇:
+    readings:
+      コ: j
+      やと.う: j
+  雌:
+    readings:
+      シ: j
+      め: j
+      めす: j
+  雑:
+    readings:
+      ザツ: e
+      ゾウ: e
+    writing: e5
+  離:
+    readings:
+      リ: j
+      はな.れる: j
+      はな.す: j
+  難:
+    readings:
+      ナン: e
+      かた.い: h
+      むずか.しい: e
+    writing: e6
+  雨:
+    readings:
+      ウ: e
+      あめ: e
+      あま: e
+    writing: e1
+  雪:
+    readings:
+      セツ: e
+      ゆき: e
+    writing: e2
+  雰:
+    readings:
+      フン: j
+  雲:
+    readings:
+      ウン: e
+      くも: e
+    writing: e2
+  零:
+    readings:
+      レイ: j
+  雷:
+    readings:
+      ライ: j
+      かみなり: j
+  電:
+    readings:
+      デン: e
+    writing: e2
+  需:
+    readings:
+      ジュ: j
+  震:
+    readings:
+      シン: j
+      ふる.う: j
+      ふる.える: j
+  霊:
+    readings:
+      レイ: j
+      リョウ: h
+      たま: h
+  霜:
+    readings:
+      ソウ: h
+      しも: j
+  霧:
+    readings:
+      ム: j
+      きり: j
+  露:
+    readings:
+      ロ: j
+      ロウ: j
+      つゆ: j
+  青:
+    readings:
+      セイ: e
+      ショウ: h
+      あお: e
+      あお.い: e
+    writing: e1
+  静:
+    readings:
+      セイ: e
+      ジョウ: j
+      しず: e
+      しず.か: e
+      しず.まる: e
+      しず.める: e
+    writing: e4
+  非:
+    readings:
+      ヒ: e
+    writing: e5
+  面:
+    readings:
+      メン: e
+      おも: j
+      おもて: j
+      つら: h
+    writing: e3
+  革:
+    readings:
+      カク: e
+      かわ: j
+    writing: e6
+  靴:
+    readings:
+      カ: h
+      くつ: j
+  韓:
+    readings:
+      カン: j
+  音:
+    readings:
+      オン: e
+      イン: j
+      おと: e
+      ね: e
+    writing: e1
+  韻:
+    readings:
+      イン: j
+  響:
+    readings:
+      キョウ: j
+      ひび.く: j
+  頂:
+    readings:
+      チョウ: e
+      いただ.く: e
+      いただき: e
+    writing: e6
+  頃:
+    readings:
+      ころ: j
+  項:
+    readings:
+      コウ: j
+  順:
+    readings:
+      ジュン: e
+    writing: e4
+  須:
+    readings:
+      ス: j
+  預:
+    readings:
+      ヨ: e
+      あず.ける: e
+      あず.かる: e
+    writing: e6
+  頑:
+    readings:
+      ガン: j
+  頒:
+    readings:
+      ハン: j
+  頓:
+    readings:
+      トン: j
+  領:
+    readings:
+      リョウ: e
+    writing: e5
+  頭:
+    readings:
+      トウ: e
+      ズ: e
+      ト: h
+      あたま: e
+      かしら: j
+    writing: e2
+  頰:
+    readings:
+      ほお: j
+  頻:
+    readings:
+      ヒン: j
+  頼:
+    readings:
+      ライ: j
+      たの.む: j
+      たの.もしい: j
+      たよ.る: j
+  題:
+    readings:
+      ダイ: e
+    writing: e3
+  額:
+    readings:
+      ガク: e
+      ひたい: e
+    writing: e5
+  顎:
+    readings:
+      ガク: j
+      あご: j
+  顔:
+    readings:
+      ガン: e
+      かお: e
+    writing: e2
+  顕:
+    readings:
+      ケン: j
+  願:
+    readings:
+      ガン: e
+      ねが.う: e
+    writing: e4
+  類:
+    readings:
+      ルイ: e
+      たぐ.い: e
+    writing: e4
+  顧:
+    readings:
+      コ: j
+      かえり.みる: j
+  風:
+    readings:
+      フウ: e
+      フ: h
+      かぜ: e
+      かざ: e
+    writing: e2
+  飛:
+    readings:
+      ヒ: e
+      と.ぶ: e
+      と.ばす: e
+    writing: e4
+  食:
+    readings:
+      ショク: e
+      ジキ: h
+      く.う: e
+      く.らう: h
+      た.べる: e
+    writing: e2
+  飢:
+    readings:
+      キ: j
+      う.える: j
+  飯:
+    readings:
+      ハン: e
+      めし: e
+    writing: e4
+  飲:
+    readings:
+      イン: e
+      の.む: e
+    writing: e3
+  飼:
+    readings:
+      シ: e
+      か.う: e
+    writing: e5
+  飽:
+    readings:
+      ホウ: j
+      あ.きる: j
+      あ.かす: j
+  飾:
+    readings:
+      ショク: j
+      かざ.る: j
+  餅:
+    readings:
+      ヘイ: j
+      もち: j
+  養:
+    readings:
+      ヨウ: e
+      やしな.う: e
+    writing: e4
+  餌:
+    readings:
+      ジ: h
+      えさ: j
+      え: j
+  餓:
+    readings:
+      ガ: j
+  館:
+    readings:
+      カン: e
+      やかた: e
+    writing: e3
+  首:
+    readings:
+      シュ: e
+      くび: e
+    writing: e2
+  香:
+    readings:
+      コウ: j
+      キョウ: h
+      か: e
+      かお.り: e
+      かお.る: e
+    writing: e4
+  馬:
+    readings:
+      バ: e
+      うま: e
+      ま: e
+    writing: e2
+  駄:
+    readings:
+      ダ: j
+  駅:
+    readings:
+      エキ: e
+    writing: e3
+  駆:
+    readings:
+      ク: j
+      か.ける: j
+      か.る: j
+  駐:
+    readings:
+      チュウ: j
+  駒:
+    readings:
+      こま: j
+  騎:
+    readings:
+      キ: j
+  騒:
+    readings:
+      ソウ: j
+      さわ.ぐ: j
+  験:
+    readings:
+      ケン: e
+      ゲン: h
+    writing: e4
+  騰:
+    readings:
+      トウ: j
+  驚:
+    readings:
+      キョウ: j
+      おどろ.く: j
+      おどろ.かす: j
+  骨:
+    readings:
+      コツ: e
+      ほね: e
+    writing: e6
+  骸:
+    readings:
+      ガイ: j
+  髄:
+    readings:
+      ズイ: j
+  高:
+    readings:
+      コウ: e
+      たか.い: e
+      たか: e
+      たか.まる: e
+      たか.める: e
+    writing: e2
+  髪:
+    readings:
+      ハツ: j
+      かみ: j
+  鬱:
+    readings:
+      ウツ: j
+  鬼:
+    readings:
+      キ: j
+      おに: j
+  魂:
+    readings:
+      コン: j
+      たましい: j
+  魅:
+    readings:
+      ミ: j
+  魔:
+    readings:
+      マ: j
+  魚:
+    readings:
+      ギョ: e
+      うお: e
+      さかな: e
+    writing: e2
+  鮮:
+    readings:
+      セン: j
+      あざ.やか: j
+  鯨:
+    readings:
+      ゲイ: j
+      くじら: j
+  鳥:
+    readings:
+      チョウ: e
+      とり: e
+    writing: e2
+  鳴:
+    readings:
+      メイ: e
+      な.く: e
+      な.る: e
+      な.らす: e
+    writing: e2
+  鶏:
+    readings:
+      ケイ: j
+      にわとり: j
+  鶴:
+    readings:
+      つる: j
+  鹿:
+    readings:
+      しか: e
+      か: e
+    writing: e4
+  麓:
+    readings:
+      ロク: j
+      ふもと: j
+  麗:
+    readings:
+      レイ: j
+      うるわ.しい: h
+  麦:
+    readings:
+      バク: j
+      むぎ: e
+    writing: e2
+  麺:
+    readings:
+      メン: j
+  麻:
+    readings:
+      マ: j
+      あさ: j
+  黄:
+    readings:
+      コウ: j
+      オウ: e
+      き: e
+      こ: j
+    writing: e2
+  黒:
+    readings:
+      コク: e
+      くろ: e
+      くろ.い: e
+    writing: e2
+  黙:
+    readings:
+      モク: j
+      だま.る: j
+  鼓:
+    readings:
+      コ: j
+      つづみ: h
+  鼻:
+    readings:
+      ビ: j
+      はな: e
+    writing: e3
+  齢:
+    readings:
+      レイ: j
+  𠮟:
+    readings:
+      シツ: j
+      しか.る: j
