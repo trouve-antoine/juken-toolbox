@@ -13,6 +13,9 @@ meta:
   scope: selected-vocabulary-covering-every-joyo-character
 
 sources:
+  kanjipedia-satsu:
+    title: 漢字ペディア「擦」— 表外訓の補足
+    url: https://www.kanjipedia.jp/kanji/0002603600
   mext:
     title: 音訓の小・中・高等学校段階別割り振り表（平成29年3月）
     url: https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm
@@ -18385,8 +18388,11 @@ vocab:
     sources: [bccwj, joyo]
   擦る:
     readings:
+      こする: null
+      さする: null
       する: j
-    sources: [bccwj, joyo, mext]
+      なする: null
+    sources: [bccwj, joyo, mext, kanjipedia-satsu]
   擦れる:
     readings:
       すれる: j

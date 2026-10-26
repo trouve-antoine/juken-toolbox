@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kanji poster · Juken</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/card.css">
+  <link rel="stylesheet" href="/themes/simple.css" id="theme-style">
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+  <header class="toolbar">
+    <div class="brand"><span lang="ja">字</span><div><h1>Kanji poster</h1><p>A little practice, every day.</p></div></div>
+    <form method="get">
+      <label>Level<select name="level" id="level"><option value="e1">Elementary · year 1</option></select></label>
+      <label>Columns<input name="n" id="columns" type="number" min="2" max="10" value="6" required></label>
+      <label>Theme<select name="theme" id="theme"><option value="simple">Simple</option></select></label>
+      <label class="checkbox-label"><input type="checkbox" name="showAll" id="show-all" value="1">Show all readings</label>
+      <button type="submit">Update</button>
+      <button type="button" id="print" disabled>Print A4 ↗</button>
+    </form>
+  </header>
+  <div class="description"><p id="status" role="status">Loading kanji…</p><p>A4 portrait · print at 100% · turn off browser headers and footers</p></div>
+  <main id="pages" aria-label="Printable kanji posters"></main>
+  <dialog id="kanji-card" aria-labelledby="card-title">
+    <header class="card-header">
+      <h2 id="card-title">漢字カード</h2><button type="button" id="close-card" aria-label="Close kanji card">×</button>
+      <nav class="card-navigation" aria-label="Kanji navigation">
+        <button type="button" id="previous-kanji" aria-keyshortcuts="ArrowLeft">← Previous</button>
+        <span id="card-position" role="status"></span>
+        <button type="button" id="next-kanji" aria-keyshortcuts="ArrowRight">Next →</button>
+      </nav>
+    </header>
+    <div id="card-body" aria-live="polite"></div>
+  </dialog>
+</body>
+</html>

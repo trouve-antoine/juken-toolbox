@@ -30,6 +30,42 @@ These are structural checks, not certification of pedagogical correctness.
 
 ## Kanji and vocabulary data
 
+### Direct MEXT PDF extraction
+
+`scripts/extract_mext_readings.py` extracts the main table directly from the
+March 2017 MEXT PDF, preserving order, school-stage circles, and indentation.
+The PDF's note 3 defines indented readings as special or very narrowly used;
+this is not a frequency ranking. The previous `kanji.yaml` import omitted this
+distinction. The extraction finds 178 such readings, including 11 elementary
+readings on first-grade characters.
+
+With `pdfplumber` and `PyYAML` installed, reproduce from the repository root:
+
+```sh
+mkdir -p data/mext
+curl -L --fail https://www.mext.go.jp/a_menu/shotou/new-cs/__icsFiles/afieldfile/2017/05/15/1385768.pdf -o data/mext/1385768.pdf
+python3 japanese/scripts/extract_mext_readings.py
+```
+
+Outputs are `data/mext/readings.json` and `data/mext/first-grade-readings.md`.
+The extractor pins the PDF checksum, checks all 2,136 characters, 4,388 readings,
+introduction grades and stage assignments against the existing inventory, and
+records page/column coordinates for each reading. The outlined 𠮟 glyph is restored
+at a fixed, visually checked location. Main-table pages 2–50 are included; the
+whole-word appendices are excluded. The `text` field is verbatim PDF spelling;
+`inventory_key` supplies existing okurigana dots only for joining to `kanji.yaml`.
+The extractor does not edit `kanji.yaml`. A checked-in copy at
+`japanese/mext-readings.json` supplies the poster API with PDF spelling, order,
+and special/narrow-use flags. To regenerate that copy, pass
+`--output japanese/mext-readings.json`; the extractor also writes a first-grade
+report beside the chosen output. The poster shows up to three stage-matching
+readings by default, placing special/narrow-use readings last.
+
+For reproducible BCCWJ reading-frequency estimates, see
+[reading-frequency.md](reading-frequency.md). Counts and coverage reports are
+generated locally under `data/bccwj/`; they do not change the official inventory
+or the poster's display order.
+
 The two editable UTF-8 databases are `kanji.yaml` and `vocab.yaml`. Both are flat
 mappings, sorted by Unicode code point. Generated on 2026-09-06 from Japanese
 official and academic sources; no foreign-language learner dictionaries were used.
@@ -99,7 +135,17 @@ prohibits redistribution; commercial use requires consultation. Keep the derived
 vocabulary file for private educational use. See the
 [source manual, section 6](https://clrd.ninjal.ac.jp/bccwj/data-files/frequency-list/BCCWJ_frequencylist_manual_ver1_0b.pdf).
 
-### Validation
+### Vocabulary corrections
+
+The CLI accepts every listed reading of a word, regardless of the selected quiz
+level. `擦る` additionally includes `こする`, `さする`, and `なする`, supported by
+[漢字ペディア「擦」](https://www.kanjipedia.jp/kanji/0002603600)
+(日本漢字能力検定協会). These supplemental dictionary readings have `null` levels:
+they are accepted answers, without asserting a MEXT school-stage allocation.
+The original import counts below and above describe the generated dataset before
+these three additional word-reading pairs.
+
+### Import validation
 
 The extracted character and undotted reading sets match the independent official
 HTML table exactly. Elementary counts are 80, 160, 200, 202, 193, and 191. Reading

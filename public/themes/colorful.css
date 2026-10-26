@@ -1,0 +1,40 @@
+:root {
+  --ink: #343254;
+  --canvas: #f1edf9;
+  --accent: #6650a5;
+  --muted: #66617a;
+  --control-border: #ccc2de;
+  --control-bg: #fffaff;
+  --poster-ink: #343254;
+  --grid-line: #dfd7ec;
+  --reading-ink: #777777;
+  --sheet-shadow: #55447720;
+}
+
+/* Theme decoration leaves the shared tile and A4 geometry unchanged. */
+.tile:nth-child(6n + 1) { --tile-bg: #fff0ef; --tile-ink: #a43a50; }
+.tile:nth-child(6n + 2) { --tile-bg: #fff5df; --tile-ink: #885710; }
+.tile:nth-child(6n + 3) { --tile-bg: #edf6e6; --tile-ink: #39632a; }
+.tile:nth-child(6n + 4) { --tile-bg: #e7f5f4; --tile-ink: #236766; }
+.tile:nth-child(6n + 5) { --tile-bg: #edf1ff; --tile-ink: #3e55a0; }
+.tile:nth-child(6n + 6) { --tile-bg: #f6edfb; --tile-ink: #804393; }
+.sheet-header h2 { color: var(--accent); }
+
+/* One rounded flashcard encloses both the character and its readings. */
+.grid { border-left-color: transparent; }
+.tile {
+  margin: 1mm;
+  background: var(--tile-bg);
+  border: .4mm solid var(--tile-ink);
+  border-radius: 4mm;
+  box-shadow: 0 .7mm 0 var(--tile-ink);
+  gap: 2mm;
+}
+.character {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: min(100%, calc(var(--kanji-size) * 1.45));
+  font-size: calc(var(--kanji-size) * .82);
+  line-height: 1;
+}

@@ -1,0 +1,622 @@
+{
+  "園": {
+    "その": {
+      "word": "花園",
+      "reading": "はなぞの",
+      "source": "curated-example"
+    }
+  },
+  "仮": {
+    "かり": {
+      "word": "仮に",
+      "reading": "かりに",
+      "source": "curated-example"
+    }
+  },
+  "華": {
+    "ケ": {
+      "word": "散華",
+      "reading": "さんげ",
+      "source": "curated-example"
+    }
+  },
+  "灰": {
+    "カイ": {
+      "word": "石灰",
+      "reading": "せっかい",
+      "source": "curated-example"
+    }
+  },
+  "蓋": {
+    "ガイ": {
+      "word": "頭蓋骨",
+      "reading": "ずがいこつ",
+      "source": "curated-example"
+    }
+  },
+  "岳": {
+    "たけ": {
+      "word": "岳",
+      "reading": "たけ",
+      "source": "curated-example"
+    }
+  },
+  "潟": {
+    "かた": {
+      "word": "干潟",
+      "reading": "ひがた",
+      "source": "curated-example"
+    }
+  },
+  "葛": {
+    "カツ": {
+      "word": "葛藤",
+      "reading": "かっとう",
+      "source": "curated-example"
+    }
+  },
+  "滑": {
+    "コツ": {
+      "word": "滑稽",
+      "reading": "こっけい",
+      "source": "curated-example"
+    }
+  },
+  "干": {
+    "ひる": {
+      "word": "干物",
+      "reading": "ひもの",
+      "source": "curated-example"
+    }
+  },
+  "眼": {
+    "ゲン": {
+      "word": "開眼",
+      "reading": "かいげん",
+      "source": "curated-example"
+    }
+  },
+  "菊": {
+    "キク": {
+      "word": "菊",
+      "reading": "きく",
+      "source": "curated-example"
+    }
+  },
+  "脚": {
+    "キャ": {
+      "word": "脚立",
+      "reading": "きゃたつ",
+      "source": "curated-example"
+    }
+  },
+  "九": {
+    "ク": {
+      "word": "九月",
+      "reading": "くがつ",
+      "source": "curated-example"
+    },
+    "ここの": {
+      "word": "九日",
+      "reading": "ここのか",
+      "source": "curated-example"
+    }
+  },
+  "及": {
+    "および": {
+      "word": "及び",
+      "reading": "および",
+      "source": "curated-example"
+    }
+  },
+  "宮": {
+    "ク": {
+      "word": "宮内",
+      "reading": "くない",
+      "source": "curated-example"
+    }
+  },
+  "嫌": {
+    "いや": {
+      "word": "嫌だ",
+      "reading": "いやだ",
+      "source": "curated-example"
+    }
+  },
+  "献": {
+    "コン": {
+      "word": "献立",
+      "reading": "こんだて",
+      "source": "curated-example"
+    }
+  },
+  "五": {
+    "いつ": {
+      "word": "五日",
+      "reading": "いつか",
+      "source": "curated-example"
+    }
+  },
+  "巧": {
+    "たくみ": {
+      "word": "巧み",
+      "reading": "たくみ",
+      "source": "curated-example"
+    }
+  },
+  "貢": {
+    "ク": {
+      "word": "年貢",
+      "reading": "ねんぐ",
+      "source": "curated-example"
+    }
+  },
+  "黄": {
+    "こ": {
+      "word": "黄金",
+      "reading": "こがね",
+      "source": "curated-example"
+    }
+  },
+  "再": {
+    "サ": {
+      "word": "再来年",
+      "reading": "さらいねん",
+      "source": "curated-example"
+    }
+  },
+  "冊": {
+    "サク": {
+      "word": "短冊",
+      "reading": "たんざく",
+      "source": "curated-example"
+    }
+  },
+  "殺": {
+    "セツ": {
+      "word": "殺生",
+      "reading": "せっしょう",
+      "source": "curated-example"
+    }
+  },
+  "三": {
+    "み": {
+      "word": "三日月",
+      "reading": "みかづき",
+      "source": "curated-example"
+    },
+    "みつ": {
+      "word": "三つ指",
+      "reading": "みつゆび",
+      "source": "curated-example"
+    }
+  },
+  "耳": {
+    "ジ": {
+      "word": "耳鼻科",
+      "reading": "じびか",
+      "source": "curated-example"
+    }
+  },
+  "事": {
+    "ズ": {
+      "word": "好事家",
+      "reading": "こうずか",
+      "source": "curated-example"
+    }
+  },
+  "七": {
+    "なの": {
+      "word": "七日",
+      "reading": "なのか",
+      "source": "curated-example"
+    }
+  },
+  "𠮟": {
+    "シツ": {
+      "word": "𠮟責",
+      "reading": "しっせき",
+      "source": "curated-example"
+    }
+  },
+  "寂": {
+    "セキ": {
+      "word": "寂然",
+      "reading": "せきぜん",
+      "source": "curated-example"
+    }
+  },
+  "主": {
+    "ス": {
+      "word": "坊主",
+      "reading": "ぼうず",
+      "source": "curated-example"
+    }
+  },
+  "守": {
+    "もり": {
+      "word": "子守",
+      "reading": "こもり",
+      "source": "curated-example"
+    }
+  },
+  "拾": {
+    "ジュウ": {
+      "word": "拾万円",
+      "reading": "じゅうまんえん",
+      "source": "curated-example"
+    }
+  },
+  "十": {
+    "ジッ": {
+      "word": "十回",
+      "reading": "じっかい",
+      "source": "curated-example"
+    },
+    "と": {
+      "word": "十色",
+      "reading": "といろ",
+      "source": "curated-example"
+    }
+  },
+  "従": {
+    "ジュ": {
+      "word": "従三位",
+      "reading": "じゅさんみ",
+      "source": "curated-example"
+    }
+  },
+  "旬": {
+    "シュン": {
+      "word": "旬",
+      "reading": "しゅん",
+      "source": "curated-example"
+    }
+  },
+  "初": {
+    "はじめて": {
+      "word": "初めて",
+      "reading": "はじめて",
+      "source": "curated-example"
+    }
+  },
+  "松": {
+    "ショウ": {
+      "word": "松竹梅",
+      "reading": "しょうちくばい",
+      "source": "curated-example"
+    }
+  },
+  "笑": {
+    "えむ": {
+      "word": "笑み",
+      "reading": "えみ",
+      "source": "curated-example"
+    }
+  },
+  "情": {
+    "セイ": {
+      "word": "風情",
+      "reading": "ふぜい",
+      "source": "curated-example"
+    }
+  },
+  "津": {
+    "シン": {
+      "word": "興味津々",
+      "reading": "きょうみしんしん",
+      "source": "curated-example"
+    }
+  },
+  "井": {
+    "ショウ": {
+      "word": "天井",
+      "reading": "てんじょう",
+      "source": "curated-example"
+    }
+  },
+  "生": {
+    "おう": {
+      "word": "生い立ち",
+      "reading": "おいたち",
+      "source": "curated-example"
+    }
+  },
+  "声": {
+    "ショウ": {
+      "word": "大音声",
+      "reading": "だいおんじょう",
+      "source": "curated-example"
+    }
+  },
+  "星": {
+    "ショウ": {
+      "word": "明星",
+      "reading": "みょうじょう",
+      "source": "curated-example"
+    }
+  },
+  "清": {
+    "ショウ": {
+      "word": "六根清浄",
+      "reading": "ろっこんしょうじょう",
+      "source": "curated-example"
+    }
+  },
+  "夕": {
+    "セキ": {
+      "word": "今夕",
+      "reading": "こんせき",
+      "source": "curated-example"
+    }
+  },
+  "昔": {
+    "シャク": {
+      "word": "今昔",
+      "reading": "こんじゃく",
+      "source": "curated-example"
+    }
+  },
+  "窃": {
+    "セツ": {
+      "word": "窃盗",
+      "reading": "せっとう",
+      "source": "curated-example"
+    }
+  },
+  "摂": {
+    "セツ": {
+      "word": "摂取",
+      "reading": "せっしゅ",
+      "source": "curated-example"
+    }
+  },
+  "節": {
+    "セチ": {
+      "word": "お節料理",
+      "reading": "おせちりょうり",
+      "source": "curated-example"
+    }
+  },
+  "曽": {
+    "ゾ": {
+      "word": "未曽有",
+      "reading": "みぞう",
+      "source": "curated-example"
+    }
+  },
+  "贈": {
+    "ソウ": {
+      "word": "寄贈",
+      "reading": "きそう",
+      "source": "curated-example"
+    }
+  },
+  "足": {
+    "たる": {
+      "word": "舌足らず",
+      "reading": "したたらず",
+      "source": "curated-example"
+    }
+  },
+  "窒": {
+    "チツ": {
+      "word": "窒息",
+      "reading": "ちっそく",
+      "source": "curated-example"
+    }
+  },
+  "撤": {
+    "テツ": {
+      "word": "撤去",
+      "reading": "てっきょ",
+      "source": "curated-example"
+    }
+  },
+  "殿": {
+    "どの": {
+      "word": "殿",
+      "reading": "どの",
+      "source": "curated-example"
+    }
+  },
+  "唐": {
+    "から": {
+      "word": "唐草模様",
+      "reading": "からくさもよう",
+      "source": "curated-example"
+    }
+  },
+  "頭": {
+    "ト": {
+      "word": "音頭",
+      "reading": "おんど",
+      "source": "curated-example"
+    }
+  },
+  "得": {
+    "うる": {
+      "word": "書き得る",
+      "reading": "かきうる",
+      "source": "curated-example"
+    }
+  },
+  "二": {
+    "ふた": {
+      "word": "二重まぶた",
+      "reading": "ふたえまぶた",
+      "source": "curated-example"
+    }
+  },
+  "八": {
+    "よう": {
+      "word": "八日",
+      "reading": "ようか",
+      "source": "curated-example"
+    }
+  },
+  "鉢": {
+    "ハチ": {
+      "word": "鉢",
+      "reading": "はち",
+      "source": "curated-example"
+    }
+  },
+  "発": {
+    "ホツ": {
+      "word": "発作",
+      "reading": "ほっさ",
+      "source": "curated-example"
+    }
+  },
+  "板": {
+    "ハン": {
+      "word": "鉄板",
+      "reading": "てっぱん",
+      "source": "curated-example"
+    }
+  },
+  "煩": {
+    "ハン": {
+      "word": "煩雑",
+      "reading": "はんざつ",
+      "source": "curated-example"
+    }
+  },
+  "匹": {
+    "ひき": {
+      "word": "数匹",
+      "reading": "すうひき",
+      "source": "curated-example"
+    }
+  },
+  "氷": {
+    "ひ": {
+      "word": "氷雨",
+      "reading": "ひさめ",
+      "source": "curated-example"
+    }
+  },
+  "病": {
+    "ヘイ": {
+      "word": "疾病",
+      "reading": "しっぺい",
+      "source": "curated-example"
+    }
+  },
+  "不": {
+    "ブ": {
+      "word": "不用心",
+      "reading": "ぶようじん",
+      "source": "curated-example"
+    }
+  },
+  "武": {
+    "ム": {
+      "word": "武者人形",
+      "reading": "むしゃにんぎょう",
+      "source": "curated-example"
+    }
+  },
+  "文": {
+    "ふみ": {
+      "word": "恋文",
+      "reading": "こいぶみ",
+      "source": "curated-example"
+    }
+  },
+  "塀": {
+    "ヘイ": {
+      "word": "塀",
+      "reading": "へい",
+      "source": "curated-example"
+    }
+  },
+  "餅": {
+    "ヘイ": {
+      "word": "煎餅",
+      "reading": "せんべい",
+      "source": "curated-example"
+    }
+  },
+  "歩": {
+    "フ": {
+      "word": "歩",
+      "reading": "ふ",
+      "source": "curated-example"
+    }
+  },
+  "法": {
+    "ホッ": {
+      "word": "法主",
+      "reading": "ほっす",
+      "source": "curated-example"
+    }
+  },
+  "蜂": {
+    "はち": {
+      "word": "蜜蜂",
+      "reading": "みつばち",
+      "source": "curated-example"
+    }
+  },
+  "坊": {
+    "ボッ": {
+      "word": "坊ちゃん",
+      "reading": "ぼっちゃん",
+      "source": "curated-example"
+    }
+  },
+  "勃": {
+    "ボツ": {
+      "word": "勃発",
+      "reading": "ぼっぱつ",
+      "source": "curated-example"
+    }
+  },
+  "末": {
+    "バツ": {
+      "word": "末弟",
+      "reading": "ばってい",
+      "source": "curated-example"
+    }
+  },
+  "耗": {
+    "コウ": {
+      "word": "心神耗弱",
+      "reading": "しんしんこうじゃく",
+      "source": "curated-example"
+    }
+  },
+  "由": {
+    "よし": {
+      "word": "由",
+      "reading": "よし",
+      "source": "curated-example"
+    }
+  },
+  "唯": {
+    "イ": {
+      "word": "唯々諾々",
+      "reading": "いいだくだく",
+      "source": "curated-example"
+    }
+  },
+  "六": {
+    "む": {
+      "word": "六月目",
+      "reading": "むつきめ",
+      "source": "curated-example"
+    },
+    "むつ": {
+      "word": "六つ切り",
+      "reading": "むつぎり",
+      "source": "curated-example"
+    },
+    "むい": {
+      "word": "六日",
+      "reading": "むいか",
+      "source": "curated-example"
+    }
+  }
+}
