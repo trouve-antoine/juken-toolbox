@@ -38,6 +38,12 @@ npm install
 npm start
 ```
 
+For development, run `npm run dev` to restart the server automatically when
+poster code, browser assets, or Japanese datasets change. Refresh the browser to
+see the changes. This uses Node’s built-in watch mode (directory watching on
+macOS and Windows), with no extra dependencies. Stop it with Ctrl-C.
+
+
 Open http://127.0.0.1:3000/?n=6&level=e1. See the
 [poster documentation](apps/poster/README.md).
 

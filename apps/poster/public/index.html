@@ -12,18 +12,17 @@
 <body>
   <header class="toolbar">
     <div class="brand"><span lang="ja">字</span><div><h1>Kanji poster</h1><p>A little practice, every day.</p></div></div>
-    <form method="get">
-      <label>View<select name="mode" id="mode"><option value="poster">Poster</option><option value="training">Training sheet</option></select></label>
+    <form method="get" id="poster-controls">
+      <label id="view-control">View<select name="mode" id="mode"><option value="poster">Poster</option><option value="training">Training sheet</option></select></label>
+      <label id="theme-control">Theme<select name="theme" id="theme"><option value="simple">Simple</option></select></label>
       <input type="hidden" name="selected" id="selected-kanji">
-      <label>Level<select name="level" id="level"><option value="e1">Elementary · year 1</option></select></label>
-      <label><span id="columns-label">Columns</span><input name="n" id="columns" type="number" min="2" max="10" value="6" required></label>
-      <label>Theme<select name="theme" id="theme"><option value="simple">Simple</option></select></label>
-      <label class="checkbox-label"><input type="checkbox" name="showAll" id="show-all" value="1">Show all readings</label>
-      <button type="submit">Update</button>
-      <button type="button" id="print" disabled>Print A4 ↗</button>
-      <div id="selection-settings" hidden><strong id="selection-count" role="status">0 kanji selected · 0 sheets</strong></div>
+      <label id="level-control">Level<select name="level" id="level"><option value="e1">Elementary · year 1</option></select></label>
+      <label id="columns-control"><span id="columns-label">Columns</span><input name="n" id="columns" type="number" min="2" max="10" value="6" required></label>
+      <button type="button" id="print" aria-label="Print A4" title="Print A4" disabled><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M6 9V3h12v6M6 17H3V9h18v8h-3M6 14h12v7H6z"/><path d="M17 11h1"/></svg></button>
+      <div id="selection-settings" hidden><div class="selection-field"><span class="selection-label" id="selection-label">Selection</span><div id="selection-count" role="status" aria-labelledby="selection-label"><span id="selected-count">0 kanji</span><span id="sheet-count">0 sheets</span></div></div></div>
     </form>
   </header>
+  <div class="reading-controls"><label class="checkbox-label"><input type="checkbox" name="showAll" id="show-all" value="1" form="poster-controls">Show all readings</label></div>
   <div class="description"><p id="status" role="status">Loading kanji…</p><p id="print-hint">A4 portrait · print at 100% · turn off browser headers and footers</p></div>
   <section id="selection-tools" hidden aria-label="Training sheet selection"><button type="button" id="select-all">Select this level</button><button type="button" id="clear-selection">Clear selection</button></section>
   <main id="pages" aria-label="Printable kanji posters"></main>

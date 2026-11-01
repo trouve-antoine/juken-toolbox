@@ -45,6 +45,12 @@ npm install
 npm start
 ```
 
+For development, run `npm run dev` to restart the server automatically when
+poster code, browser assets, or Japanese datasets change. Refresh the browser to
+see the changes. This uses Node’s built-in watch mode (directory watching on
+macOS and Windows), with no extra dependencies. Stop it with Ctrl-C.
+
+
 Open `http://127.0.0.1:3000/?n=6&level=e1`. The vanilla HTML/CSS/JS page
 accepts `n=2`–`10` **columns** (default 6) and `level` (default `e1`). Rows
 are computed from the A4 portrait area and the actual rendered reading heights.
@@ -96,7 +102,7 @@ All commands above run from the repository root.
 
 ## Writing practice sheets
 
-Choose **Training sheet** in the sticky toolbar, set **Kanji per sheet** (5–10), then Update. Check kanji in the poster grid, or select
+Choose **Training sheet** in the sticky toolbar, set **Kanji per sheet** (5–10), settings apply automatically. Check kanji in the poster grid, or select
 all kanji in the current level. The selection count reports the number of A4
 landscape sheets. Each selected character gets a black KanjiVG model with stroke numbers, then a
 grey tracing model, and as many empty square cells as fit below them.
@@ -107,7 +113,7 @@ keeps the same cell size. Selected characters follow the level's source order.
 Use **Print A4** to open the selected sheets without the picker or controls.
 Print at 100% with browser headers and footers disabled. Selection is preserved
 in the URL (`mode=training&selected=一二三&n=6`) and retained when
-updating settings; switching levels keeps only selections available in that level.
+changing settings; switching levels keeps only selections available in that level.
 KanjiVG attribution and licence links appear below the on-screen preview; printed
 sheets contain only the grid. The grid reserves 1 mm inside the printable area
 to avoid clipping the outer border. Training print documents request a 297 × 210 mm

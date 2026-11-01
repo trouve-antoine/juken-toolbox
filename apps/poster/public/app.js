@@ -12,7 +12,11 @@ if (training) {
   document.head.append(pageStyle);
 }
 document.querySelector('#mode').value = training ? 'training' : 'poster';
-document.querySelector('#mode').addEventListener('change', event => event.target.form.requestSubmit());
+document.querySelector('#poster-controls').addEventListener('change', event => {
+  if (event.target.matches('select, input[type=number]') && event.currentTarget.reportValidity()) {
+    event.currentTarget.requestSubmit();
+  }
+});
 const selectedKanji = document.querySelector('#selected-kanji');
 selectedKanji.value = params.get('selected') ?? '';
 document.querySelector('#columns-label').textContent = training ? 'Kanji per sheet' : 'Columns';
@@ -37,7 +41,6 @@ themeSelect.replaceChildren(...themes.map(({ id, label }) => {
   return option;
 }));
 themeSelect.value = theme;
-themeSelect.addEventListener('change', () => themeSelect.form.requestSubmit());
 const allReadingsCheckbox = document.querySelector('#show-all');
 allReadingsCheckbox.checked = showAll;
 allReadingsCheckbox.addEventListener('change', () => allReadingsCheckbox.form.requestSubmit());
@@ -141,7 +144,7 @@ async function start() {
     }));
     select.value = level;
     const selected = levels.find(item => item.id === level);
-    if (!selected) throw new Error('Unknown level. Choose a level above and select Update.');
+    if (!selected) throw new Error('Unknown level. Choose a level above.');
     if (!/^\d+$/.test(rawColumns) || !Number.isInteger(columns) || columns < 2 || columns > 10) {
       throw new Error('Columns (n) must be a whole number from 2 to 10.');
     }

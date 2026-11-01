@@ -7,6 +7,7 @@
   },
   "scripts": {
     "start": "node apps/poster/server/index.js",
+    "dev": "node --watch --watch-path=apps/poster --watch-path=datasets/japanese apps/poster/server/index.js",
     "test": "node --test apps/poster/server/*.test.js"
   },
   "dependencies": {

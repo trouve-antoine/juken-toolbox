@@ -77,7 +77,8 @@ export function initTraining(params, entries, picker, printButton) {
   const allowed = new Set(entries.map(entry => entry.character));
   const selected = new Set(selectedCharacters(params).filter(character => allowed.has(character)));
   const hidden = document.querySelector('#selected-kanji');
-  const summary = document.querySelector('#selection-count');
+  const kanjiCount = document.querySelector('#selected-count');
+  const sheetCount = document.querySelector('#sheet-count');
   const target = document.querySelector('#training-pages');
   const status = document.querySelector('#training-status');
   document.querySelector('#selection-tools').hidden = false;
@@ -101,7 +102,8 @@ export function initTraining(params, entries, picker, printButton) {
     url.searchParams.set('selected', hidden.value);
     history.replaceState(null, '', url);
     const count = Math.ceil(characters.length / layout.columns);
-    summary.textContent = `${characters.length} kanji selected · ${count} landscape ${count === 1 ? "sheet" : "sheets"}`;
+    kanjiCount.textContent = `${characters.length} kanji`;
+    sheetCount.textContent = `${count} ${count === 1 ? "sheet" : "sheets"}`;
     boxes.forEach(({ box, tile }) => { box.checked = selected.has(box.value); tile.classList.toggle('selected-tile', box.checked); });
     printButton.disabled = true;
     target.replaceChildren();
