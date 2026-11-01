@@ -18,9 +18,9 @@ export function selectKanji(entries, level) {
     : entry.readings.some(reading => reading.level === level || reading.level?.startsWith(level))));
 }
 
-export async function loadKanji(path = new URL('../japanese/kanji.yaml', import.meta.url)) {
+export async function loadKanji(path = new URL('../../../datasets/japanese/kanji.yaml', import.meta.url)) {
   const data = parse(await readFile(path, 'utf8'));
-  const mext = JSON.parse(await readFile(new URL('../japanese/mext-readings.json', import.meta.url), 'utf8')).kanji;
+  const mext = JSON.parse(await readFile(new URL('../../../datasets/japanese/mext-readings.json', import.meta.url), 'utf8')).kanji;
   return Object.entries(data.kanji).map(([character, entry]) => ({
     character,
     writingLevel: entry.writing ?? null,

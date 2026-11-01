@@ -20,7 +20,7 @@ including its copyright/licence notices, is retained in
 to our official/academic-source preference for stroke-order information only;
 it has not been individually checked against Japanese school references.
 
-Regenerate locally with `python3 japanese/scripts/import_strokes.py` from the
+Regenerate locally with `python3 datasets/japanese/scripts/import_strokes.py` from the
 project root (Python standard library and Ruby's YAML parser required).
 The importer filters canonical SVG filenames to our character set, preserves
 geometry and label coordinates, and omits XML/component metadata. It validates
@@ -44,7 +44,7 @@ With `pdfplumber` and `PyYAML` installed, reproduce from the repository root:
 ```sh
 mkdir -p data/mext
 curl -L --fail https://www.mext.go.jp/a_menu/shotou/new-cs/__icsFiles/afieldfile/2017/05/15/1385768.pdf -o data/mext/1385768.pdf
-python3 japanese/scripts/extract_mext_readings.py
+python3 datasets/japanese/scripts/extract_mext_readings.py
 ```
 
 Outputs are `data/mext/readings.json` and `data/mext/first-grade-readings.md`.
@@ -55,9 +55,9 @@ at a fixed, visually checked location. Main-table pages 2–50 are included; the
 whole-word appendices are excluded. The `text` field is verbatim PDF spelling;
 `inventory_key` supplies existing okurigana dots only for joining to `kanji.yaml`.
 The extractor does not edit `kanji.yaml`. A checked-in copy at
-`japanese/mext-readings.json` supplies the poster API with PDF spelling, order,
+`datasets/japanese/mext-readings.json` supplies the poster API with PDF spelling, order,
 and special/narrow-use flags. To regenerate that copy, pass
-`--output japanese/mext-readings.json`; the extractor also writes a first-grade
+`--output datasets/japanese/mext-readings.json`; the extractor also writes a first-grade
 report beside the chosen output. The poster shows up to three stage-matching
 readings by default, placing special/narrow-use readings last.
 

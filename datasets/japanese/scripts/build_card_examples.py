@@ -3,9 +3,9 @@ import hashlib, html, json, re
 from pathlib import Path
 import yaml
 from compute_reading_frequency import align, kana
-ROOT=Path(__file__).resolve().parents[2]
-k=yaml.safe_load((ROOT/'japanese/kanji.yaml').read_text())['kanji']
-v=yaml.safe_load((ROOT/'japanese/vocab.yaml').read_text())['vocab']
+ROOT=Path(__file__).resolve().parents[3]
+k=yaml.safe_load((ROOT/'datasets/japanese/kanji.yaml').read_text())['kanji']
+v=yaml.safe_load((ROOT/'datasets/japanese/vocab.yaml').read_text())['vocab']
 source=(ROOT/'data/cards/joyo.html').read_bytes()
 assert hashlib.sha256(source).hexdigest()=='33cb7b99d88d069a5e6e228a71f587285c9fa3cc6937e74022928524569f26f3', 'Official source changed; review table parsing before updating the pin'
 s=source.decode('cp932','replace')
@@ -43,7 +43,7 @@ for char,e in k.items():
  for r in e['readings']:
   if not result[char][r] and '.' in r:
    result[char][r].append({'word':char+r.split('.')[1],'reading':r.replace('.',''),'source':'official-kun-form'})
-supplements=json.loads((ROOT/'japanese/card-example-supplements.json').read_text())
+supplements=json.loads((ROOT/'datasets/japanese/card-example-supplements.json').read_text())
 for char,readings in supplements.items():
  for reading,example in readings.items():
   assert reading in result[char]
@@ -53,4 +53,4 @@ missing=[(c,r) for c,e in result.items() for r,x in e.items() if not x]
 print('missing',len(missing),'of',sum(len(e) for e in result.values()))
 print('first grade missing',[(c,r) for c,r in missing if k[c].get('writing')=='e1'])
 assert not missing, missing
-(ROOT/'japanese/card-examples.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
+(ROOT/'datasets/japanese/card-examples.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')

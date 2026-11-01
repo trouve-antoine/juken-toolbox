@@ -17,7 +17,7 @@ From the repository root, with the existing Python requirements installed:
 ```sh
 mkdir -p data/bccwj
 curl -L --fail https://repository.ninjal.ac.jp/record/3234/files/BCCWJ_frequencylist_suw_ver1_0.zip -o data/bccwj/BCCWJ_frequencylist_suw_ver1_0.zip
-.venv/bin/python japanese/scripts/compute_reading_frequency.py
+.venv/bin/python datasets/japanese/scripts/compute_reading_frequency.py
 .venv/bin/python -m unittest discover -s tests -p test_reading_frequency.py -v
 ```
 

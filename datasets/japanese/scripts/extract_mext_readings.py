@@ -13,7 +13,7 @@ import re
 import pdfplumber
 import yaml
 
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(__file__).resolve().parents[3]
 URL = 'https://www.mext.go.jp/a_menu/shotou/new-cs/__icsFiles/afieldfile/2017/05/15/1385768.pdf'
 SHA256 = '0bc189982a50122f1e35dd6a751bfdff0ec5a0ad67e99eda916d012f859a5ae4'
 STAGES = {192.24: 'e', 232.56: 'j', 272.88: 'h'}
@@ -121,7 +121,7 @@ def main():
     parser.add_argument('--output', type=Path, default=ROOT / 'data/mext/readings.json')
     args = parser.parse_args()
     data = extract(args.pdf)
-    inventory_path = ROOT / 'japanese/kanji.yaml'
+    inventory_path = ROOT / 'datasets/japanese/kanji.yaml'
     validate(data, yaml.safe_load(inventory_path.read_text())['kanji'])
     result = {'schema': 1, 'source': {'url': URL, 'sha256': SHA256, 'date': '2017-03',
               'scope': 'Main kanji table, physical pages 2–50; whole-word appendices excluded',

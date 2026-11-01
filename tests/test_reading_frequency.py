@@ -2,7 +2,7 @@ import importlib.util
 from pathlib import Path
 import unittest
 
-SPEC = importlib.util.spec_from_file_location('reading_frequency', Path(__file__).resolve().parents[1] / 'japanese/scripts/compute_reading_frequency.py')
+SPEC = importlib.util.spec_from_file_location('reading_frequency', Path(__file__).resolve().parents[1] / 'datasets/japanese/scripts/compute_reading_frequency.py')
 module = importlib.util.module_from_spec(SPEC)
 SPEC.loader.exec_module(module)
 

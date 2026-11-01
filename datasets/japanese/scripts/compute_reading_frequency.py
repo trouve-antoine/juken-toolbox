@@ -12,7 +12,7 @@ import zipfile
 
 import yaml
 
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(__file__).resolve().parents[3]
 SOURCE_URL = 'https://repository.ninjal.ac.jp/record/3234/files/BCCWJ_frequencylist_suw_ver1_0.zip'
 SOURCE_SHA256 = '4e082faa51bedb77b69003358b55278c6736fd32124fc38a93b1b125c64834ba'
 MEMBER = 'BCCWJ_frequencylist_suw_ver1_0.tsv'
@@ -129,7 +129,7 @@ def main():
     archive_hash = hashlib.sha256(args.archive.read_bytes()).hexdigest()
     if archive_hash != SOURCE_SHA256:
         raise ValueError('Source checksum mismatch; review the source version before changing the pin')
-    inventory_path = ROOT / 'japanese/kanji.yaml'
+    inventory_path = ROOT / 'datasets/japanese/kanji.yaml'
     inventory = yaml.safe_load(inventory_path.read_text())['kanji']
     with zipfile.ZipFile(args.archive) as archive:
         with archive.open(MEMBER) as raw:
@@ -196,7 +196,7 @@ def main():
                    '- Counts use only frequency and OT_frequency, never sums of overlapping corpus registers.',
                    '- Neither frequency nor OT presence supplies a school-year assignment.', '',
                    'Source: ' + SOURCE_URL, '',
-                   'Method and reproduction: `japanese/reading-frequency.md`. Full source-row decisions: the sibling `.audit.jsonl` file.', ''])
+                   'Method and reproduction: `datasets/japanese/reading-frequency.md`. Full source-row decisions: the sibling `.audit.jsonl` file.', ''])
     args.output.with_suffix('.md').write_text('\n'.join(report))
     print(json.dumps(result['statistics'], indent=2))
     print(f'Output: {args.output}\nAudit: {audit_path}')

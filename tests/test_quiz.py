@@ -175,7 +175,7 @@ class QuizTests(unittest.TestCase):
         self.assertIn("今日 (きょう / こんにち): 1 mistakes / 1 answers", output)
 
     def test_suru_accepts_and_displays_all_readings_in_j_quiz(self):
-        vocab = load_vocab(Path(__file__).resolve().parents[1] / "japanese/vocab.yaml")
+        vocab = load_vocab(Path(__file__).resolve().parents[1] / "datasets/japanese/vocab.yaml")
         question = next(q for q in eligible(vocab, "j") if q.word == "擦る")
         expected = {"こする", "さする", "する", "なする"}
         self.assertTrue(expected.issubset(question.answers))

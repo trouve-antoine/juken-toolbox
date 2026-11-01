@@ -18,7 +18,7 @@ import yaml
 from .quiz import LEVELS, check_answer, eligible, load_profiles, load_vocab, make_quiz
 from .storage import Store
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parents[3]
 
 
 def choose(label, choices):
@@ -34,8 +34,8 @@ def choose(label, choices):
 
 def main(argv=None):
     parser = argparse.ArgumentParser(description="Kanji reading quiz — answer in hiragana.")
-    parser.add_argument("--vocab", type=Path, default=ROOT / "japanese/vocab.yaml")
-    parser.add_argument("--profiles", type=Path, default=ROOT / "profiles.yaml")
+    parser.add_argument("--vocab", type=Path, default=ROOT / "datasets/japanese/vocab.yaml")
+    parser.add_argument("--profiles", type=Path, default=ROOT / "apps/quiz/profiles.yaml")
     parser.add_argument("--db", type=Path, default=ROOT / "data/juken.sqlite3")
     commands = parser.add_subparsers(dest="command", required=True)
     commands.add_parser("profiles", help="List pre-registered profiles")
