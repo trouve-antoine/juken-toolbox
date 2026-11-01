@@ -61,3 +61,50 @@ html.print-document { background: white; }
   .sheet-footer { height: 7.5mm; }
   .sheet-preview:last-child > .sheet { break-after: auto; page-break-after: auto; }
 }
+
+/* Keep all configuration and print actions available while choosing kanji. */
+.toolbar { position: sticky; top: 0; z-index: 10; background: var(--canvas); border-bottom: 1px solid var(--control-border); padding-top: 14px; padding-bottom: 14px; }
+[hidden] { display: none !important; }
+#selection-tools { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 12px; padding: 12px 24px 24px; }
+#selection-count { font-size: 13px; align-self: center; white-space: nowrap; }
+.selectable-tile { position: relative; cursor: pointer; }
+.kanji-checkbox { position: absolute; top: 2mm; left: 2mm; width: 18px; height: 18px; padding: 0; accent-color: var(--accent); }
+.selected-tile { box-shadow: inset 0 0 0 2px var(--accent); }
+.selectable-tile:focus-within { outline: 3px solid var(--accent); outline-offset: -3px; }
+#training-preview { scroll-margin-top: 160px; padding: 0 16px 32px; overflow-x: auto; }
+#training-preview > h2, #training-status { text-align: center; }
+.training-sheet { width: 297mm; height: 210mm; color: #222; }
+.training-sheet .sheet-header { border-color: #888; }
+.practice-grid { width: 276mm; height: 189mm; display: flex; justify-content: center; align-items: start; }
+.practice-column { width: var(--square); flex: none; }
+.practice-square { position: relative; width: var(--square); height: var(--square); border: .2mm solid #888; }
+.practice-square::before, .practice-square::after { content: ''; position: absolute; pointer-events: none; }
+.practice-square::before { left: 50%; top: 0; bottom: 0; border-left: .15mm dashed #ddd; }
+.practice-square::after { top: 50%; left: 0; right: 0; border-top: .15mm dashed #ddd; }
+.tracing svg { position: relative; z-index: 1; width: 100%; height: 100%; fill: none; stroke: #bbb; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+.training-print, .training-print body { width: 277mm; margin: 0; padding: 0; }
+.training-print .training-sheet { width: 277mm; height: 189.5mm; padding: 0; }
+@media print {
+  .training-print, .training-print body { width: 277mm; }
+  .kanji-checkbox { display: none; }
+}
+@media print {
+  .training-mode, .training-mode body { width: 277mm; }
+  .training-mode:not(.print-document) body > #pages { display: none !important; }
+  .training-mode:not(.print-document) body > #training-preview { display: block !important; padding: 0; overflow: visible; }
+  #training-preview > h2, #training-preview > p { display: none; }
+  .training-sheet { width: 277mm; height: 189.5mm; padding: 0; }
+}
+.training-sheet-preview { display: contents; }
+@media screen {
+  html:not(.print-document) .training-sheet-preview { display: block; width: calc(297mm * var(--training-scale, 1)); height: calc(210mm * var(--training-scale, 1)); margin: 0 auto 24px; }
+  html:not(.print-document) .training-sheet-preview > .sheet { margin: 0; transform: scale(var(--training-scale, 1)); transform-origin: top left; }
+}
+@media print {
+  .training-sheet-preview:last-child > .sheet { break-after: auto; page-break-after: auto; }
+}
+
+.numbered-model svg { stroke: #111; }
+.numbered-model svg text { fill: #111; stroke: none; font: 7px sans-serif; }
+
+#selection-settings { display: flex; align-items: center; gap: 12px; }

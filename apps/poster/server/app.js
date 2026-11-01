@@ -6,6 +6,8 @@ import { kanjiCard } from './cards.js';
 
 const assets = new Map([
   ['/', ['index.html', 'text/html']],
+  ['/training.js', ['training.js', 'text/javascript']],
+  ['/training-layout.js', ['training-layout.js', 'text/javascript']],
   ['/app.js', ['app.js', 'text/javascript']],
   ['/readings.js', ['readings.js', 'text/javascript']],
   ['/card.js', ['card.js', 'text/javascript']],

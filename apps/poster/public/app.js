@@ -1,8 +1,24 @@
 import { themes } from './themes.js';
 import { posterReadings } from './readings.js';
+import { initTraining, renderTrainingPrint } from './training.js';
 import { openCard, setCardSequence } from './card.js';
 
 const params = new URLSearchParams(location.search);
+const training = params.get('mode') === 'training';
+document.documentElement.classList.toggle('training-mode', training);
+if (training) {
+  const pageStyle = document.createElement('style');
+  pageStyle.textContent = '@page { size: 297mm 210mm; margin: 10mm; }';
+  document.head.append(pageStyle);
+}
+document.querySelector('#mode').value = training ? 'training' : 'poster';
+document.querySelector('#mode').addEventListener('change', event => event.target.form.requestSubmit());
+const selectedKanji = document.querySelector('#selected-kanji');
+selectedKanji.value = params.get('selected') ?? '';
+document.querySelector('#columns-label').textContent = training ? 'Kanji per sheet' : 'Columns';
+document.querySelector('#columns').min = training ? '5' : '2';
+document.querySelector('#selection-settings').hidden = !training;
+if (training) document.querySelector('#selection-settings').append(document.querySelector('#columns').closest('label'));
 const theme = themes.find(item => item.id === params.get('theme'))?.id ?? 'simple';
 const showAll = params.get('showAll') === '1';
 const printDocument = params.get('print') === '1';
@@ -34,6 +50,8 @@ const themeReady = theme === 'simple' ? Promise.resolve() : new Promise((resolve
 });
 printButton.addEventListener('click', () => {
   const url = new URL(location.href);
+  url.search = new URLSearchParams(new FormData(document.querySelector('.toolbar form'))).toString();
+  url.hash = '';
   url.searchParams.set('print', '1');
   url.searchParams.set('theme', theme);
   // A separate document keeps app controls out of embedded-browser printing too.
@@ -130,6 +148,12 @@ async function start() {
     const response = await fetch(`/api/v1/kanji?level=${encodeURIComponent(level)}`);
     if (!response.ok) throw new Error('Could not load kanji. Please reload.');
     const { data: entries } = await response.json();
+    if (training && printDocument) {
+      await renderTrainingPrint(params, pages, entries);
+      await document.fonts.ready;
+      requestAnimationFrame(() => requestAnimationFrame(() => window.print()));
+      return;
+    }
     setCardSequence(entries.map(entry => entry.character));
     if (!entries.length) {
       status.textContent = 'No kanji assigned to this exact year. Try a school stage or an elementary year.';
@@ -149,7 +173,10 @@ async function start() {
       render(entries, --rows);
     }
     status.textContent = `${entries.length} kanji · ${columns} columns × ${rows} rows · ${pages.children.length} A4 pages. ${showAll ? 'All readings' : 'Up to 3 readings per kanji'} for the selected stage, in MEXT order with special/narrow-use readings last.`;
+    document.querySelector('.description').hidden = training;
     printButton.disabled = false;
+    if (training && !printDocument) initTraining(params, entries, pages, printButton);
+
     if (!printDocument) {
       // Scale only after measuring the full-size A4 layout. The wrapper reserves
       // the scaled height, so pages stay together when the phone rotates.
@@ -167,6 +194,7 @@ async function start() {
       requestAnimationFrame(() => requestAnimationFrame(() => window.print()));
     }
   } catch (error) {
+    document.querySelector('.description').hidden = false;
     pages.replaceChildren();
     status.textContent = error.message;
   }

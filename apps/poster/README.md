@@ -93,3 +93,22 @@ Run backend/data checks with `npm test`.
 
 
 All commands above run from the repository root.
+
+## Writing practice sheets
+
+Choose **Training sheet** in the sticky toolbar, set **Kanji per sheet** (5–10), then Update. Check kanji in the poster grid, or select
+all kanji in the current level. The selection count reports the number of A4
+landscape sheets. Each selected character gets a black KanjiVG model with stroke numbers, then a
+grey tracing model, and as many empty square cells as fit below them.
+Cells include faint centre guides, fill the printable width, and use the maximum
+number of complete square rows that fit the landscape page. The final page
+keeps the same cell size. Selected characters follow the level's source order.
+
+Use **Print A4** to open the selected sheets without the picker or controls.
+Print at 100% with browser headers and footers disabled. Selection is preserved
+in the URL (`mode=training&selected=一二三&n=6`) and retained when
+updating settings; switching levels keeps only selections available in that level.
+KanjiVG attribution and licence links appear below the on-screen preview; printed
+sheets contain only the grid. The grid reserves 1 mm inside the printable area
+to avoid clipping the outer border. Training print documents request a 297 × 210 mm
+landscape page; browser or printer presets can override the requested paper settings.
